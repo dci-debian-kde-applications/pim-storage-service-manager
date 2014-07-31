@@ -1,4 +1,4 @@
-kdepim (4:4.13.3-1~) UNRELEASED; urgency=medium
+kdepim (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
   * Remove upstream patch:
@@ -11,7 +11,7 @@ kdepim (4:4.13.3-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 31 Jul 2014 18:51:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 31 Jul 2014 21:34:01 +0200
 
 kdepim (4:4.13.1-1) experimental; urgency=medium
 
