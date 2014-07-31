@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: akonadi-server (>= 1.12),
+Build-Depends: akonadi-server (>= 1.12.1),
                baloo-dev (>= 4:4.13),
                cmake,
                debhelper (>= 9),
