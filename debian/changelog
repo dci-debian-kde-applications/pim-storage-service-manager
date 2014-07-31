@@ -9,6 +9,7 @@ kdepim (4:4.13.3-1) UNRELEASED; urgency=medium
   * Remove upstream patch:
     upstream_fix334937_kmail_crashes_when_attaching_file.patch
   * Refresh patches.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:01:14 +0200
 
