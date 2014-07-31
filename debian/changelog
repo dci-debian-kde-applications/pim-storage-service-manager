@@ -1,6 +1,14 @@
 kdepim (4:4.13.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Remove upstream patch:
+    upstream_fix334612_selecting_text_and_pressing_enter_doesnt_replace.
+    patch
+  * Remove upstream patch:
+    upstream_fix334730_kontact_crash_on_logout.patch
+  * Remove upstream patch:
+    upstream_fix334937_kmail_crashes_when_attaching_file.patch
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:01:14 +0200
 
