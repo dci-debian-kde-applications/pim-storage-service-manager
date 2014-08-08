@@ -1,6 +1,6 @@
 kdepim (4:4.13.3-2) UNRELEASED; urgency=medium
 
-  * 
+  * Move journalplugin.desktop back to korganizer
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Aug 2014 08:53:04 +0200
 

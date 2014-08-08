@@ -73,6 +73,7 @@ usr/share/kde4/config/korganizer.knsrc
 usr/share/kde4/services/kcmapptsummary.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
+usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop
 usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
