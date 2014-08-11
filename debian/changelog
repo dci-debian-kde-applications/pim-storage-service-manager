@@ -3,6 +3,8 @@ kdepim (4:4.13.3-2) UNRELEASED; urgency=medium
   * Move journalplugin.desktop back to korganizer
   * Bump korganizer's Breaks/Replaces kontact version. (Closes: #751753)
   * Add missing licenses to the debian/copyright file (Closes: #750455)
+  * Update storageservicemanager short description. (Closes: #757736)
+    Thanks to Joao Eriberto Mota Filho.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Aug 2014 08:53:04 +0200
 

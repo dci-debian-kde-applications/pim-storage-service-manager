@@ -164,7 +164,7 @@ Description: KDE PIM resource plugins
 Package: storageservicemanager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE PIM storage servicce
+Description: KDE PIM storage service
  This package adds storage plugins for KDE PIM applications such as
  google-drive and dropbox.
  .
