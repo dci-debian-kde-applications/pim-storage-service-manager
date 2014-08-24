@@ -5,6 +5,7 @@ kdepim (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update install files.
   * Add new lib package: libfollowupreminder4.
+  * Update disable_has_focus_tests_failed_in_xvfb.patch.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Aug 2014 20:04:09 +0200
 
