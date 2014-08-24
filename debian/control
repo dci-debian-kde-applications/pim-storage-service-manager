@@ -538,6 +538,13 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: send later library
  This package is part of the KDE PIM module.
 
+Package: libfollowupreminder4
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: follow up reminder library
+ This package is part of the KDE PIM module.
+
 Package: libtemplateparser4
 Section: libs
 Architecture: any
