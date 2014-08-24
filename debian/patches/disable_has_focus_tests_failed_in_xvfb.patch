@@ -1,8 +1,8 @@
 Index: kdepim/messageviewer/tests/todoedittest.cpp
 ===================================================================
---- kdepim.orig/messageviewer/tests/todoedittest.cpp	2014-05-22 13:33:09.498114548 +0200
-+++ kdepim/messageviewer/tests/todoedittest.cpp	2014-05-22 13:36:09.263177735 +0200
-@@ -301,7 +301,7 @@
+--- kdepim.orig/messageviewer/tests/todoedittest.cpp	2014-08-24 20:07:37.326307657 +0200
++++ kdepim/messageviewer/tests/todoedittest.cpp	2014-08-24 20:07:37.322307818 +0200
+@@ -308,7 +308,7 @@
      QTest::qWaitForWindowShown(&edit);
      QLineEdit *noteedit = qFindChild<QLineEdit *>(&edit, QLatin1String("noteedit"));
      noteedit->setFocus();
@@ -11,7 +11,7 @@ Index: kdepim/messageviewer/tests/todoedittest.cpp
      QTest::keyPress(&edit, Qt::Key_Escape);
      QCOMPARE(edit.isVisible(), false);
  }
-@@ -347,11 +347,11 @@
+@@ -368,11 +368,11 @@
      msg->subject(true)->fromUnicodeString(subject, "us-ascii");
      edit.setMessage(msg);
      QLineEdit *noteedit = qFindChild<QLineEdit *>(&edit, QLatin1String("noteedit"));
@@ -26,7 +26,7 @@ Index: kdepim/messageviewer/tests/todoedittest.cpp
  }
  
  
-@@ -388,7 +388,7 @@
+@@ -409,7 +409,7 @@
      msg->subject(true)->fromUnicodeString(subject, "us-ascii");
      edit.setMessage(msg);
      QLineEdit *noteedit = qFindChild<QLineEdit *>(&edit, QLatin1String("noteedit"));
@@ -34,4 +34,4 @@ Index: kdepim/messageviewer/tests/todoedittest.cpp
 +    // QCOMPARE(noteedit->hasFocus(), true);
  }
  
- QTEST_KDEMAIN( TodoEditTest, GUI )
+ void TodoEditTest::shouldShowMessageWidget()
