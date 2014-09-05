@@ -287,7 +287,7 @@ Description: task management application for mobile environments
 Package: korganizer
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Suggests: kdepim-kresources
+Recommends: kdepim-kresources
 Homepage: http://kontact.kde.org/korganizer/
 Breaks: kontact (<< 4:4.13.3-2)
 Replaces: kontact (<< 4:4.13.3-2)
