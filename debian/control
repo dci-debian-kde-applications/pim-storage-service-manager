@@ -92,8 +92,6 @@ Package: akregator
 Section: web
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kontact (<< 4:4.1.80)
-Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator
  Akregator is a news feed reader. It enables you to follow
@@ -110,8 +108,6 @@ Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdepim-kresources
-Breaks: kontact (<< 4:4.1.80), korganizer (<< 4:4.1.80)
-Replaces: kontact (<< 4:4.1.80), korganizer (<< 4:4.1.80)
 Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably.
  It can load and save your contacts to many different locations, including
@@ -154,8 +150,6 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: korganizer
 Suggests: knotes
-Breaks: korganizer (<< 4:4.1.80)
-Replaces: korganizer (<< 4:4.1.80)
 Description: KDE PIM resource plugins
  This package adds more resource plugins for KDE PIM applications such as
  blogging, tracking feature plans etc.
@@ -196,10 +190,6 @@ Suggests: clamav | f-prot-installer,
           kleopatra,
           procmail,
           spamassassin | bogofilter | annoyance-filter | spambayes (>= 1.0.4-6) | bsfilter | crm114
-Breaks: akonadi-kde (<< 4:4.1.3), kmailcvt (<< 4:3.90.0), kontact (<< 4:4.1.80)
-Replaces: akonadi-kde (<< 4:4.1.3),
-          kmailcvt (<< 4:3.90.0),
-          kontact (<< 4:4.1.80)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
@@ -226,8 +216,8 @@ Package: knode
 Section: news
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
-Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
+Breaks: libkpgp4 (<< 4:4.10.2)
+Replaces: libkpgp4 (<< 4:4.10.2)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
 Description: graphical news reader
@@ -242,8 +232,6 @@ Package: knotes
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdepim-kresources
-Breaks: kontact (<< 4:4.1.80)
-Replaces: kontact (<< 4:4.1.80)
 Description: sticky notes application
  KNotes is a program that lets you write sticky notes. The notes are saved
  automatically when you exit the program, and they display when you open the
@@ -278,8 +266,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: akregator, kaddressbook, kmail, knotes, korganizer
 Suggests: gnokii, kjots, knode, ktimetracker
 Homepage: http://kontact.kde.org/
-Breaks: akregator (<< 4:4.1.80), korganizer (<< 4:4.1.80)
-Replaces: akregator (<< 4:4.1.80), korganizer (<< 4:4.1.80)
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
  needs. It combines applications like KMail, KOrganizer and
@@ -303,8 +289,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: kdepim-kresources
 Homepage: http://kontact.kde.org/korganizer/
-Breaks: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.13.3-2)
-Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.13.3-2)
+Breaks: kontact (<< 4:4.13.3-2)
+Replaces: kontact (<< 4:4.13.3-2)
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
@@ -331,8 +317,6 @@ Package: ktimetracker
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: karm, kontact (<< 4:4.1.80)
-Replaces: karm, kontact (<< 4:4.1.80)
 Description: time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track
  of the amount of time they spend on various tasks.
@@ -390,8 +374,6 @@ Package: libkdepim4
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepim-runtime (<< 4:4.4.0), kmail (<< 4:4.1.80)
-Replaces: kdepim-runtime (<< 4:4.4.0), kmail (<< 4:4.1.80)
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
@@ -583,8 +565,6 @@ Description: common data files for KDE PIM mobile applications
 Package: kjots
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kontact (<< 4:4.1.80)
-Replaces: kontact (<< 4:4.1.80)
 Section: utils
 Description: note-taking utility
  Kjots is a notebook utility that organizes notes using groups of pages.
@@ -623,8 +603,6 @@ Package: akonadiconsole
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
-Replaces: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
 Description: management and debugging console for akonadi
  Akonadi Console is a useful utility that can be used to explore or manage
  Akonadi. Since this utility exposes Akonadi internals, it is very useful for
@@ -667,8 +645,6 @@ Depends: kdepim  (= ${source:Version}) |
  tasks-mobile (= ${binary:Version}),
          kdepimlibs-dbg,
          ${misc:Depends}
-Breaks: kdeutils-dbg (<< 4:4.0.80)
-Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
 Description: debugging symbols for kdepim
  This package contains the debugging symbols associated with kdepim. They will
