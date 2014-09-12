@@ -1,10 +1,11 @@
-kdepim (4:4.14.0-2) UNRELEASED; urgency=medium
+kdepim (4:4.14.1-1~) UNRELEASED; urgency=medium
 
   * Remove old Breaks/Replaces (for versions older than oldstable).
   * korganizer: recommend kdepim-kresources instead of just suggesting
     it. (Closes: #760472)
+  * New upstream release (4.14.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Sep 2014 15:51:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:14:57 +0200
 
 kdepim (4:4.14.0-1) unstable; urgency=medium
 
