@@ -37,6 +37,7 @@ usr/share/applications/kde4/importwizard.desktop
 usr/share/applications/kde4/kmail_view.desktop
 usr/share/applications/kde4/ktnef.desktop
 usr/share/applications/kde4/mboximporter.desktop
+usr/share/applications/kde4/pimsettingexporter.desktop
 usr/share/applications/kde4/sieveeditor.desktop
 usr/share/doc/kde/HTML/*/akonadi_archivemail_agent/
 usr/share/doc/kde/HTML/*/akonadi_followupreminder_agent/
