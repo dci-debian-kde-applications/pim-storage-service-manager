@@ -9,7 +9,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 .PHONY: override_dh_auto_test
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=true
+	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=true \
+	    -DKDE4_BUILD_TESTS=false
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
