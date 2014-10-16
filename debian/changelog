@@ -1,3 +1,9 @@
+kdepim (4:4.14.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (4.14.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 13:43:14 +0200
+
 kdepim (4:4.14.1-1) unstable; urgency=medium
 
   * Remove old Breaks/Replaces (for versions older than oldstable).
