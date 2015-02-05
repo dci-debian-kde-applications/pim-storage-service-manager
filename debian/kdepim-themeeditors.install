@@ -1,0 +1,6 @@
+usr/bin/contactthemeeditor
+usr/bin/headerthemeeditor
+usr/share/applications/kde4/contactthemeeditor.desktop
+usr/share/applications/kde4/headerthemeeditor.desktop
+usr/share/kde4/apps/contactthemeeditor/contactthemeeditorui.rc
+usr/share/kde4/apps/headerthemeeditor/headerthemeeditorui.rc

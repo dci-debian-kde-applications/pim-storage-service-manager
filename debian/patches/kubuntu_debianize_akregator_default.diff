@@ -1,0 +1,35 @@
+Index: kdepim-4.11.97/akregator/src/akregator_part.cpp
+===================================================================
+--- kdepim-4.11.97.orig/akregator/src/akregator_part.cpp	2013-11-28 16:50:39.668165756 +0000
++++ kdepim-4.11.97/akregator/src/akregator_part.cpp	2013-11-28 16:52:20.828168347 +0000
+@@ -171,6 +171,30 @@
+         spanishKde.setAttribute("xmlUrl","http://planet.kde-espana.es/");
+         spanishFolder.appendChild(spanishKde);
+ 
++        QDomElement debianFolder = doc.createElement( "outline" );
++        debianFolder.setAttribute("text","Kubuntu");
++        body.appendChild(debianFolder);
++
++        QDomElement planet = doc.createElement( "outline" );
++        planet.setAttribute("text",i18n("Planet Ubuntu"));
++        planet.setAttribute("xmlUrl","http://planet.ubuntu.com/rss20.xml");
++        debianFolder.appendChild(planet);
++
++        QDomElement fridge = doc.createElement( "outline" );
++        fridge.setAttribute("text",i18n("Ubuntu Fridge"));
++        fridge.setAttribute("xmlUrl","http://feeds.feedburner.com/ubuntu-fridge");
++        debianFolder.appendChild(fridge);
++
++        QDomElement dtimes = doc.createElement( "outline" );
++        dtimes.setAttribute("text",i18n("Kubuntu.org News"));
++        dtimes.setAttribute("xmlUrl","http://www.kubuntu.org/news/feed");
++        debianFolder.appendChild(dtimes);
++
++        QDomElement wire = doc.createElement( "outline" );
++        wire.setAttribute("text",i18n("Kubuntu Wire"));
++        wire.setAttribute("xmlUrl","http://wire.kubuntu.org/?feed=rss2");
++        debianFolder.appendChild(wire);
++
+         return doc;
+     }
+ }

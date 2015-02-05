@@ -1,0 +1,5 @@
+#debianize_akregator_default.diff
+kubuntu_debianize_akregator_default.diff
+kubuntu_install_headers.diff
+spambayes.patch
+disable_test_verify

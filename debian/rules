@@ -1,0 +1,38 @@
+#!/usr/bin/make -f
+
+KDEPIM_RUNTIME_VERSION = 4:4.10.2
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
+
+.PHONY: override_dh_auto_test
+
+override_dh_auto_configure:
+	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=true
+
+override_dh_install:
+	$(overridden_command)
+	cd debian/kalarm-icons/; uudecode ox8-emblems-disabled.png.uu
+	cd debian/kalarm-icons/; uudecode ox8-emblems-partdisabled.png.uu
+	install -p -D -m644 debian/kalarm-icons/ox8-emblems-disabled.png debian/kalarm/usr/share/kde4/apps/kalarm/icons/oxygen/8x8/emblems/disabled.png
+	install -p -D -m644 debian/kalarm-icons/ox8-emblems-partdisabled.png debian/kalarm/usr/share/kde4/apps/kalarm/icons/oxygen/8x8/emblems/partdisabled.
+
+# Strict local dependencies (there are no external ones anyway)
+override_dh_makeshlibs:
+	$(overridden_command) -V
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=kdepim-dbg
+
+override_dh_clean:
+	$(overridden_command)
+	rm -f debian/kalarm-icons/*png
+
+override_dh_shlibdeps:
+	$(overridden_command)
+	set -e; \
+	if [ -n "`ls debian/*.substvars 2>/dev/null`" ]; then \
+	    echo "Tightening dependency on kdepim-runtime to (>= $(KDEPIM_RUNTIME_VERSION)"; \
+	    sed -i '/^shlibs:[^=]\+=/{ s/\(^shlibs:[^=]\+=[[:space:]]*\|,[[:space:]]*\)\(kdepim-runtime\)\([[:space:]]*([[:space:]]*[><=]\+[^)]\+)\)\?/\1\2 (>= $(KDEPIM_RUNTIME_VERSION))/g }' debian/*.substvars; \
+    fi

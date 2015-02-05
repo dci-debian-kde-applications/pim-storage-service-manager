@@ -1,0 +1,34 @@
+# Manpages are compressed.
+./usr/share/man/man1/kabcclient.1
+
+# These files would belong to -dev package, don't install.
+./usr/lib/libakonadi_next.so
+./usr/lib/libakregatorinterfaces.so
+./usr/lib/libcalendarsupport.so
+./usr/lib/libeventviews.so
+./usr/lib/libincidenceeditorsng.so
+./usr/lib/libincidenceeditorsngmobile.so
+./usr/lib/libkcal_resourceblog.so
+./usr/lib/libkcal_resourceremote.so
+./usr/lib/libkdepim.so
+./usr/lib/libkdepimdbusinterfaces.so
+./usr/lib/libkdepimmobileui.so
+./usr/lib/libkdgantt2.so
+./usr/lib/libkleo.so
+./usr/lib/libkleopatraclientcore.so
+./usr/lib/libkleopatraclientgui.so
+./usr/lib/libkmanagesieve.so
+./usr/lib/libknodecommon.so
+./usr/lib/libkorganizer_core.so
+./usr/lib/libkorganizer_interfaces.so
+./usr/lib/libkpgp.so
+./usr/lib/libksieve.so
+./usr/lib/libksieveui.so
+./usr/lib/libmailcommon.so
+./usr/lib/libmailimporter.so
+./usr/lib/libmessagecomposer.so
+./usr/lib/libmessagecore.so
+./usr/lib/libmessagelist.so
+./usr/lib/libmessageviewer.so
+./usr/lib/libpimcommon.so
+./usr/lib/libtemplateparser.so

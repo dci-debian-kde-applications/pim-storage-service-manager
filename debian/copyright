@@ -1,0 +1,300 @@
+This package was debianized by the Debian Qt/KDE maintainers in 2008.
+
+This package is fetched from svn.kde.org.
+
+Licenses:
+GPLv2+:
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+GPLv2:
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; version 2 of the license.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+GPLv2orv3eV
+   This program is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public License as
+   published by the Free Software Foundation; either version 2 of
+   the License or (at your option) version 3 or any later version
+   accepted by the membership of KDE e.V. (or its successor approved
+   by the membership of KDE e.V.), which shall act as a proxy
+   defined in Section 14 of version 3 of the license.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+LGPLv2+
+    This library is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Library General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.
+
+    This library is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+    License for more details.
+
+    You should have received a copy of the GNU Library General Public License
+    along with this library; see the file COPYING.LIB.  If not, write to the
+    Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+    02110-1301, USA.
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+LGPLv2.1+
+
+	This library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Lesser General Public
+	License as published by the Free Software Foundation; either
+	version 2.1 of the License, or (at your option) any later version.
+
+	This library is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	Lesser General Public License for more details.
+
+	You should have received a copy of the GNU Lesser General Public
+	License along with this library; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+	02110-1301  USA
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+MIT
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+
+bsd-ish
+(from kdelibs COPYING-CMAKE-SCRIPTS)
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+
+	1. Redistributions of source code must retain the copyright
+	   notice, this list of conditions and the following disclaimer.
+	2. Redistributions in binary form must reproduce the copyright
+	   notice, this list of conditions and the following disclaimer in the
+	   documentation and/or other materials provided with the distribution.
+	3. The name of the author may not be used to endorse or promote products
+	   derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+	IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+	OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+	IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+	INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+	NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+	THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright holders
+
+Copyright (C) 1991-1995 Stichting Mathematisch Centrum, Amsterdam,
+Copyright (C) 1994-2006 Danny Sadinoff <danny@sadinoff.com>.
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+Copyright (C) 1995-2004 Jean-loup Gailly and Mark Adler
+Copyright (C) 1995-96 Mark Crimmins (markcrim@umich.edu)
+Copyright (C) 1996-2002 Mirko Boehm <mirko@kde.org>
+Copyright (C) 1996-2003 Stefan Taferner <taferner@kde.org>
+Copyright (C) 1996-2005 Jean-Claude Wippler
+Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
+Copyright (C) 1997 Christoph Neerfeld <email>Christoph.Neerfeld@home.ivm.de</email>
+Copyright (C) 1997 Markus Wuebben <markus.wuebben@kde.org>
+Copyright (C) 1997 Martin Jones (mjones@kde.org)
+Copyright (C) 1997 Stephan Kulow <coolo@kde.org>
+Copyright (C) 1997-1999 Preston Brown <pbrown@kde.org>
+Copyright (C) 1997-2010, The KNotes Developers
+Copyright (C) 1998 Barry D Benowitz <b.benowitz@telesciences.com>
+Copyright (C) 1998-2008 The OpenSSL Project. All rights reserved.
+Copyright (C) 1999 Christian Tismer.
+Copyright (C) 1999-2001 Waldo Bastian (bastian@kde.org)
+Copyright (C) 1999-2007 Cornelius Schumacher <schumacher@kde.org>
+Copyright (C) 1999-2010 the KNode authors.
+Copyright (C) 2000 Espen Sand, espen@kde.org
+Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+Copyright (C) 2000 Jesper Pedersen <blackie@kde.org>
+Copyright (C) 2000-2003 Don Sanders <sanders@kde.org>,
+Copyright (C) 2000-2003 Michael Goffioul <kdeprint@swing.be>
+Copyright (C) 2000-2009 Oliver Strutynski <olistrut@gmx.de>
+Copyright (C) 2001 Ali Rahimi <ali@mit.edu>
+Copyright (C) 2001 Eitzenberger Thomas <thomas.eitzenberger@siemens.at>
+Copyright (C) 2001 Mathias Waack <mathias@atoll-net.de>
+Copyright (C) 2001 Matthias Hoelzer-Kluepfel <mhk@kde.org>
+Copyright (C) 2001-2003 Carsten Pfeiffer <pfeiffer@kde.org>
+Copyright (C) 2001-2004 Marc Mutz <mutz@kde.org>
+Copyright (C) 2001-2005 Frerich Raabe <raabe@kde.org>
+Copyright (C) 2001-2007 Aaron J. Seigo <aseigo@kde.org>
+Copyright (C) 2001-2010 Klaralvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+Copyright (C) 2001-2012 David Jarvie <djarvie@kde.org>
+Copyright (C) 2002 Adriaan de Groot <groot@kde.org>
+Copyright (C) 2002 Anders Lund <anders.lund@lund.tdcadsl.dk>
+Copyright (C) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+Copyright (C) 2002 Jost Schenck <jost@schenck.de>
+Copyright (C) 2002 Lubos Lunak <llunak@suse.cz>
+Copyright (C) 2002 Mike Pilone <mpilone@slac.com>
+Copyright (C) 2002-2004 Helge Deller <deller@kde.org>
+Copyright (C) 2002-2004 Ingo Kloecker <kloecker@kde.org>
+Copyright (C) 2002-2004 Karl-Heinz Zimmer <khz@kde.org>
+Copyright (C) 2002-2004 Tuukka Pasanen <illuusio@mailcity.com>
+Copyright (C) 2002-2004, Michael Brade <brade@kde.org>
+Copyright (C) 2002-2005 Daniel Molkentin <molkentin@kde.org>
+Copyright (C) 2002-2007 g10 Code GmbH
+Copyright (C) 2002-2010 Tobias Koenig <tokoe@kde.org>
+Copyright (C) 2003 Andreas Gungl <a.gungl@gmx.de>
+Copyright (C) 2003 Daniel Martin <daniel.martin@pirack.com>
+Copyright (C) 2003 Jonathan Singer <jsinger@leeta.net>
+Copyright (C) 2003 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+Copyright (C) 2003 Scott Monachello <smonach@cox.net>
+Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
+Copyright (C) 2003 Sven Lüppken <sven@kde.org>
+Copyright (C) 2003 Tomas Pospisek <tpo@sourcepole.ch>
+Copyright (C) 2003 Zack Rusin <zack@kde.org>
+Copyright (C) 2003-2004 Mark Bucciarelli <mark@hubcapconsutling.com>
+Copyright (C) 2003-2005 Reinhold Kainhofer <reinhold@kainhofer.com>
+Copyright (C) 2003-2010 David Faure <faure@kde.org>
+Copyright (C) 2003-2012 Allen Winter <winter@kde.org> #
+Copyright (C) 2003-2013 Laurent Montel <montel@kde.org>
+Copyright (C) 2004 Bo Thorsen <bo@sonofthor.dk>
+Copyright (C) 2004 Bram Schoenmakers <bramschoenmakers@kde.nl>
+Copyright (C) 2004 Carsten Burghardt <burghardt@kde.org>
+Copyright (C) 2004 Fred Emmott <fred87@users.sf.net>
+Copyright (C) 2004 Hendrik Muhs <Hendrik.Muhs@web.de>
+Copyright (C) 2004 Jakob Schröter <js@camaya.net>
+Copyright (C) 2004 Mark Kretschmann <kretschmann@kde.org>
+Copyright (C) 2004 Patrick Audley <paudley@blackcat.ca>
+Copyright (C) 2004 Sam Hocevar
+Copyright (C) 2004 Sashmit Bhaduri <smt@vfemail.net>
+Copyright (C) 2004 Simon MARTIN <simartin@users.sourceforge.net>
+Copyright (C) 2004 Teemu Rytilahti <tpr@d5k.net>
+Copyright (C) 2004-2005 Stanislav Karchebny <Stanislav.Karchebny@kdemail.net>
+Copyright (C) 2004-2009 Frank Osterfeld <osterfeld@kde.org>
+Copyright (C) 2004-2009 Thorsten Staerk <dev@staerk.de>
+Copyright (C) 2004-2010 Till Adam <adam@kde.org>
+Copyright (C) 2005 Con Hennessy <cp.hennessy@iname.com>
+Copyright (C) 2005 George Staikos <staikos@kde.org>
+Copyright (C) 2005 Joseph Wenninger <jowenn@kde.org>
+Copyright (C) 2005 Martijn Klingens <klingens@kde.org>
+Copyright (C) 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+Copyright (C) 2005 Thomas Zander <zander@kde.org>
+Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
+Copyright (C) 2005-2011 Kevin Krammer <kevin.krammer@gmx.at>
+Copyright (C) 2005-2012 Volker Krause <vkrause@kde.org>
+Copyright (C) 2006 Christian Schaarschmidt <schaarsc@gmx.de>
+Copyright (C) 2006 Dmitry Morozhnikov <dmiceman@mail.ru>
+Copyright (C) 2006 Jos van den Oever <jos@vandenoever.info>
+Copyright (C) 2006 ScalingWeb.com
+Copyright (C) 2006 Tristan Carel
+Copyright (C) 2006-2008 Oral Timocin <oral.timocin@kdemail.net>
+Copyright (C) 2007 Alban Browaeys <prahal@yahoo.com>
+Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+Copyright (C) 2007 Loïc Corbasson <loic.corbasson@gmail.com>
+Copyright (C) 2007 Mathias Soeken <msoeken@tzi.de>
+Copyright (C) 2007 Pino Toscano (pino@kde.org)
+Copyright (C) 2007 René Mérou <ochominutosdearco@gmail.com>
+Copyright (C) 2007 Robert Gruber *
+Copyright (C) 2007 Trolltech ASA. All rights reserved.
+Copyright (C) 2007-2008 Antonio Aloisio <gnuton@gnuton.org>
+Copyright (C) 2007-2008 Bruno Virlet <bruno@virlet.org>
+Copyright (C) 2007-2008 Christian Weilbach <christian_weilbach@web.de>
+Copyright (C) 2007-2008 Mike McQuaid <mike@mikemcquaid.com>
+Copyright (C) 2007-2010 Thomas McGuire <Thomas.McGuire@gmx.net>
+Copyright (C) 2007-2011 Stephen Kelly <steveire@gmail.com>
+Copyright (C) 2008 Didier Hoarau <did.hoarau@gmail.com>
+Copyright (C) 2008 Jaroslaw Staniek <staniek@kde.org>
+Copyright (C) 2008 Marco Martin <notmart@gmail.com>
+Copyright (C) 2008 Pradeepto Bhattacharya <pradeepto@kde.org>
+Copyright (C) 2008 Rafael Fernández López <ereslibre@kde.org>
+Copyright (C) 2008 Ron Goodheart <rong.dev@gmail.com>
+Copyright (C) 2008 Szymon Tomasz Stefanek <pragma@kvirc.net>
+Copyright (C) 2008 Thomas Thrainer <tom_t@gmx.at>
+Copyright (C) 2008-2009 Omat Holding B.V. <info@omat.nl>
+Copyright (C) 2008-2009 Sebastian Trueg <trueg@kde.org>
+Copyright (C) 2008-2009 Shahab <shahab@flashqard-project.org>
+Copyright (C) 2008-2010 Golnaz Nilieh <g382nilieh@gmail.com>
+Copyright (C) 2008-2010 Mehrdad Momeny <mehrdad.momeny@gmail.com>
+Copyright (C) 2008-2010 Nokia Corporation and/or its subsidiary(-ies).
+Copyright (C) 2008-2012 Andras Mantia <amantia@kde.org>
+Copyright (C) 2009 Constantin Berzan <exit3219@gmail.com>
+Copyright (C) 2009 Guillermo A. Amaral B. <gamaral@amaral.com.mx>
+Copyright (C) 2009 James Bendig <james@imptalk.com>
+Copyright (C) 2009 Marius Vollmer
+Copyright (C) 2009 Martin Koller <kollix@aon.at>
+Copyright (C) 2009 Michael Leupold <lemma@confuego.org>
+Copyright (C) 2009 Sebastian Kügler <sebas@kde.org> *
+Copyright (C) 2009 Sebastian Sauer <sebsauer@kdab.net>
+Copyright (C) 2009 Urs Joss <tschenturs@gmx.ch>
+Copyright (C) 2009-2010 Kevin Ottens <ervin@kde.org>
+Copyright (C) 2009-2010 Leo Franchi <lfranchi@kde.org>
+Copyright (C) 2009-2010 Olivier Trichet <nive@nivalis.org>
+Copyright (C) 2009-2011 Torgny Nyblom <nyblom@kde.org>
+Copyright (C) 2009-2012 Jonathan Marten <jjm@keelhaul.me.uk>
+Copyright (C) 2010 Anselmo Lacerda Silveira de Melo <anselmolsm@gmail.com>
+Copyright (C) 2010 Artur Duque de Souza <asouza@kde.org>
+Copyright (C) 2010 Bertjan Broeksema <broeksema@kde.org>
+Copyright (C) 2010 Casey Link <unnamedrambler@gmail.com>
+Copyright (C) 2010 Eduardo Madeira Fleury <efleury@gmail.com>
+Copyright (C) 2010 Nicolas Lécureuil <nicolas.lecureuil@free.fr>
+Copyright (C) 2010-2012 Sérgio Martins <iamsergio@gmail.com>
+Copyright (C) 2011 Fernando Schapachnik <fernando@schapachnik.com.ar>
+Copyright (C) 2011 José Millán Soto <fid@gpul.org>
+Copyright (C) 2011 Lamarque Souza <lamarque@kde.org>
+Copyright (C) 2011 Mario Scheel <zweistein12@gmx.de>
+Copyright (C) 2011 Martin Bednár <serafean@gmail.com>
+Copyright (C) 2011 Sudhendu Kumar <sudhendu.kumar.roy@gmail.com>
+Copyright (C) 2012 Lindsay Mathieson <lindsay dot mathieson at gmail dot com>
+Copyright (C) James Ashton - Sydney University - June 1990. //krazy:exclude=copyright
+copyright (C) 2000 Hans Dijkema
+copyright (C) 2001 Holger Schurig <holgerschurig@gmx.de>
+copyright (C) 2001 Ryan Breen
+copyright (C) 2004 Chris Howells
+copyright (C) 2005 Danny Kukawka <danny.kukawka@web.de>
+copyright (C) 2005 Robert Rockers
+
+The debian packaging is licensed under the gplv2 or later.
+Please see /usr/share/common-licenses/GPL-2 for details
