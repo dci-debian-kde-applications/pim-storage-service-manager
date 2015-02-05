@@ -1,6 +1,7 @@
 kdepim (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release for kde-applications. 
+  * Fix watch file to new application location. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 18:15:48 +0000
 
