@@ -1,9 +1,9 @@
-kdepim (4:4.14.5-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
   * Fix watch file. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 07 Feb 2015 07:15:54 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:56 -0800
 
 kdepim (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
 
