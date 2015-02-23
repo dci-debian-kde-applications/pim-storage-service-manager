@@ -1,10 +1,6 @@
 usr/bin/ktnef
 usr/share/applications/kde4/ktnef.desktop
-usr/share/icons/hicolor/22x22/actions/ktnef_extract_all_to.png
-usr/share/icons/hicolor/22x22/actions/ktnef_extract_to.png
-usr/share/icons/hicolor/48x48/apps/ktnef.png
-usr/share/icons/locolor/16x16/actions/ktnef_extract_all_to.png
-usr/share/icons/locolor/16x16/actions/ktnef_extract_to.png
-usr/share/icons/locolor/16x16/apps/ktnef.png
-usr/share/icons/locolor/32x32/apps/ktnef.png
+usr/share/icons/hicolor/*/actions/ktnef_extract_all_to.png
+usr/share/icons/hicolor/*/actions/ktnef_extract_to.png
+usr/share/icons/hicolor/*/apps/ktnef.png
 usr/share/kde4/apps/ktnef/ktnefui.rc

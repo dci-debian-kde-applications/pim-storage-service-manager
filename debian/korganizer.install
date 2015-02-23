@@ -32,14 +32,7 @@ usr/share/kde4/apps/kconf_update/korganizer.upd
 usr/share/kde4/apps/kontact/ksettingsdialog/korganizer.setdlg
 usr/share/kde4/apps/kontact/ksettingsdialog/specialdates.setdlg
 usr/share/kde4/apps/korgac/icons/hicolor/*/apps/korgac.*
-usr/share/kde4/apps/korganizer/korganizer_part.rc
-usr/share/kde4/apps/korganizer/korganizerui.rc
-usr/share/kde4/apps/korganizer/sounds/alert.wav
-usr/share/kde4/apps/korganizer/sounds/icemag.wav
-usr/share/kde4/apps/korganizer/sounds/lightmag.wav
-usr/share/kde4/apps/korganizer/sounds/onscreen.wav
-usr/share/kde4/apps/korganizer/sounds/spinout.wav
-usr/share/kde4/apps/korganizer/tips
+usr/share/kde4/apps/korganizer/
 usr/share/kde4/config.kcfg/korganizer.kcfg
 usr/share/kde4/config/korganizer.knsrc
 usr/share/kde4/services/kcmapptsummary.desktop
@@ -49,10 +42,7 @@ usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop
 usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
-usr/share/kde4/services/korganizer/datenums.desktop
-usr/share/kde4/services/korganizer/hebrew.desktop
-usr/share/kde4/services/korganizer/picoftheday.desktop
-usr/share/kde4/services/korganizer/thisdayinhistory.desktop
+usr/share/kde4/services/korganizer/
 usr/share/kde4/services/korganizer_configcolorsandfonts.desktop
 usr/share/kde4/services/korganizer_configdesignerfields.desktop
 usr/share/kde4/services/korganizer_configfreebusy.desktop
