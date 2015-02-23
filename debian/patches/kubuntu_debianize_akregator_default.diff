@@ -1,10 +1,10 @@
-Index: kdepim-4.11.97/akregator/src/akregator_part.cpp
+Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim-4.11.97.orig/akregator/src/akregator_part.cpp	2013-11-28 16:50:39.668165756 +0000
-+++ kdepim-4.11.97/akregator/src/akregator_part.cpp	2013-11-28 16:52:20.828168347 +0000
-@@ -171,6 +171,30 @@
-         spanishKde.setAttribute("xmlUrl","http://planet.kde-espana.es/");
-         spanishFolder.appendChild(spanishKde);
+--- kdepim.orig/akregator/src/akregator_part.cpp	2015-02-23 14:27:47.364500343 +0100
++++ kdepim/akregator/src/akregator_part.cpp	2015-02-23 14:27:47.360500505 +0100
+@@ -184,6 +184,30 @@
+         dtimes.setAttribute("xmlUrl","http://www.debian.org/News/news");
+         debianFolder.appendChild(dtimes);
  
 +        QDomElement debianFolder = doc.createElement( "outline" );
 +        debianFolder.setAttribute("text","Kubuntu");

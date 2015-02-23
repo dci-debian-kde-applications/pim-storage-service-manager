@@ -1,7 +1,7 @@
-Index: kdepim-4.11.80/kleopatra/libkleopatraclient/CMakeLists.txt
+Index: kdepim/kleopatra/libkleopatraclient/CMakeLists.txt
 ===================================================================
---- kdepim-4.11.80.orig/kleopatra/libkleopatraclient/CMakeLists.txt	2013-11-11 16:53:34.912452472 +0100
-+++ kdepim-4.11.80/kleopatra/libkleopatraclient/CMakeLists.txt	2013-11-11 16:53:34.900452472 +0100
+--- kdepim.orig/kleopatra/libkleopatraclient/CMakeLists.txt	2015-02-23 14:27:55.456177820 +0100
++++ kdepim/kleopatra/libkleopatraclient/CMakeLists.txt	2015-02-23 14:27:55.452177978 +0100
 @@ -6,3 +6,8 @@
  
  add_subdirectory(tests)
@@ -11,11 +11,11 @@ Index: kdepim-4.11.80/kleopatra/libkleopatraclient/CMakeLists.txt
 +  DESTINATION ${INCLUDE_INSTALL_DIR}/libkleopatraclient
 +  )
 +
-Index: kdepim-4.11.80/kleopatra/libkleopatraclient/core/CMakeLists.txt
+Index: kdepim/kleopatra/libkleopatraclient/core/CMakeLists.txt
 ===================================================================
---- kdepim-4.11.80.orig/kleopatra/libkleopatraclient/core/CMakeLists.txt	2013-11-11 16:53:34.912452472 +0100
-+++ kdepim-4.11.80/kleopatra/libkleopatraclient/core/CMakeLists.txt	2013-11-11 16:53:34.900452472 +0100
-@@ -72,3 +72,12 @@
+--- kdepim.orig/kleopatra/libkleopatraclient/core/CMakeLists.txt	2015-02-23 14:27:55.456177820 +0100
++++ kdepim/kleopatra/libkleopatraclient/core/CMakeLists.txt	2015-02-23 14:27:55.452177978 +0100
+@@ -63,3 +63,12 @@
  endif()
  
  install(TARGETS kleopatraclientcore ${INSTALL_TARGETS_DEFAULT_ARGS})
@@ -28,10 +28,10 @@ Index: kdepim-4.11.80/kleopatra/libkleopatraclient/core/CMakeLists.txt
 +    signencryptfilescommand.h
 +  DESTINATION ${INCLUDE_INSTALL_DIR}/libkleopatraclient/core
 +  )
-Index: kdepim-4.11.80/kleopatra/libkleopatraclient/gui/CMakeLists.txt
+Index: kdepim/kleopatra/libkleopatraclient/gui/CMakeLists.txt
 ===================================================================
---- kdepim-4.11.80.orig/kleopatra/libkleopatraclient/gui/CMakeLists.txt	2013-11-11 16:53:34.912452472 +0100
-+++ kdepim-4.11.80/kleopatra/libkleopatraclient/gui/CMakeLists.txt	2013-11-11 16:53:34.904452472 +0100
+--- kdepim.orig/kleopatra/libkleopatraclient/gui/CMakeLists.txt	2015-02-23 14:27:55.456177820 +0100
++++ kdepim/kleopatra/libkleopatraclient/gui/CMakeLists.txt	2015-02-23 14:27:55.452177978 +0100
 @@ -16,3 +16,9 @@
  )
  
@@ -42,10 +42,10 @@ Index: kdepim-4.11.80/kleopatra/libkleopatraclient/gui/CMakeLists.txt
 +    certificaterequester.h
 +  DESTINATION ${INCLUDE_INSTALL_DIR}/libkleopatraclient/gui
 +  )
-Index: kdepim-4.11.80/libkpgp/CMakeLists.txt
+Index: kdepim/libkpgp/CMakeLists.txt
 ===================================================================
---- kdepim-4.11.80.orig/libkpgp/CMakeLists.txt	2013-11-11 16:53:34.912452472 +0100
-+++ kdepim-4.11.80/libkpgp/CMakeLists.txt	2013-11-11 16:53:34.904452472 +0100
+--- kdepim.orig/libkpgp/CMakeLists.txt	2015-02-23 14:27:55.456177820 +0100
++++ kdepim/libkpgp/CMakeLists.txt	2015-02-23 14:27:55.452177978 +0100
 @@ -35,3 +35,11 @@
  install(FILES kconf_update/kpgp.upd  DESTINATION ${KCONF_UPDATE_INSTALL_DIR})
  install(PROGRAMS kconf_update/kpgp-3.1-upgrade-address-data.pl DESTINATION ${KCONF_UPDATE_INSTALL_DIR})
@@ -58,11 +58,11 @@ Index: kdepim-4.11.80/libkpgp/CMakeLists.txt
 +        kpgpui.h
 +        libkpgp_export.h
 +        DESTINATION ${INCLUDE_INSTALL_DIR}/kpgp COMPONENT Devel )
-Index: kdepim-4.11.80/libkleo/CMakeLists.txt
+Index: kdepim/libkleo/CMakeLists.txt
 ===================================================================
---- kdepim-4.11.80.orig/libkleo/CMakeLists.txt	2013-11-11 16:53:34.912452472 +0100
-+++ kdepim-4.11.80/libkleo/CMakeLists.txt	2013-11-11 16:53:34.904452472 +0100
-@@ -116,6 +116,57 @@
+--- kdepim.orig/libkleo/CMakeLists.txt	2015-02-23 14:27:55.456177820 +0100
++++ kdepim/libkleo/CMakeLists.txt	2015-02-23 14:27:55.452177978 +0100
+@@ -119,6 +119,57 @@
  set_target_properties(kleo PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kleo ${INSTALL_TARGETS_DEFAULT_ARGS})
  
