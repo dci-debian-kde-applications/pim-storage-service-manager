@@ -1,18 +1,12 @@
 kdepim (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
-  * Fix watch file. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:56 -0800
-
-kdepim (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release for kde-applications.
+  * Fix watch file.
   * Fix watch file to new application location.
   * Watchfiles will manual updates while these versions do
     not match the parent applications versions...
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 18:15:48 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:56 -0800
 
 kdepim (4:4.14.2-2) unstable; urgency=medium
 
