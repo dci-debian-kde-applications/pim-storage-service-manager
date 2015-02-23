@@ -1,5 +1,6 @@
-#debianize_akregator_default.diff
+debianize_akregator_default.diff
 kubuntu_debianize_akregator_default.diff
 kubuntu_install_headers.diff
-spambayes.patch
-disable_test_verify
+disable_has_focus_tests_failed_in_xvfb.patch
+upstream_fix_crash_on_logout
+upstream_delete_the_part_from_the_mainwindow

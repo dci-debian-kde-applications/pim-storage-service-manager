@@ -1,12 +1,5 @@
 usr/bin/storageservicemanager
 usr/share/applications/kde4/storageservicemanager.desktop
-usr/share/icons/hicolor/16x16/apps/kdepim-dropbox.png
-usr/share/icons/hicolor/22x22/apps/kdepim-dropbox.png
-usr/share/icons/hicolor/32x32/apps/kdepim-dropbox.png
-usr/share/icons/hicolor/48x48/apps/kdepim-dropbox.png
-usr/share/kde4/apps/storageservicemanager/storageservicemanager.notifyrc
-usr/share/kde4/apps/storageservicemanager/storageservicemanagerui.rc
-usr/share/icons/hicolor/16x16/apps/kdepim-googledrive.png
-usr/share/icons/hicolor/22x22/apps/kdepim-googledrive.png
-usr/share/icons/hicolor/32x32/apps/kdepim-googledrive.png
-usr/share/icons/hicolor/48x48/apps/kdepim-googledrive.png
+usr/share/icons/hicolor/*/apps/kdepim-dropbox.png
+usr/share/icons/hicolor/*/apps/kdepim-googledrive.png
+usr/share/kde4/apps/storageservicemanager/

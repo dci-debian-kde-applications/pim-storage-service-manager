@@ -8,10 +8,9 @@ usr/lib/kde4/kontact_kaddressbookplugin.so
 usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/libkaddressbookprivate.so.4
 usr/lib/libkaddressbookprivate.so.4.*
-usr/share/applications/kde4/kaddressbook.desktop
 usr/share/applications/kde4/kaddressbook-importer.desktop
-usr/share/icons/hicolor/*/apps/kaddressbook.png
-usr/share/icons/hicolor/scalable/apps/kaddressbook.svgz
+usr/share/applications/kde4/kaddressbook.desktop
+usr/share/icons/hicolor/*/apps/kaddressbook.*
 usr/share/kde4/apps/kaddressbook/
 usr/share/kde4/apps/kontact/ksettingsdialog/kaddressbook.setdlg
 usr/share/kde4/config/kaddressbook_themes.knsrc
