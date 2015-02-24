@@ -13,6 +13,9 @@ usr/lib/libkcal_resourceremote.so.4
 usr/lib/libkcal_resourceremote.so.4.*
 usr/lib/libkdepim.so.4
 usr/lib/libkdepim.so.4.*
+usr/share/icons/oxygen/*/actions/smallclock.png
+usr/share/icons/oxygen/*/actions/upindicator.png
+usr/share/icons/oxygen/*/actions/checkmark.png
 usr/share/icons/oxygen/*/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/scalable/mimetypes/x-mail-distribution-list.svgz
 usr/share/kde4/apps/kconf_update/grantleetheme.upd
