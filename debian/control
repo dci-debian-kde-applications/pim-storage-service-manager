@@ -55,9 +55,9 @@ Depends: akonadiconsole (>= ${source:Version}),
          blogilo (>= ${source:Version}),
          kaddressbook (>= ${source:Version}),
          kalarm (>= ${source:Version}),
+         kdepim-doc,
          kdepim-kresources (>= ${source:Version}),
          kdepim-runtime,
-         kdepim-doc,
          kjots (>= ${source:Version}),
          kleopatra (>= ${source:Version}),
          kmail (>= ${source:Version}),
@@ -225,16 +225,19 @@ Package: kmail
 Section: mail
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: gnupg-agent, gnupg2, pinentry-qt4 | pinentry-x11, ktnef, kdepim-themeditors, kdepim-doc
+Recommends: gnupg-agent,
+            gnupg2,
+            kdepim-doc,
+            kdepim-themeditors,
+            ktnef,
+            pinentry-qt4 | pinentry-x11
 Suggests: clamav,
           kaddressbook,
           kleopatra,
           procmail,
           spamassassin | bogofilter | annoyance-filter | spambayes (>= 1.0.4-6) | bsfilter | crm114
-Breaks: libkdepim4 (<< 4:4.13.90),
-        libmessageviewer4 (<< 4:4.13.90)
-Replaces: libkdepim4 (<< 4:4.13.90),
-          libmessageviewer4 (<< 4:4.13.90)
+Breaks: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
+Replaces: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
@@ -332,7 +335,7 @@ Description: task management application for mobile environments
 Package: korganizer
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: kdepim-kresources, kdepim-doc
+Recommends: kdepim-doc, kdepim-kresources
 Homepage: http://kontact.kde.org/korganizer/
 Breaks: kontact (<< 4:4.13.3-2)
 Replaces: kontact (<< 4:4.13.3-2)

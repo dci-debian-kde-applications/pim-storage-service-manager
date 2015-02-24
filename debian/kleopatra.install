@@ -11,7 +11,8 @@ usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/icons/hicolor/*/apps/kleopatra.*
 usr/share/kde4/apps/kleopatra/
 usr/share/kde4/apps/kwatchgnupg/
-usr/share/kde4/apps/libkleopatra/
+usr/share/kde4/apps/libkleopatra/pics/hi*
+usr/share/kde4/apps/libkleopatra/pics/smartcard.xpm
 usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_cryptooperations.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop

@@ -9,7 +9,9 @@ usr/share/applications/kde4/Kontact.desktop
 usr/share/applications/kde4/kontact-admin.desktop
 usr/share/icons/hicolor/*/apps/kontact-import-wizard.*
 usr/share/icons/hicolor/*/apps/kontact.*
-usr/share/kde4/apps/kontact/
+usr/share/kde4/apps/kontact/about/
+usr/share/kde4/apps/kontact/kontactui.rc
+usr/share/kde4/apps/kontact/ksettingsdialog/summary.setdlg
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
 usr/share/kde4/config.kcfg/kontact.kcfg
 usr/share/kde4/services/kcmkontactsummary.desktop
