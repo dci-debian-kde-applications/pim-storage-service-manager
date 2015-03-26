@@ -1,3 +1,9 @@
+kdepim (4:4.14.6-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (4.14.6).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:25:25 +0100
+
 kdepim (4:4.14.5-1) experimental; urgency=medium
 
   * Prepare Debian release (upstream 4.14.5).
