@@ -4,6 +4,13 @@ kdepim (4:4.14.6-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:25:25 +0100
 
+kdepim (4:4.14.6-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Update watch file
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:04:02 -0700
+
 kdepim (4:4.14.5-1) experimental; urgency=medium
 
   * Prepare Debian release (upstream 4.14.5).
