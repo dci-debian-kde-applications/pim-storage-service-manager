@@ -64,6 +64,7 @@ usr/lib/libakregatorinterfaces.so
 usr/lib/libcalendarsupport.so
 usr/lib/libcomposereditorng.so
 usr/lib/libeventviews.so
+usr/lib/libfollowupreminder.so
 usr/lib/libgrantleetheme.so
 usr/lib/libgrantleethemeeditor.so
 usr/lib/libincidenceeditorsng.so
@@ -107,4 +108,3 @@ usr/share/dbus-1/interfaces/org.kde.korganizer.KOrgac.xml
 usr/share/dbus-1/interfaces/org.kde.korganizer.Korganizer.xml
 usr/share/dbus-1/interfaces/org.kde.ktimetracker.ktimetracker.xml
 usr/share/dbus-1/interfaces/org.kde.mailtransport.service.xml
-usr/lib/libfollowupreminder.so

@@ -11,6 +11,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: akonadi-server (>= 1.9.51),
+               baloo-dev,
                baloo-dev (>= 4:4.14.2),
                cmake,
                debhelper (>= 9),
@@ -18,11 +19,13 @@ Build-Depends: akonadi-server (>= 1.9.51),
                kdepimlibs5-dev (>= 4:4.14.2),
                libakonadi-dev (>= 1.10.95),
                libassuan-dev,
-               libboost1.55-dev (>= 1.40.0-2),
                libboost-graph1.55-dev (>= 1.40.0-2),
+               libboost1.55-dev (>= 1.40.0-2),
                libgpgme11-dev,
                libgrantlee-dev (>= 0.3.0),
+               libindicate-qt-dev,
                libkactivities-dev (>= 4:4.13),
+               libkgapi-dev,
                liblink-grammar4-dev,
                libphonon-dev (>= 4:4.6.0really4.3.80),
                libprison-dev,
@@ -37,17 +40,14 @@ Build-Depends: akonadi-server (>= 1.9.51),
                libstreams-dev (>= 0.6.3),
                libstrigihtmlgui-dev (>= 0.6.3),
                libstrigiqtdbusclient-dev (>= 0.6.3),
+               libxml2-dev,
                libxss-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                shared-desktop-ontologies (>= 0.11),
-               xsltproc,
-               zlib1g-dev,
-               baloo-dev,
-               libindicate-qt-dev,
-               libxml2-dev,
                sharutils,
-               libkgapi-dev
+               xsltproc,
+               zlib1g-dev
 Build-Depends-Indep: dblatex
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
@@ -66,6 +66,7 @@ Depends: akonadiconsole (>= ${source:Version}),
          kaddressbook (>= ${source:Version}),
          kalarm (>= ${source:Version}),
          kdepim-kresources (>= ${source:Version}),
+         kdepim-runtime,
          kjots (>= ${source:Version}),
          kleopatra (>= ${source:Version}),
          kmail (>= ${source:Version}),
@@ -75,7 +76,6 @@ Depends: akonadiconsole (>= ${source:Version}),
          kontact (>= ${source:Version}),
          korganizer (>= ${source:Version}),
          ktimetracker (>= ${source:Version}),
-         kdepim-runtime,
          ${misc:Depends}
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -103,21 +103,39 @@ Description: Personal Information Management apps for mobile environments
 
 Package: kdepim-dev
 Architecture: any
-Depends: kdepim-runtime, akregator (>= ${binary:Version}),
- kaddressbook (>= ${binary:Version}), kalarm (>= ${binary:Version}),
- kdepim-kresources (>= ${binary:Version}), kjots (>= ${binary:Version}),
- kmail (>= ${binary:Version}),
- knode (>= ${binary:Version}), knotes (>= ${binary:Version}),
- konsolekalendar (>= ${binary:Version}),
- kontact (>= ${binary:Version}), korganizer (>= ${binary:Version}),
- ktimetracker (>= ${binary:Version}),
- libkdepim4 (= ${binary:Version}), libpimcommon4 (= ${binary:Version}),
- kdepimlibs5-dev (>= 4:4.14.2), libphonon-dev (>= 4:4.6.0really4.3.80),
- libgpgme11-dev, libboost1.55-dev, libboost-graph1.55-dev, libsasl2-dev, libxss-dev,
- libqca2-dev (>= 2.0.0), libpisock-dev, libassuan-dev, libstreams-dev,
- libstreamanalyzer-dev, libsearchclient-dev, libstrigihtmlgui-dev,
- libstrigiqtdbusclient-dev, zlib1g-dev, libakonadi-dev (>= 1.2.80),
- ${shlibs:Depends}
+Depends: akregator (>= ${binary:Version}),
+         kaddressbook (>= ${binary:Version}),
+         kalarm (>= ${binary:Version}),
+         kdepim-kresources (>= ${binary:Version}),
+         kdepim-runtime,
+         kdepimlibs5-dev (>= 4:4.14.2),
+         kjots (>= ${binary:Version}),
+         kmail (>= ${binary:Version}),
+         knode (>= ${binary:Version}),
+         knotes (>= ${binary:Version}),
+         konsolekalendar (>= ${binary:Version}),
+         kontact (>= ${binary:Version}),
+         korganizer (>= ${binary:Version}),
+         ktimetracker (>= ${binary:Version}),
+         libakonadi-dev (>= 1.2.80),
+         libassuan-dev,
+         libboost-graph1.55-dev,
+         libboost1.55-dev,
+         libgpgme11-dev,
+         libkdepim4 (= ${binary:Version}),
+         libphonon-dev (>= 4:4.6.0really4.3.80),
+         libpimcommon4 (= ${binary:Version}),
+         libpisock-dev,
+         libqca2-dev (>= 2.0.0),
+         libsasl2-dev,
+         libsearchclient-dev,
+         libstreamanalyzer-dev,
+         libstreams-dev,
+         libstrigihtmlgui-dev,
+         libstrigiqtdbusclient-dev,
+         libxss-dev,
+         zlib1g-dev,
+         ${shlibs:Depends}
 Conflicts: kmail (<= 4:4.2.1)
 Breaks: knotes (<< 4:4.13.90)
 Replaces: kmail (<= 4:4.2.1), knotes (<< 4:4.13.90)
@@ -129,8 +147,8 @@ Package: kdepim-doc
 Section: doc
 Architecture: all
 Suggests: doc-base, konqueror | www-browser
-Breaks: kmail (<< 4:4.13.90), kjots (<< 4:4.13.90)
-Replaces: kmail (<< 4:4.13.90), kjots (<< 4:4.13.90)
+Breaks: kjots (<< 4:4.13.90), kmail (<< 4:4.13.90)
+Replaces: kjots (<< 4:4.13.90), kmail (<< 4:4.13.90)
 Description: KDE Personal Information Management library documentation
  KDE core library documentation. You need this documentation to develop KDE PIM
  applications.
@@ -246,15 +264,12 @@ Suggests: clamav,
           kleopatra,
           procmail,
           spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114
-Breaks: akonadi-kde (<< 4:4.1.3), kmailcvt (<< 4:3.90.0), kontact (<< 4:4.1.80),
-# Do not remove before 16.04
- libmessageviewer4 (<< 4:4.13.90),
- libkdepim4 (<< 4:4.13.90)
+Breaks: akonadi-kde (<< 4:4.1.3), kmailcvt (<< 4:3.90.0), kontact (<< 4:4.1.80)
 Replaces: akonadi-kde (<< 4:4.1.3),
           kmailcvt (<< 4:3.90.0),
           kontact (<< 4:4.1.80),
-          libmessageviewer4 (<< 4:4.13.90),
-          libkdepim4 (<< 4:4.13.90)
+          libkdepim4 (<< 4:4.13.90),
+          libmessageviewer4 (<< 4:4.13.90)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
@@ -282,7 +297,9 @@ Section: news
 Architecture: any
 Depends: kde-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
-Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
+Replaces: kdepim-dev (<< 4:3.4.0),
+          kontact (<< 4:4.1.80),
+          libkpgp4 (<< 4:4.10.2)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
 Description: graphical news reader
@@ -373,7 +390,10 @@ Description: calendar and personal organizer
 
 Package: korganizer-mobile
 Architecture: any
-Depends: akonadi-server (>= 1.1.1), kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
+Depends: akonadi-server (>= 1.1.1),
+         kdepim-runtime,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: calendar and personal organizer for mobile environments
  This package provides a calendar and personal organizer applications which has
  been specially designed for use on mobile devices. KOrganizer Mobile aims
@@ -445,12 +465,12 @@ Package: libkdepim4
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepim-runtime (<< 4:4.4.0),
-        kmail (<< 4:4.1.80),
-        kaddressbook (<< 4:4.13.90)
-Replaces: kdepim-runtime (<< 4:4.4.0),
-          kmail (<< 4:4.1.80),
-          kaddressbook (<< 4:4.13.90)
+Breaks: kaddressbook (<< 4:4.13.90),
+        kdepim-runtime (<< 4:4.4.0),
+        kmail (<< 4:4.1.80)
+Replaces: kaddressbook (<< 4:4.13.90),
+          kdepim-runtime (<< 4:4.4.0),
+          kmail (<< 4:4.1.80)
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
@@ -707,7 +727,7 @@ Description: notes support library
 Package: ktnef
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Viewer for mail attachments using TNEF format
  The TNEF File Viewer allows one to handle easily mail attachments using
  the TNEF format. Those attachments are usually found in mails coming from
@@ -732,27 +752,9 @@ Description: Theme Editors for KDE PIM applications
 Package: kdepim-dbg
 Priority: extra
 Section: debug
-Depends: kdepim  (= ${source:Version}) |
- kaddressbook (= ${binary:Version}) |
- kalarm (= ${binary:Version}) |
- kdepim-kresources (= ${binary:Version}) |
- kjots (= ${binary:Version}) |
- kleopatra (= ${binary:Version}) |
- kmail (= ${binary:Version}) |
- knode (= ${binary:Version}) |
- knotes (= ${binary:Version}) |
- konsolekalendar (= ${binary:Version}) |
- kontact (= ${binary:Version}) |
- korganizer (= ${binary:Version}) |
- ktimetracker (= ${binary:Version}) |
- blogilo (= ${binary:Version}) |
- kaddressbook-mobile (= ${binary:Version}) |
- kmail-mobile (= ${binary:Version}) |
- korganizer-mobile (= ${binary:Version}) |
- notes-mobile (= ${binary:Version}) |
- tasks-mobile (= ${binary:Version}),
- kdepimlibs-dbg,
- ${misc:Depends}
+Depends: kdepim  (= ${source:Version}) | kaddressbook (= ${binary:Version}) | kalarm (= ${binary:Version}) | kdepim-kresources (= ${binary:Version}) | kjots (= ${binary:Version}) | kleopatra (= ${binary:Version}) | kmail (= ${binary:Version}) | knode (= ${binary:Version}) | knotes (= ${binary:Version}) | konsolekalendar (= ${binary:Version}) | kontact (= ${binary:Version}) | korganizer (= ${binary:Version}) | ktimetracker (= ${binary:Version}) | blogilo (= ${binary:Version}) | kaddressbook-mobile (= ${binary:Version}) | kmail-mobile (= ${binary:Version}) | korganizer-mobile (= ${binary:Version}) | notes-mobile (= ${binary:Version}) | tasks-mobile (= ${binary:Version}),
+         kdepimlibs-dbg,
+         ${misc:Depends}
 Breaks: kdeutils-dbg (<< 4:4.0.80)
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
