@@ -3,6 +3,7 @@ kdepim (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release 
   * Fix watch file. 
   * wrap-and-sort. 
+  * watch file again. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 06:17:44 -0700
 
