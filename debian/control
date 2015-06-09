@@ -12,7 +12,6 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: akonadi-server (>= 1.9.51),
                baloo-dev,
-               baloo-dev (>= 4:4.14.9),
                cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
