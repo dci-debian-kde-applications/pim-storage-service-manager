@@ -32,3 +32,4 @@
 ./usr/lib/libmessageviewer.so
 ./usr/lib/libpimcommon.so
 ./usr/lib/libtemplateparser.so
+./usr/lib/libcalendarsupportcollectionpage.so
