@@ -1,11 +1,12 @@
-kdepim (4:4.14.9-1~) UNRELEASED; urgency=medium
+kdepim (4:4.14.10-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.14.6).
   * New upstream release (4.14.7).
   * New upstream release (4.14.8).
   * New upstream release (4.14.9).
+  * New upstream release (4.14.10).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:06:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:20:51 +0200
 
 kdepim (4:4.14.6-0ubuntu1) vivid; urgency=medium
 
