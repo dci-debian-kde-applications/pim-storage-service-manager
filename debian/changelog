@@ -1,10 +1,14 @@
-kdepim (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release.
 
   [ Jonathan Riddell ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on the default boost libraries, this makes the package
+    buildable with wily + proposed.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:18:23 +0200
 
