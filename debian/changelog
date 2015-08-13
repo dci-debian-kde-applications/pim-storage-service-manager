@@ -21,6 +21,19 @@ kdepim (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 06:17:44 -0700
 
+kdepim (4:4.14.6-0ubuntu3) wily; urgency=medium
+
+  * debian/patches/boost1.58-moc-ftbfs: Guard some more boost includes with
+    #ifndef Q_MOC_RUN to fix FTBFS.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 13 Aug 2015 11:55:20 +0100
+
+kdepim (4:4.14.6-0ubuntu2) wily; urgency=medium
+
+  * Unversioned boost build dependency
+
+ -- Matthias Klose <doko@ubuntu.com>  Sat, 08 Aug 2015 15:06:09 +0000
+
 kdepim (4:4.14.6-0ubuntu1) vivid; urgency=medium
 
   * New upstream release 
