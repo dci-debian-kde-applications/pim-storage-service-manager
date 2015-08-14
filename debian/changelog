@@ -1,4 +1,4 @@
-kdepim (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release.
@@ -9,6 +9,24 @@ kdepim (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Build depend on the default boost libraries, this makes the package
     buildable with wily + proposed.
+
+  [ Harald Sitter ]
+  * KDE Frameworks 5 port
+  * Remove kalarm-icons nonsense previously introduced for statusnotifiers
+  * Removed packages:
+    - *mobile*: mobile is now a build-time choice either-desktop-or-mobile
+       which needs figuring out from scratch
+    - kdepim-dev: no headers are being installed anymore. dbus interfaces and
+      .so symlinks are still installed but listed in not-installed until they
+      get removed upstream. Without headers they have 0 use.
+    - kdepim-kresources: removed upstream
+    - knode: removed upstream
+    - kjots: removed upstream
+    - ktimetracker: removed upstream
+  * All so versions were increased by one. All package names adjusted
+    accordingly.
+  * New package:
+    + accountwizard (intalled by kmail and kontact)
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:18:23 +0200
 

@@ -1,0 +1,17 @@
+etc/xdg/kdepim.categories
+usr/lib/*/libgrantleetheme.so.4.*
+usr/lib/*/libgrantleetheme.so.5
+usr/lib/*/libgrantleethemeeditor.so.4.*
+usr/lib/*/libgrantleethemeeditor.so.5
+usr/lib/*/libkaddressbookgrantlee.so.4.*
+usr/lib/*/libkaddressbookgrantlee.so.5
+usr/lib/*/libkdepim.so.4.*
+usr/lib/*/libkdepim.so.5
+usr/lib/*/qt5/plugins//designer/kdepimwidgets.so
+usr/lib/*/qt5/plugins//designer/mailcommonwidgets.so
+usr/lib/*/qt5/plugins//designer/pimcommonwidgets.so
+usr/share/icons/oxygen/*/mimetypes/x-mail-distribution-list.png
+usr/share/kdepimwidgets/pics/addresseelineedit.png
+usr/share/kdepimwidgets/pics/clicklineedit.png
+usr/share/kdepimwidgets/pics/kdateedit.png
+usr/share/kdepimwidgets/pics/ktimeedit.png

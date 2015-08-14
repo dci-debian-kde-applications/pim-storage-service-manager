@@ -7,9 +7,9 @@ Reviewed-by: Maximiliano Curia <maxy@debian.org>
 Last-Update: 2013-09-17
 Index: kdepim/kmail/antispam-virus/kmail.antispamrc
 ===================================================================
---- kdepim.orig/kmail/antispam-virus/kmail.antispamrc	2013-09-17 07:12:57.833408363 +0000
-+++ kdepim/kmail/antispam-virus/kmail.antispamrc	2013-09-17 08:28:16.824756061 +0000
-@@ -97,13 +97,13 @@
+--- kdepim.orig/kmail/antispam-virus/kmail.antispamrc
++++ kdepim/kmail/antispam-virus/kmail.antispamrc
+@@ -97,13 +97,13 @@ Ident=spambayes
  Version=1
  Priority=20
  VisibleName=SpamBayes
