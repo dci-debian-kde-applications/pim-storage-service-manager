@@ -141,6 +141,8 @@ Package: accountwizard
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepim-runtime (<< 4:15.07.90~)
+Replaces: kdepim-runtime (<< 4:15.07.90~)
 Description: accountwizard for KDE PIM applications
  Handles account setup of e-mail accounts for KDE PIM applications.
  .
