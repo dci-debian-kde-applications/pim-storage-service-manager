@@ -84,8 +84,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim.git
 Package: kdepim
 Section: metapackages
 Architecture: all
-Depends: accountwizard (>= ${source:Version})
-         ${misc:Depends},
+Depends: accountwizard (>= ${source:Version}),
          akonadiconsole (>= ${source:Version}),
          akregator (>= ${source:Version}),
          blogilo (>= ${source:Version}),
@@ -97,7 +96,8 @@ Depends: accountwizard (>= ${source:Version})
          knotes (>= ${source:Version}),
          konsolekalendar (>= ${source:Version}),
          kontact (>= ${source:Version}),
-         korganizer (>= ${source:Version})
+         korganizer (>= ${source:Version}),
+         ${misc:Depends}
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
