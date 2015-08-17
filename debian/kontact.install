@@ -1,6 +1,6 @@
 usr/bin/kontact
-usr/lib/*/libkontactprivate.so.4.*.*
 usr/lib/*/libkontactprivate.so.5
+usr/lib/*/libkontactprivate.so.5.*.*
 usr/lib/*/qt5/plugins/kcm_kontact.so
 usr/lib/*/qt5/plugins/kcm_kontactsummary.so
 usr/lib/*/qt5/plugins/kontact_kaddressbookplugin.so

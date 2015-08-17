@@ -1,2 +1,2 @@
-usr/lib/*/libmailimporter.so.4.*.*
 usr/lib/*/libmailimporter.so.5
+usr/lib/*/libmailimporter.so.5.*.*

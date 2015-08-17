@@ -1,8 +1,8 @@
 etc/xdg/kaddressbook_themes.knsrc
 usr/bin/kaddressbook
 usr/lib/*/akonadi/contact/editorpageplugins/cryptopageplugin.so
-usr/lib/*/libkaddressbookprivate.so.4.*
 usr/lib/*/libkaddressbookprivate.so.5
+usr/lib/*/libkaddressbookprivate.so.5.*
 usr/lib/*/qt5/plugins/kaddressbookpart.so
 usr/lib/*/qt5/plugins/kcm_ldap.so
 usr/share/appdata/kaddressbook.appdata.xml

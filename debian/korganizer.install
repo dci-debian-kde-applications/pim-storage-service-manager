@@ -5,12 +5,12 @@ usr/bin/ical2vcal
 usr/bin/kincidenceeditor
 usr/bin/korgac
 usr/bin/korganizer
-usr/lib/*/libkorganizer_core.so.4.*.*
 usr/lib/*/libkorganizer_core.so.5
-usr/lib/*/libkorganizer_interfaces.so.4.*.*
+usr/lib/*/libkorganizer_core.so.5.*.*
 usr/lib/*/libkorganizer_interfaces.so.5
-usr/lib/*/libkorganizerprivate.so.4.*.*
+usr/lib/*/libkorganizer_interfaces.so.5.*.*
 usr/lib/*/libkorganizerprivate.so.5
+usr/lib/*/libkorganizerprivate.so.5.*.*
 usr/lib/*/qt5/plugins/kcm_apptsummary.so
 usr/lib/*/qt5/plugins/kcm_korganizer.so
 usr/lib/*/qt5/plugins/kcm_sdsummary.so

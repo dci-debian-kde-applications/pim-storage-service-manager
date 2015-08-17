@@ -1,2 +1,2 @@
-usr/lib/*/libsendlater.so.4.*
 usr/lib/*/libsendlater.so.5
+usr/lib/*/libsendlater.so.5.*
