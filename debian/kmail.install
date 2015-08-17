@@ -10,11 +10,11 @@ usr/bin/mboximporter
 usr/bin/pimsettingexporter
 usr/bin/pimsettingexporterconsole
 usr/bin/sieveeditor
-usr/lib/*/libkmailprivate.so.4.*
 usr/lib/*/libkmailprivate.so.5
+usr/lib/*/libkmailprivate.so.5.*
 usr/lib/*/libpimsettingexporterprivate.so
-usr/lib/*/libpimsettingexporterprivate.so.4.*
 usr/lib/*/libpimsettingexporterprivate.so.5
+usr/lib/*/libpimsettingexporterprivate.so.5.*
 usr/lib/*/qt5/plugins/grantlee/5.*/grantlee_messageheaderfilters.so
 usr/lib/*/qt5/plugins/kcm_kmail.so
 usr/lib/*/qt5/plugins/kcm_kmailsummary.so
