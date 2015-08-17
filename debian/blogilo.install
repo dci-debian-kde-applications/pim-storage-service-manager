@@ -1,5 +1,7 @@
 usr/bin/blogilo
-usr/share/applications/kde4/blogilo.desktop
+usr/share/appdata/blogilo.appdata.xml
+usr/share/applications/org.kde.blogilo.desktop
+usr/share/config.kcfg/blogilo.kcfg
 usr/share/icons/hicolor/128x128/actions/upload-media.png
 usr/share/icons/hicolor/128x128/apps/blogilo.png
 usr/share/icons/hicolor/16x16/actions/format-text-blockquote.png
@@ -20,5 +22,4 @@ usr/share/icons/hicolor/48x48/actions/upload-media.png
 usr/share/icons/hicolor/48x48/apps/blogilo.png
 usr/share/icons/hicolor/64x64/actions/upload-media.png
 usr/share/icons/hicolor/64x64/apps/blogilo.png
-usr/share/kde4/apps/blogilo/blogiloui.rc
-usr/share/kde4/config.kcfg/blogilo.kcfg
+usr/share/kxmlgui5/blogilo/blogiloui.rc

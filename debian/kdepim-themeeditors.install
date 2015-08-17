@@ -1,6 +1,9 @@
+usr/bin/contactprintthemeeditor
 usr/bin/contactthemeeditor
 usr/bin/headerthemeeditor
-usr/share/applications/kde4/contactthemeeditor.desktop
-usr/share/applications/kde4/headerthemeeditor.desktop
-usr/share/kde4/apps/contactthemeeditor/contactthemeeditorui.rc
-usr/share/kde4/apps/headerthemeeditor/headerthemeeditorui.rc
+usr/share/applications/org.kde.contactprintthemeeditor.desktop
+usr/share/applications/org.kde.contactthemeeditor.desktop
+usr/share/applications/org.kde.headerthemeeditor.desktop
+usr/share/kxmlgui5/contactprintthemeeditor/contactprintthemeeditorui.rc
+usr/share/kxmlgui5/contactthemeeditor/contactthemeeditorui.rc
+usr/share/kxmlgui5/headerthemeeditor/headerthemeeditorui.rc
