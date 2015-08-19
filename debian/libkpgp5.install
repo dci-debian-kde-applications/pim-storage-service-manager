@@ -1,2 +1,2 @@
-usr/lib/*/libkpgp.so.4.*.*
 usr/lib/*/libkpgp.so.5
+usr/lib/*/libkpgp.so.5.*.*
