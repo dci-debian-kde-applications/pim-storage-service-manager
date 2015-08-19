@@ -78,7 +78,7 @@ Build-Depends: cmake,
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-sc/kdepim.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim.git
 
 Package: kdepim
