@@ -1,7 +1,4 @@
-kdepim (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release.
+kdepim (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
