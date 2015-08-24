@@ -1,2 +1,2 @@
-usr/lib/*/libmessagecore.so.5
-usr/lib/*/libmessagecore.so.5.*.*
+usr/lib/*/libmessagecore.so.*
+usr/lib/*/libmessagecore.so.*.*.*

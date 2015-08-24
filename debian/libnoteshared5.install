@@ -1,2 +1,1 @@
-usr/lib/*/libnoteshared.so.5
-usr/lib/*/libnoteshared.so.5.*.*
+usr/lib/*/libnoteshared.so.*

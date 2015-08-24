@@ -1,9 +1,7 @@
 usr/bin/akregator
 usr/bin/akregatorstorageexporter
-usr/lib/*/libakregatorinterfaces.so.5
-usr/lib/*/libakregatorinterfaces.so.5.*.*
-usr/lib/*/libakregatorprivate.so.5
-usr/lib/*/libakregatorprivate.so.5.*.*
+usr/lib/*/libakregatorinterfaces.so.*
+usr/lib/*/libakregatorprivate.so.*
 usr/lib/*/qt5/plugins/akregator_config_advanced.so
 usr/lib/*/qt5/plugins/akregator_config_appearance.so
 usr/lib/*/qt5/plugins/akregator_config_archive.so

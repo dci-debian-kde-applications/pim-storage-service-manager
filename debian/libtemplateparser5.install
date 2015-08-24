@@ -1,2 +1,2 @@
-usr/lib/*/libtemplateparser.so.5
-usr/lib/*/libtemplateparser.so.5.*.*
+usr/lib/*/libtemplateparser.so.*
+usr/lib/*/libtemplateparser.so.*.*.*

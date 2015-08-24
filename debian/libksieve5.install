@@ -1,2 +1,1 @@
-usr/lib/*/libksieve.so.5
-usr/lib/*/libksieve.so.5.*.*
+usr/lib/*/libksieve.so.*

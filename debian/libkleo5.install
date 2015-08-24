@@ -1,6 +1,6 @@
 etc/xdg/libkleopatrarc
-usr/lib/*/libkleo.so.5
-usr/lib/*/libkleo.so.5.*.*
+usr/lib/*/libkleo.so.*
+usr/lib/*/libkleo.so.*.*.*
 usr/share/libkleopatra/pics/chiasmus_chi.png
 usr/share/libkleopatra/pics/key.png
 usr/share/libkleopatra/pics/key_bad.png
