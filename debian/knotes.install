@@ -1,8 +1,8 @@
 etc/xdg/knotes_printing_theme.knsrc
 usr/bin/akonadi_notes_agent
 usr/bin/knotes
-usr/lib/*/libknotesprivate.so.5
-usr/lib/*/libknotesprivate.so.5.*
+usr/lib/*/libknotesprivate.so.*
+usr/lib/*/libknotesprivate.so.*.*
 usr/lib/*/qt5/plugins/kcm_knote.so
 usr/lib/*/qt5/plugins/kcm_knotessummary.so
 usr/lib/*/qt5/plugins/kontact_knotesplugin.so

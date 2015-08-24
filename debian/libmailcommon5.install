@@ -1,2 +1,1 @@
-usr/lib/*/libmailcommon.so.5
-usr/lib/*/libmailcommon.so.5.*.*
+usr/lib/*/libmailcommon.so.*

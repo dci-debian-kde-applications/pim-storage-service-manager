@@ -1,2 +1,2 @@
-usr/lib/*/libpimcommon.so.5
-usr/lib/*/libpimcommon.so.5.*.*
+usr/lib/*/libpimcommon.so.*
+usr/lib/*/libpimcommon.so.*.*.*

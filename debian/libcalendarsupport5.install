@@ -1,3 +1,2 @@
-usr/lib/*/libcalendarsupport.so.5
-usr/lib/*/libcalendarsupport.so.5.*.*
-usr/lib/*/libcalendarsupportcollectionpage.so.5*
+usr/lib/*/libcalendarsupport.so.*
+usr/lib/*/libcalendarsupportcollectionpage.so.*
