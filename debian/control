@@ -143,7 +143,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-runtime (<< 4:15.07.90~)
 Replaces: kdepim-runtime (<< 4:15.07.90~)
-Description: accountwizard for KDE PIM applications
+Description: wizard for KDE PIM applications account setup
  Handles account setup of e-mail accounts for KDE PIM applications.
  .
  This package is part of the KDE PIM module.
@@ -244,7 +244,7 @@ Description: sticky notes application
 
 Package: konsolekalendar
 Architecture: any
-Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
+Depends: kde-baseapps-bin, kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
  KonsoleKalendar complements KOrganizer by providing a console

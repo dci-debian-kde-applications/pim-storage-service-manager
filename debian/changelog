@@ -1,6 +1,10 @@
 kdepim (4:15.08.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ Harald Sitter ]
+  * Resolve a million lintian problems
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 Aug 2015 12:58:16 +0100
 

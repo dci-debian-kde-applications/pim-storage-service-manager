@@ -7,4 +7,6 @@ usr/share/icons/hicolor/256x256/apps/akonadiconsole.png
 usr/share/icons/hicolor/32x32/apps/akonadiconsole.png
 usr/share/icons/hicolor/48x48/apps/akonadiconsole.png
 usr/share/icons/hicolor/64x64/apps/akonadiconsole.png
+usr/share/kconf_update/akonadiconsole-15.08-kickoff.sh
+usr/share/kconf_update/akonadiconsole.upd
 usr/share/kxmlgui5/akonadiconsole/akonadiconsoleui.rc
