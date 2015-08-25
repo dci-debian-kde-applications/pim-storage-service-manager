@@ -18,6 +18,8 @@ usr/share/icons/hicolor/32x32/apps/kontact.png
 usr/share/icons/hicolor/48x48/apps/kontact.png
 usr/share/icons/hicolor/64x64/apps/kontact-import-wizard.png
 usr/share/icons/hicolor/64x64/apps/kontact.png
+usr/share/kconf_update/kontact-15.08-kickoff.sh
+usr/share/kconf_update/kontact.upd
 usr/share/kontact/about/kontact.css
 usr/share/kontact/about/main.html
 usr/share/kontact/about/top-left-kontact.png

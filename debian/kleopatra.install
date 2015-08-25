@@ -16,6 +16,8 @@ usr/share/icons/hicolor/256x256/apps/kleopatra.png
 usr/share/icons/hicolor/32x32/apps/kleopatra.png
 usr/share/icons/hicolor/48x48/apps/kleopatra.png
 usr/share/icons/hicolor/64x64/apps/kleopatra.png
+usr/share/kconf_update/kleopatra-15.08-kickoff.sh
+usr/share/kconf_update/kleopatra.upd
 usr/share/kleopatra/pics/gpg4win-compact.png
 usr/share/kleopatra/pics/gpg4win.png
 usr/share/kleopatra/pics/kleopatra_splashscreen.png
