@@ -31,7 +31,7 @@
 ./usr/lib/*/libpimcommon.so
 ./usr/lib/*/libsendlater.so
 ./usr/lib/*/libtemplateparser.so
-./usr/lib/*/libpimsettingexporterprivate.so.*
+./usr/lib/*/libpimsettingexporterprivate.so
 ./usr/share/dbus-1/interfaces/org.kde.addressbook.service.xml
 ./usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
 ./usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
