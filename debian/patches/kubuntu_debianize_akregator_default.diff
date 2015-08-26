@@ -13,7 +13,7 @@ Index: kdepim/akregator/src/akregator_part.cpp
 --- kdepim.orig/akregator/src/akregator_part.cpp
 +++ kdepim/akregator/src/akregator_part.cpp
 @@ -173,6 +173,30 @@ static QDomDocument createDefaultFeedLis
-     spanishKde.setAttribute("xmlUrl", "http://planet.kde-espana.es/");
+     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.es/"));
      spanishFolder.appendChild(spanishKde);
  
 +    QDomElement debianFolder = doc.createElement( "outline" );
