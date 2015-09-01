@@ -8,6 +8,7 @@ kdepim (4:4.14.10-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Add libsoprano-dev build dep.
   * Update install files.
+  * New patch: workaround_boost_moc_ftbfs
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:20:51 +0200
 

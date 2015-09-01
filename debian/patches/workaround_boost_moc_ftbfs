@@ -1,0 +1,1768 @@
+Description: Workaround https://bugreports.qt.io/browse/QTBUG-22829
+ With boost1.57+ the workaround applied to qt4 stopped working, this
+ patch avoids including the boost headers for kleopatra and libkleo, and
+ allows kdepim to be built against boost1.58.
+Author: Maximiliano Curia <maxy@debian.org>
+
+---
+
+Last-Update: 2015-09-01
+
+--- kdepim-4.14.10.orig/kleopatra/commands/certifycertificatecommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/certifycertificatecommand.cpp
+@@ -52,7 +52,9 @@
+ #include <KLocalizedString>
+ #include <kdebug.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/commands/deletecertificatescommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/deletecertificatescommand.cpp
+@@ -54,7 +54,9 @@
+ #include <QPointer>
+ #include <QAbstractItemView>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/commands/exportcertificatecommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/exportcertificatecommand.cpp
+@@ -53,7 +53,9 @@
+ #include <QMap>
+ #include <QPointer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ #include <algorithm>
+ #include <vector>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/commands/importcertificatescommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/importcertificatescommand.cpp
+@@ -59,8 +59,12 @@
+ #include <QTreeView>
+ #include <QTextDocument> // for Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <memory>
+ #include <algorithm>
+--- kdepim-4.14.10.orig/kleopatra/commands/lookupcertificatescommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/lookupcertificatescommand.cpp
+@@ -59,8 +59,12 @@
+ 
+ #include <QRegExp>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ #include <map>
+--- kdepim-4.14.10.orig/kleopatra/commands/reloadkeyscommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/reloadkeyscommand.cpp
+@@ -41,7 +41,9 @@
+ 
+ #include <gpgme++/keylistresult.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace boost;
+--- kdepim-4.14.10.orig/kleopatra/commands/selftestcommand.cpp
++++ kdepim-4.14.10/kleopatra/commands/selftestcommand.cpp
+@@ -57,8 +57,12 @@
+ #include <KSplashScreen>
+ #include <KSharedConfig>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/conf/appearanceconfigwidget.cpp
++++ kdepim-4.14.10/kleopatra/conf/appearanceconfigwidget.cpp
+@@ -62,8 +62,12 @@
+ #include <QColorDialog>
+ #include <QFontDialog>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/conf/cryptooperationsconfigwidget.cpp
++++ kdepim-4.14.10/kleopatra/conf/cryptooperationsconfigwidget.cpp
+@@ -47,7 +47,9 @@
+ 
+ #include <QLayout>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Config;
+--- kdepim-4.14.10.orig/kleopatra/crypto/certificateresolver.cpp
++++ kdepim-4.14.10/kleopatra/crypto/certificateresolver.cpp
+@@ -45,7 +45,9 @@
+ #include <QHash>
+ #include <QSet>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <iterator>
+--- kdepim-4.14.10.orig/kleopatra/crypto/controller.h
++++ kdepim-4.14.10/kleopatra/crypto/controller.h
+@@ -40,7 +40,9 @@
+ #include <utils/pimpl_ptr.h>
+ #include <utils/types.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QDialog;
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/createchecksumscontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/createchecksumscontroller.cpp
+@@ -62,8 +62,12 @@
+ #include <QDir>
+ #include <QProcess>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/function.hpp>
++#endif
+ 
+ #include <gpg-error.h>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/createchecksumscontroller.h
++++ kdepim-4.14.10/kleopatra/crypto/createchecksumscontroller.h
+@@ -40,7 +40,9 @@
+ #include <gpgme++/global.h>
+ #include <kmime/kmime_header_parsing.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifyemailcontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifyemailcontroller.cpp
+@@ -58,7 +58,9 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <memory>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifyemailcontroller.h
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifyemailcontroller.h
+@@ -41,7 +41,9 @@
+ 
+ #include <QMetaType>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifyfilescontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifyfilescontroller.cpp
+@@ -56,7 +56,9 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <memory>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifyfilescontroller.h
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifyfilescontroller.h
+@@ -39,7 +39,9 @@
+ 
+ #include <QMetaType>
+ 
++#ifndef Q_MOC_RUN
+ #include<boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifytask.cpp
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifytask.cpp
+@@ -75,7 +75,9 @@
+ #include <QStringList>
+ #include <QTextDocument> // Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/crypto/decryptverifytask.h
++++ kdepim-4.14.10/kleopatra/crypto/decryptverifytask.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/verificationresult.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ 
+ namespace KMime {
+--- kdepim-4.14.10.orig/kleopatra/crypto/encryptemailcontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/encryptemailcontroller.cpp
+@@ -58,8 +58,12 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/encryptemailtask.cpp
++++ kdepim-4.14.10/kleopatra/crypto/encryptemailtask.cpp
+@@ -52,7 +52,9 @@
+ #include <QPointer>
+ #include <QTextDocument> // for Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/encryptemailtask.h
++++ kdepim-4.14.10/kleopatra/crypto/encryptemailtask.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/decryptverifyfileswizard.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/decryptverifyfileswizard.cpp
+@@ -57,7 +57,9 @@
+ #include <QTimer>
+ #include <QTreeView>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <vector>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/decryptverifyfileswizard.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/decryptverifyfileswizard.h
+@@ -37,7 +37,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ namespace Kleo {
+ namespace Crypto {
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/decryptverifyoperationwidget.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/decryptverifyoperationwidget.cpp
+@@ -45,7 +45,9 @@
+ #include <QStackedLayout>
+ #include <QComboBox>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto::Gui;
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/newresultpage.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/newresultpage.cpp
+@@ -41,7 +41,9 @@
+ 
+ #include <kleo/stl_util.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <KLocalizedString>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/newsignencryptfileswizard.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/newsignencryptfileswizard.cpp
+@@ -73,8 +73,12 @@
+ 
+ #include <gpgme++/key.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace GpgME;
+ using namespace boost;
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resolverecipientspage.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/resolverecipientspage.cpp
+@@ -61,8 +61,12 @@
+ #include <QStringList>
+ #include <QVBoxLayout>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resolverecipientspage.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/resolverecipientspage.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resultitemwidget.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/resultitemwidget.h
+@@ -39,7 +39,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QString;
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resultlistwidget.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/resultlistwidget.cpp
+@@ -50,8 +50,12 @@
+ #include <QLabel>
+ #include <QVBoxLayout>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resultlistwidget.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/resultlistwidget.h
+@@ -39,7 +39,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QString;
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/resultpage.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/resultpage.h
+@@ -39,7 +39,9 @@
+ #include <utils/pimpl_ptr.h>
+ 
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ namespace Kleo {
+ namespace Crypto {
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/signencryptemailconflictdialog.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/signencryptemailconflictdialog.cpp
+@@ -68,8 +68,12 @@
+ #include <QStyle>
+ #include <QPointer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <iterator>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/signencryptwizard.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/signencryptwizard.cpp
+@@ -55,7 +55,9 @@
+ #include <QFileInfo>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/signencryptwizard.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/signencryptwizard.h
+@@ -42,7 +42,9 @@
+ #include <gpgme++/global.h>
+ #include <kmime/kmime_header_parsing.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/signerresolvepage.h
++++ kdepim-4.14.10/kleopatra/crypto/gui/signerresolvepage.h
+@@ -40,7 +40,9 @@
+ #include <gpgme++/global.h>
+ #include <kmime/kmime_header_parsing.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/signingcertificateselectionwidget.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/signingcertificateselectionwidget.cpp
+@@ -45,7 +45,9 @@
+ #include <QByteArray>
+ #include <QMap>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/gui/verifychecksumsdialog.cpp
++++ kdepim-4.14.10/kleopatra/crypto/gui/verifychecksumsdialog.cpp
+@@ -53,7 +53,9 @@
+ #include <QPushButton>
+ #include <QHeaderView>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/static_assert.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/newsignencryptemailcontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/newsignencryptemailcontroller.cpp
+@@ -63,8 +63,12 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/recipient.h
++++ kdepim-4.14.10/kleopatra/crypto/recipient.h
+@@ -35,7 +35,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/sender.h
++++ kdepim-4.14.10/kleopatra/crypto/sender.h
+@@ -35,7 +35,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/signemailcontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/signemailcontroller.cpp
+@@ -55,8 +55,12 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/signemailtask.cpp
++++ kdepim-4.14.10/kleopatra/crypto/signemailtask.cpp
+@@ -52,8 +52,12 @@
+ #include <QPointer>
+ #include <QTextDocument> // for Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/signemailtask.h
++++ kdepim-4.14.10/kleopatra/crypto/signemailtask.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/signencryptfilescontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/signencryptfilescontroller.cpp
+@@ -58,7 +58,9 @@
+ #include <QTimer>
+ #include <QFileInfo>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/signencryptfilescontroller.h
++++ kdepim-4.14.10/kleopatra/crypto/signencryptfilescontroller.h
+@@ -40,7 +40,9 @@
+ #include <gpgme++/global.h>
+ #include <kmime/kmime_header_parsing.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/signencryptfilestask.cpp
++++ kdepim-4.14.10/kleopatra/crypto/signencryptfilestask.cpp
+@@ -60,7 +60,9 @@
+ #include <QPointer>
+ #include <QTextDocument> // for Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/task.cpp
++++ kdepim-4.14.10/kleopatra/crypto/task.cpp
+@@ -50,7 +50,9 @@
+ 
+ #include <QString>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace Kleo::Crypto;
+--- kdepim-4.14.10.orig/kleopatra/crypto/task.h
++++ kdepim-4.14.10/kleopatra/crypto/task.h
+@@ -40,7 +40,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QColor;
+ class QIcon;
+--- kdepim-4.14.10.orig/kleopatra/crypto/taskcollection.cpp
++++ kdepim-4.14.10/kleopatra/crypto/taskcollection.cpp
+@@ -36,7 +36,9 @@
+ 
+ #include <crypto/task.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <map>
+--- kdepim-4.14.10.orig/kleopatra/crypto/taskcollection.h
++++ kdepim-4.14.10/kleopatra/crypto/taskcollection.h
+@@ -39,7 +39,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/verifychecksumscontroller.cpp
++++ kdepim-4.14.10/kleopatra/crypto/verifychecksumscontroller.cpp
+@@ -57,8 +57,12 @@
+ #include <QDir>
+ #include <QProcess>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/function.hpp>
++#endif
+ 
+ #include <gpg-error.h>
+ 
+--- kdepim-4.14.10.orig/kleopatra/crypto/verifychecksumscontroller.h
++++ kdepim-4.14.10/kleopatra/crypto/verifychecksumscontroller.h
+@@ -42,7 +42,9 @@
+ #include <gpgme++/global.h>
+ #include <kmime/kmime_header_parsing.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/dialogs/certificatedetailsdialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/certificatedetailsdialog.cpp
+@@ -66,7 +66,9 @@
+ #include <QPointer>
+ #include <QHeaderView>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/dialogs/certificateselectiondialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/certificateselectiondialog.cpp
+@@ -59,7 +59,9 @@
+ #include <QPointer>
+ #include <QVBoxLayout>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ 
+--- kdepim-4.14.10.orig/kleopatra/dialogs/certifycertificatedialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/certifycertificatedialog.cpp
+@@ -54,7 +54,9 @@
+ 
+ #include <QTextDocument> // Qt::escape
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <gpg-error.h>
+ 
+--- kdepim-4.14.10.orig/kleopatra/dialogs/deletecertificatesdialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/deletecertificatesdialog.cpp
+@@ -56,7 +56,9 @@
+ 
+ #include <gpgme++/key.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/dialogs/lookupcertificatesdialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/lookupcertificatesdialog.cpp
+@@ -50,7 +50,9 @@
+ #include <QPushButton>
+ #include <QHeaderView>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/dialogs/selftestdialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/selftestdialog.cpp
+@@ -44,7 +44,9 @@
+ #include <QHeaderView>
+ #include <QSortFilterProxyModel>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/dialogs/setinitialpindialog.cpp
++++ kdepim-4.14.10/kleopatra/dialogs/setinitialpindialog.cpp
+@@ -43,7 +43,9 @@
+ 
+ #include <gpgme++/error.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/static_assert.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/kleopatraapplication.cpp
++++ kdepim-4.14.10/kleopatra/kleopatraapplication.cpp
+@@ -69,10 +69,18 @@
+ #include <QDir>
+ #include <QPointer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <memory>
+ 
+--- kdepim-4.14.10.orig/kleopatra/libkleopatraclient/core/command.cpp
++++ kdepim-4.14.10/kleopatra/libkleopatraclient/core/command.cpp
+@@ -44,8 +44,12 @@
+ #include <assuan.h>
+ #include <gpg-error.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/type_traits/remove_pointer.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <string>
+--- kdepim-4.14.10.orig/kleopatra/main.cpp
++++ kdepim-4.14.10/kleopatra/main.cpp
+@@ -89,7 +89,9 @@ namespace Kleo {
+ #include <gpgme++/global.h>
+ #include <gpgme++/error.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/mainwindow_desktop.cpp
++++ kdepim-4.14.10/kleopatra/mainwindow_desktop.cpp
+@@ -89,8 +89,12 @@
+ #include <kleo/cryptoconfig.h>
+ #include <kleo/stl_util.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/mainwindow_mobile.cpp
++++ kdepim-4.14.10/kleopatra/mainwindow_mobile.cpp
+@@ -93,8 +93,12 @@
+ #include <ui/cryptoconfigdialog.h>
+ #include <kleo/cryptoconfig.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/kleopatra/models/keycache.cpp
++++ kdepim-4.14.10/kleopatra/models/keycache.cpp
+@@ -63,11 +63,21 @@
+ #include <QPointer>
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/iterator/filter_iterator.hpp>
++#endif
+ 
+ #include <utility>
+ #include <algorithm>
+--- kdepim-4.14.10.orig/kleopatra/models/keycache.h
++++ kdepim-4.14.10/kleopatra/models/keycache.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <string>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/models/keylistsortfilterproxymodel.cpp
++++ kdepim-4.14.10/kleopatra/models/keylistsortfilterproxymodel.cpp
+@@ -42,7 +42,9 @@
+ 
+ #include <kleo/stl_util.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/models/keylistsortfilterproxymodel.h
++++ kdepim-4.14.10/kleopatra/models/keylistsortfilterproxymodel.h
+@@ -37,7 +37,9 @@
+ #include <models/keylistmodelinterface.h>
+ 
+ #include <utils/pimpl_ptr.h>
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ namespace GpgME {
+     class Key;
+--- kdepim-4.14.10.orig/kleopatra/models/predicates.h
++++ kdepim-4.14.10/kleopatra/models/predicates.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/key.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cstring>
+ #include <algorithm>
+--- kdepim-4.14.10.orig/kleopatra/models/subkeylistmodel.cpp
++++ kdepim-4.14.10/kleopatra/models/subkeylistmodel.cpp
+@@ -43,7 +43,9 @@
+ #include <QVariant>
+ #include <QDate>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <iterator>
+--- kdepim-4.14.10.orig/kleopatra/models/useridlistmodel.cpp
++++ kdepim-4.14.10/kleopatra/models/useridlistmodel.cpp
+@@ -43,7 +43,9 @@
+ #include <QVariant>
+ #include <QDate>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <iterator>
+--- kdepim-4.14.10.orig/kleopatra/newcertificatewizard/newcertificatewizard.cpp
++++ kdepim-4.14.10/kleopatra/newcertificatewizard/newcertificatewizard.cpp
+@@ -78,7 +78,9 @@
+ #include <QUrl>
+ #include <QDesktopServices>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
+ 
+ #include <algorithm>
+ 
+--- kdepim-4.14.10.orig/kleopatra/selftest/enginecheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/enginecheck.cpp
+@@ -48,8 +48,12 @@
+ #include <QFile>
+ #include <QRegExp>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/selftest/gpgagentcheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/gpgagentcheck.cpp
+@@ -46,7 +46,9 @@
+ 
+ #include <KLocalizedString>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/selftest/gpgconfcheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/gpgconfcheck.cpp
+@@ -45,7 +45,9 @@
+ #include <QProcess>
+ #include <QDir>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/selftest/libkleopatrarccheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/libkleopatrarccheck.cpp
+@@ -43,7 +43,9 @@
+ #include <KLocalizedString>
+ 
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/selftest/registrycheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/registrycheck.cpp
+@@ -41,7 +41,9 @@
+ 
+ #include <QSettings>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/selftest/uiservercheck.cpp
++++ kdepim-4.14.10/kleopatra/selftest/uiservercheck.cpp
+@@ -45,7 +45,9 @@
+ 
+ #include <KLocalizedString>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/smartcard/readerstatus.cpp
++++ kdepim-4.14.10/kleopatra/smartcard/readerstatus.cpp
+@@ -58,12 +58,24 @@
+ #include <QThread>
+ #include <QPointer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/algorithm/string/split.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/algorithm/string/classification.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/algorithm/string/case_conv.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/static_assert.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <vector>
+ #include <set>
+--- kdepim-4.14.10.orig/kleopatra/systrayicon.cpp
++++ kdepim-4.14.10/kleopatra/systrayicon.cpp
+@@ -64,8 +64,12 @@
+ #include <QClipboard>
+ #include <QPointer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/kleopatra/uiserver/assuancommand.h
++++ kdepim-4.14.10/kleopatra/uiserver/assuancommand.h
+@@ -47,8 +47,12 @@
+ 
+ #include <qwindowdefs.h> // for WId
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/enable_shared_from_this.hpp>
++#endif
+ 
+ #include <string>
+ #include <map>
+--- kdepim-4.14.10.orig/kleopatra/uiserver/assuanserverconnection.h
++++ kdepim-4.14.10/kleopatra/uiserver/assuanserverconnection.h
+@@ -39,7 +39,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <string>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/uiserver/selectcertificatecommand.cpp
++++ kdepim-4.14.10/kleopatra/uiserver/selectcertificatecommand.cpp
+@@ -38,7 +38,9 @@
+ 
+ #include <models/keycache.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <kleo/stl_util.h>
+ #include <kleo/exception.h>
+--- kdepim-4.14.10.orig/kleopatra/uiserver/sessiondata.cpp
++++ kdepim-4.14.10/kleopatra/uiserver/sessiondata.cpp
+@@ -38,7 +38,9 @@
+ 
+ #include <QMutex>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace boost;
+--- kdepim-4.14.10.orig/kleopatra/uiserver/sessiondata.h
++++ kdepim-4.14.10/kleopatra/uiserver/sessiondata.h
+@@ -39,7 +39,9 @@
+ 
+ #include <QTimer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <map>
+ 
+--- kdepim-4.14.10.orig/kleopatra/uiserver/uiserver.cpp
++++ kdepim-4.14.10/kleopatra/uiserver/uiserver.cpp
+@@ -52,8 +52,12 @@
+ #include <QTimer>
+ #include <QFile>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range/empty.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/uiserver/uiserver.h
++++ kdepim-4.14.10/kleopatra/uiserver/uiserver.h
+@@ -37,7 +37,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cstdio>
+ 
+--- kdepim-4.14.10.orig/kleopatra/uiserver/uiserver_p.h
++++ kdepim-4.14.10/kleopatra/uiserver/uiserver_p.h
+@@ -44,7 +44,9 @@
+ 
+ #include <kleo-assuan.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <vector>
+--- kdepim-4.14.10.orig/kleopatra/utils/archivedefinition.cpp
++++ kdepim-4.14.10/kleopatra/utils/archivedefinition.cpp
+@@ -55,7 +55,9 @@
+ #include <QMutex>
+ #include <QCoreApplication>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ using namespace GpgME;
+ using namespace Kleo;
+--- kdepim-4.14.10.orig/kleopatra/utils/cached.h
++++ kdepim-4.14.10/kleopatra/utils/cached.h
+@@ -33,7 +33,9 @@
+ #ifndef __KLEOPATRA_UTILS_CACHED_H__
+ #define __KLEOPATRA_UTILS_CACHED_H__
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/call_traits.hpp>
++#endif
+ 
+ namespace Kleo {
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/classify.cpp
++++ kdepim-4.14.10/kleopatra/utils/classify.cpp
+@@ -43,7 +43,9 @@
+ #include <QtAlgorithms>
+ #include <QByteArrayMatcher>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
+ 
+ #ifdef __GLIBCXX__
+ # include <ext/algorithm>
+--- kdepim-4.14.10.orig/kleopatra/utils/detail_p.h
++++ kdepim-4.14.10/kleopatra/utils/detail_p.h
+@@ -35,7 +35,9 @@
+ 
+ #include <kleo-assuan.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <QByteArray>
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/filesystemwatcher.cpp
++++ kdepim-4.14.10/kleopatra/utils/filesystemwatcher.cpp
+@@ -44,7 +44,9 @@
+ 
+ #include <kleo/stl_util.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <set>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/utils/input.h
++++ kdepim-4.14.10/kleopatra/utils/input.h
+@@ -35,7 +35,9 @@
+ 
+ #include <kleo-assuan.h> // for assuan_fd_t
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QIODevice;
+ class QString;
+--- kdepim-4.14.10.orig/kleopatra/utils/iodevicelogger.h
++++ kdepim-4.14.10/kleopatra/utils/iodevicelogger.h
+@@ -37,7 +37,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ namespace Kleo {
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/kleo_assert.h
++++ kdepim-4.14.10/kleopatra/utils/kleo_assert.h
+@@ -35,7 +35,9 @@
+ 
+ #include <kleo/exception.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/preprocessor/stringize.hpp>
++#endif
+ 
+ #include <assert.h>
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/log.cpp
++++ kdepim-4.14.10/kleopatra/utils/log.cpp
+@@ -45,7 +45,9 @@
+ #include <QFile>
+ #include <QString>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ #include <cassert>
+ #include <cstdio>
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/log.h
++++ kdepim-4.14.10/kleopatra/utils/log.h
+@@ -36,7 +36,9 @@
+ #include <utils/pimpl_ptr.h>
+ 
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <cstdio>
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/multivalidator.cpp
++++ kdepim-4.14.10/kleopatra/utils/multivalidator.cpp
+@@ -36,8 +36,12 @@
+ 
+ #include <kleo/stl_util.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/lambda/lambda.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/lambda/bind.hpp>
++#endif
+ 
+ #include <vector>
+ #include <iterator>
+--- kdepim-4.14.10.orig/kleopatra/utils/output.h
++++ kdepim-4.14.10/kleopatra/utils/output.h
+@@ -37,7 +37,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QIODevice;
+ class QString;
+--- kdepim-4.14.10.orig/kleopatra/utils/path-helper.cpp
++++ kdepim-4.14.10/kleopatra/utils/path-helper.cpp
+@@ -46,7 +46,9 @@
+ #include <QFileInfo>
+ #include <QDir>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ 
+--- kdepim-4.14.10.orig/kleopatra/utils/types.cpp
++++ kdepim-4.14.10/kleopatra/utils/types.cpp
+@@ -38,8 +38,12 @@
+ #include <QWidget>
+ #include <QVector>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #ifdef Q_OS_WIN
+ #include <windows.h>
+--- kdepim-4.14.10.orig/kleopatra/view/keylistcontroller.cpp
++++ kdepim-4.14.10/kleopatra/view/keylistcontroller.cpp
+@@ -83,7 +83,9 @@
+ #include <QItemSelectionModel>
+ #include <QAction>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <cassert>
+--- kdepim-4.14.10.orig/kleopatra/view/keytreeview.h
++++ kdepim-4.14.10/kleopatra/view/keytreeview.h
+@@ -39,7 +39,9 @@
+ 
+ #include <gpgme++/key.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ #include <vector>
+ 
+ class QTreeView;
+--- kdepim-4.14.10.orig/kleopatra/view/searchbar.h
++++ kdepim-4.14.10/kleopatra/view/searchbar.h
+@@ -37,7 +37,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class KLineEdit;
+ 
+--- kdepim-4.14.10.orig/kleopatra/view/tabwidget.h
++++ kdepim-4.14.10/kleopatra/view/tabwidget.h
+@@ -39,7 +39,9 @@
+ 
+ #include <utils/pimpl_ptr.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QAbstractItemView;
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmedecryptjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmedecryptjob.cpp
+@@ -40,7 +40,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmedecryptverifyjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmedecryptverifyjob.cpp
+@@ -43,7 +43,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmedownloadjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmedownloadjob.cpp
+@@ -39,7 +39,9 @@
+ 
+ #include <QStringList>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmeencryptjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmeencryptjob.cpp
+@@ -42,7 +42,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmenewcryptoconfig.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmenewcryptoconfig.cpp
+@@ -41,9 +41,15 @@
+ #include <gpgme++/global.h>
+ #include <gpgme++/error.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/foreach.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <sstream>
+ #include <string>
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmenewcryptoconfig.h
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmenewcryptoconfig.h
+@@ -44,9 +44,15 @@
+ 
+ #include <gpgme++/configuration.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/enable_shared_from_this.hpp>
++#endif
+ 
+ #include <vector>
+ #include <utility>
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmeprogresstokenmapper.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmeprogresstokenmapper.cpp
+@@ -37,7 +37,9 @@
+ 
+ #include <QString>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmesignencryptjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmesignencryptjob.cpp
+@@ -45,7 +45,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmesignjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmesignjob.cpp
+@@ -42,7 +42,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmeverifydetachedjob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmeverifydetachedjob.cpp
+@@ -42,7 +42,9 @@
+ 
+ #include <cassert>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ using namespace Kleo;
+ using namespace GpgME;
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/qgpgmeverifyopaquejob.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/qgpgmeverifyopaquejob.cpp
+@@ -40,7 +40,9 @@
+ 
+ #include <QBuffer>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/threadedjobmixin.cpp
++++ kdepim-4.14.10/libkleo/backends/qgpgme/threadedjobmixin.cpp
+@@ -40,7 +40,9 @@
+ #include <QStringList>
+ #include <QByteArray>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <iterator>
+--- kdepim-4.14.10.orig/libkleo/backends/qgpgme/threadedjobmixin.h
++++ kdepim-4.14.10/libkleo/backends/qgpgme/threadedjobmixin.h
+@@ -44,13 +44,27 @@
+ #include <gpgme++/context.h>
+ #include <gpgme++/interfaces/progressprovider.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/weak_ptr.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/function.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/tuple/tuple.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/utility/enable_if.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/type_traits/is_same.hpp>
++#endif
+ 
+ #include <cassert>
+ 
+--- kdepim-4.14.10.orig/libkleo/kleo/checksumdefinition.cpp
++++ kdepim-4.14.10/libkleo/kleo/checksumdefinition.cpp
+@@ -51,7 +51,9 @@
+ #include <QMutex>
+ #include <QCoreApplication>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #ifdef stdin
+ # undef stdin // pah..
+--- kdepim-4.14.10.orig/libkleo/kleo/decryptjob.h
++++ kdepim-4.14.10/libkleo/kleo/decryptjob.h
+@@ -35,7 +35,9 @@
+ 
+ #include "job.h"
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QByteArray;
+ class QIODevice;
+--- kdepim-4.14.10.orig/libkleo/kleo/decryptverifyjob.h
++++ kdepim-4.14.10/libkleo/kleo/decryptverifyjob.h
+@@ -35,7 +35,9 @@
+ 
+ #include "job.h"
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QByteArray;
+ class QIODevice;
+--- kdepim-4.14.10.orig/libkleo/kleo/encryptjob.h
++++ kdepim-4.14.10/libkleo/kleo/encryptjob.h
+@@ -35,7 +35,9 @@
+ 
+ #include "job.h"
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/libkleo/kleo/kconfigbasedkeyfilter.cpp
++++ kdepim-4.14.10/libkleo/kleo/kconfigbasedkeyfilter.cpp
+@@ -37,7 +37,9 @@
+ #include <kconfiggroup.h>
+ #include <klocale.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/mem_fn.hpp>
++#endif
+ #include <algorithm>
+ 
+ using namespace Kleo;
+--- kdepim-4.14.10.orig/libkleo/kleo/keyfiltermanager.cpp
++++ kdepim-4.14.10/libkleo/kleo/keyfiltermanager.cpp
+@@ -48,8 +48,12 @@
+ #include <QAbstractListModel>
+ #include <QModelIndex>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/iterator/filter_iterator.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <vector>
+--- kdepim-4.14.10.orig/libkleo/kleo/keyfiltermanager.h
++++ kdepim-4.14.10/libkleo/kleo/keyfiltermanager.h
+@@ -36,7 +36,9 @@
+ #include "kleo/kleo_export.h"
+ #include <QtCore/QObject>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <kleo/keyfilter.h>
+ 
+--- kdepim-4.14.10.orig/libkleo/kleo/signencryptjob.h
++++ kdepim-4.14.10/libkleo/kleo/signencryptjob.h
+@@ -37,7 +37,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ #include <utility>
+--- kdepim-4.14.10.orig/libkleo/kleo/signjob.h
++++ kdepim-4.14.10/libkleo/kleo/signjob.h
+@@ -37,7 +37,9 @@
+ 
+ #include <gpgme++/global.h>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ #include <vector>
+ 
+--- kdepim-4.14.10.orig/libkleo/kleo/stl_util.h
++++ kdepim-4.14.10/libkleo/kleo/stl_util.h
+@@ -22,11 +22,21 @@
+ #ifndef __KDTOOLSCORE_STL_UTIL_H__
+ #define __KDTOOLSCORE_STL_UTIL_H__
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/range.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/iterator/filter_iterator.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/iterator/transform_iterator.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/call_traits.hpp>
++#endif
++#ifndef Q_MOC_RUN
+ #include <boost/version.hpp>
++#endif
+ 
+ #include <algorithm>
+ #include <numeric>
+--- kdepim-4.14.10.orig/libkleo/kleo/verifydetachedjob.h
++++ kdepim-4.14.10/libkleo/kleo/verifydetachedjob.h
+@@ -35,7 +35,9 @@
+ 
+ #include "job.h"
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QByteArray;
+ class QIODevice;
+--- kdepim-4.14.10.orig/libkleo/kleo/verifyopaquejob.h
++++ kdepim-4.14.10/libkleo/kleo/verifyopaquejob.h
+@@ -35,7 +35,9 @@
+ 
+ #include "job.h"
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/shared_ptr.hpp>
++#endif
+ 
+ class QByteArray;
+ class QIODevice;
+--- kdepim-4.14.10.orig/libkleo/ui/directoryserviceswidget.cpp
++++ kdepim-4.14.10/libkleo/ui/directoryserviceswidget.cpp
+@@ -45,7 +45,9 @@
+ #include <QMenu>
+ #include <QAction>
+ 
++#ifndef Q_MOC_RUN
+ #include <boost/bind.hpp>
++#endif
+ 
+ #include <vector>
+ 
