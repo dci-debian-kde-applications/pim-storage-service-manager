@@ -24,6 +24,8 @@ usr/lib/kde4/plugins/accessible/messagevieweraccessiblewidgetfactory.so
 usr/lib/kde4/plugins/grantlee/0.*/grantlee_messageheaderfilters.so
 usr/lib/libkmailprivate.so.4
 usr/lib/libkmailprivate.so.4.*
+usr/lib/libpimsettingexporterprivate.so.4
+usr/lib/libpimsettingexporterprivate.so.4.*
 usr/share/akonadi/agents/archivemailagent.desktop
 usr/share/akonadi/agents/folderarchiveagent.desktop
 usr/share/akonadi/agents/followupreminder.desktop

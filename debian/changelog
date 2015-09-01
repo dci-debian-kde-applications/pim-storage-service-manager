@@ -7,6 +7,7 @@ kdepim (4:4.14.10-1~) UNRELEASED; urgency=medium
   * New upstream release (4.14.10).
   * Refresh patches.
   * Add libsoprano-dev build dep.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:20:51 +0200
 
