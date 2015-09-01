@@ -1,4 +1,3 @@
-
 # backed up upstream...
 # if there's need for these files one day, we can reconsider thid decision.
 # we don't install any headers and .so links for the moment.
