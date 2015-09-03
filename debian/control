@@ -607,8 +607,8 @@ Package: kdepim-mobileui-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kmail-mobile (<< 4:4.13.90)
-Breaks: kmail-mobile (<< 4:4.13.90)
+Replaces: kmail-mobile (<< 4:4.13.90), libmessageviewer4 (<< 4:4.14.5)
+Breaks: kmail-mobile (<< 4:4.13.90), libmessageviewer4 (<< 4:4.14.5)
 Description: common data files for KDE PIM mobile applications
  This package contains data files which may be used by all KDE PIM mobile
  applications. It provides common UI components (mostly QML) and various
