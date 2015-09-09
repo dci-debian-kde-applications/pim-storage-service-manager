@@ -1,3 +1,9 @@
+kdepim (4:15.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 11:39:11 +0200
+
 kdepim (4:4.14.10-2) unstable; urgency=medium
 
   * Team upload.
