@@ -1,3 +1,10 @@
+kdepim (4:15.08.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Asterick cannot be used in not-installed. Fixing
+    the mass list-missing errors. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Sep 2015 10:21:57 +0200
+
 kdepim (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Update testsuite.xsession for kf5
