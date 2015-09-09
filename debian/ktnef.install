@@ -1,6 +1,6 @@
 usr/bin/ktnef
-usr/share/applications/kde4/ktnef.desktop
+usr/share/applications/org.kde.ktnef.desktop
 usr/share/icons/*/*/actions/ktnef_extract_all_to.png
 usr/share/icons/*/*/actions/ktnef_extract_to.png
 usr/share/icons/*/*/apps/ktnef.png
-usr/share/kde4/apps/ktnef/ktnefui.rc
+usr/share/kxmlgui5/ktnef/ktnefui.rc

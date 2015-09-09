@@ -1,0 +1,2 @@
+# Debian specific defaults, we have our own patch for ours.
+debianize_akregator_default.diff

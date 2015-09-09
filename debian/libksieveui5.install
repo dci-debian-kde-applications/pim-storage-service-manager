@@ -1,0 +1,3 @@
+etc/xdg/ksieve_script.knsrc
+usr/lib/*/libksieveui.so.*
+usr/lib/*/libksieveui.so.*.*

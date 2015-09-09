@@ -9,8 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: akonadi-server (>= 1.12.1),
-               cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.12.0~),
                kdoctools-dev,
@@ -85,24 +84,21 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kdepim.git
 Package: kdepim
 Section: metapackages
 Architecture: all
-Depends: akonadiconsole (>= ${source:Version}),
+Depends: accountwizard (>= ${source:Version}),
+         akonadiconsole (>= ${source:Version}),
          akregator (>= ${source:Version}),
          blogilo (>= ${source:Version}),
          kaddressbook (>= ${source:Version}),
          kalarm (>= ${source:Version}),
-         kdepim-doc,
-         kdepim-kresources (>= ${source:Version}),
          kdepim-runtime,
-         kjots (>= ${source:Version}),
          kleopatra (>= ${source:Version}),
          kmail (>= ${source:Version}),
-         knode (>= ${source:Version}),
          knotes (>= ${source:Version}),
          konsolekalendar (>= ${source:Version}),
          kontact (>= ${source:Version}),
          korganizer (>= ${source:Version}),
-         ktimetracker (>= ${source:Version}),
          ${misc:Depends}
+Recommends: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -111,21 +107,6 @@ Description: Personal Information Management apps from the official KDE release
  .
  This metapackage includes a collection of Personal Information Management
  (PIM) desktop applications provided with the official release of KDE.
-
-Package: kdepim-mobile
-Section: metapackages
-Architecture: all
-Depends: kaddressbook-mobile (>= ${source:Version}),
-         kmail-mobile (>= ${source:Version}),
-         korganizer-mobile (>= ${source:Version}),
-         notes-mobile (>= ${source:Version}),
-         tasks-mobile (>= ${source:Version}),
-         ${misc:Depends}
-Description: Personal Information Management apps for mobile environments
- This metapackage includes a collection of official KDE Personal Information
- Management (PIM) applications which have been designed for use in the mobile
- environments. Their feature set and user interface focus on convenience and
- ease of use with touchscreen and potentially small size displays.
 
 Package: kdepim-doc
 Section: doc
@@ -179,27 +160,25 @@ Description: RSS/Atom feed aggregator
  .
  This package is part of the KDE PIM module.
 
+Package: accountwizard
+Section: utils
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepim-runtime (<< 4:15.07.90~)
+Replaces: kdepim-runtime (<< 4:15.07.90~)
+Description: wizard for KDE PIM applications account setup
+ Handles account setup of e-mail accounts for KDE PIM applications.
+ .
+ This package is part of the KDE PIM module.
+
 Package: kaddressbook
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: kdepim-kresources
 Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably.
  It can load and save your contacts to many different locations, including
  the local file system, LDAP servers, and SQL databases.
- .
- This package is part of the KDE PIM module.
-
-Package: kaddressbook-mobile
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: kdepim-kresources
-Description: address book and contact data manager for mobile environments
- This package provides a convenient application for managing your addresses and
- contacts on mobile devices. It focuses on usability with touchscreen displays
- and potentially small screen sizes.
  .
  This package is part of the KDE PIM module.
 
@@ -220,17 +199,6 @@ Description: alarm message, command and email scheduler
  timer'.
  .
  This package is part of the KDE PIM module.
-
-Package: kdepim-kresources
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: korganizer
-Suggests: knotes
-Description: KDE PIM resource plugins
- This package adds more resource plugins for KDE PIM applications such as
- blogging, tracking feature plans etc.
- .
- This package is part of KDE, and a component of the KDE PIM module.
 
 Package: storageservicemanager
 Architecture: any
@@ -260,7 +228,8 @@ Package: kmail
 Section: mail
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: gnupg-agent,
+Recommends: accountwizard,
+            gnupg-agent,
             gnupg2,
             kdepim-doc,
             kdepim-themeditors,
@@ -270,7 +239,7 @@ Suggests: clamav,
           kaddressbook,
           kleopatra,
           procmail,
-          spamassassin | bogofilter | annoyance-filter | spambayes (>= 1.0.4-6) | bsfilter | crm114
+          spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114
 Breaks: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
 Replaces: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
 Provides: imap-client, mail-reader
@@ -284,39 +253,11 @@ Description: full featured graphical email client
  .
  This package is part of the KDE PIM module.
 
-Package: kmail-mobile
-Section: mail
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: email client for mobile environments
- This package provides an email client which has been specially designed for
- use on mobile devices. It focuses on usability with touchscreen displays and
- potentially small screen sizes.
- .
- This package is part of the KDE PIM module.
-
-Package: knode
-Section: news
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkpgp4 (<< 4:4.10.2)
-Replaces: libkpgp4 (<< 4:4.10.2)
-Provides: news-reader
-Homepage: http://kontact.kde.org/knode/
-Description: graphical news reader
- KNode is an easy-to-use, convenient newsreader. It is intended to be usable
- by inexperienced users, but also includes support for such features as
- MIME attachments, article scoring, and creating and verifying GnuPG
- signatures.
- .
- This package is part of the KDE PIM module.
-
 Package: knotes
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: knode (<< 4:4.14.5)
 Replaces: knode (<< 4:4.14.5)
-Suggests: kdepim-kresources
 Description: sticky notes application
  KNotes is a program that lets you write sticky notes. The notes are saved
  automatically when you exit the program, and they display when you open the
@@ -324,20 +265,9 @@ Description: sticky notes application
  .
  This package is part of the KDE PIM module.
 
-Package: notes-mobile
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: notes application for mobile environments
- This package provides notes taking application which has been specially
- designed for use on mobile devices. Its user interface aims to make it easy to
- write and manage sticky notes via touchscreen and potentially small size
- displays.
- .
- This package is part of the KDE PIM module.
-
 Package: konsolekalendar
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
  KonsoleKalendar complements KOrganizer by providing a console
@@ -347,9 +277,9 @@ Description: konsole personal organizer
 
 Package: kontact
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: akregator, kaddressbook, kmail, knotes, korganizer
-Suggests: gnokii, kjots, knode, ktimetracker
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
+Recommends: accountwizard, akregator, kaddressbook, kmail, knotes, korganizer
+Suggests: gnokii
 Homepage: http://kontact.kde.org/
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
@@ -359,20 +289,10 @@ Description: integrated application for personal information management
  .
  This package is part of the KDE PIM module.
 
-Package: tasks-mobile
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: task management application for mobile environments
- This package provides a task management application which user interface has
- been designed for use on the mobile devices.
- .
- This package is part of the KDE PIM module.
-
 Package: korganizer
 Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: kdepim-doc, kdepim-kresources
+Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Recommends: kdepim-doc
 Homepage: http://kontact.kde.org/korganizer/
 Breaks: kontact (<< 4:4.13.3-2)
 Replaces: kontact (<< 4:4.13.3-2)
@@ -387,28 +307,7 @@ Description: calendar and personal organizer
  .
  This package is part of the KDE PIM module.
 
-Package: korganizer-mobile
-Architecture: any
-Depends: akonadi-server (>= 1.1.1), ${misc:Depends}, ${shlibs:Depends}
-Description: calendar and personal organizer for mobile environments
- This package provides a calendar and personal organizer applications which has
- been specially designed for use on mobile devices. KOrganizer Mobile aims
- making it easy and convenient to manage your plans and daily routine on
- touchscreen displays with potentially small screens.
- .
- This package is part of the KDE PIM module.
-
-Package: ktimetracker
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: time tracker tool
- KTimetracker is a time tracker for busy people who need to keep track
- of the amount of time they spend on various tasks.
- .
- This package is part of the KDE PIM module.
-
-Package: libcalendarsupport4
+Package: libcalendarsupport5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -419,14 +318,14 @@ Description: calendar support library
  .
  This package is part of the KDE PIM module.
 
-Package: libcomposereditorng4
+Package: libcomposereditorng5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: compose editor library
  This package is part of the KDE PIM module.
 
-Package: libeventviews4
+Package: libeventviews5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -436,7 +335,7 @@ Description: event viewing library
  .
  This package is part of the KDE PIM module.
 
-Package: libincidenceeditorsng4
+Package: libincidenceeditorsng5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -447,7 +346,7 @@ Description: incidence editors library
  .
  This package is part of the KDE PIM module.
 
-Package: libpimcommon4
+Package: libpimcommon5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -455,19 +354,19 @@ Description: library for common bits of KDEPIM
  This internal library is for sharing some common bits between
  the applications in KDEPIM
 
-Package: libkdepim4
+Package: libkdepim5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:4.13.90)
-Replaces: kaddressbook (<< 4:4.13.90)
+Breaks: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90)
+Replaces: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90)
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
  .
  This package is part of the KDE PIM module.
 
-Package: libkdepimdbusinterfaces4
+Package: libkdepimdbusinterfaces5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -477,7 +376,7 @@ Description: KDE PIM D-Bus interfaces library
  .
  This package is part of the KDE PIM module.
 
-Package: libkdgantt2-0
+Package: libkdgantt2-1
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -488,7 +387,7 @@ Description: Gantt chart library
  .
  This package is part of the KDE PIM module.
 
-Package: libkleo4
+Package: libkleo5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -498,7 +397,7 @@ Description: certificate based crypto library
  .
  This package is part of the KDE PIM module.
 
-Package: libkpgp4
+Package: libkpgp5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
@@ -508,7 +407,7 @@ Description: gpg based crypto library
  .
  This package is part of the KDE PIM module.
 
-Package: libksieve4
+Package: libksieve5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -518,7 +417,7 @@ Description: Sieve, the mail filtering language, library
  .
  This package is part of the KDE PIM module.
 
-Package: libkmanagesieve4
+Package: libkmanagesieve5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -530,7 +429,7 @@ Description: Sieve script remote management library
  .
  This package is part of the KDE PIM module.
 
-Package: libksieveui4
+Package: libksieveui5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -542,7 +441,7 @@ Description: Sieve, the mail filtering language, GUI library
  .
  This package is part of the KDE PIM module.
 
-Package: libmailcommon4
+Package: libmailcommon5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -551,7 +450,7 @@ Description: email utility library
  .
  This package is part of KDE PIM module.
 
-Package: libmailimporter4
+Package: libmailimporter5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -560,7 +459,7 @@ Description: mailimporter library
  .
  This package is part of KDE PIM module.
 
-Package: libmessagecomposer4
+Package: libmessagecomposer5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -570,7 +469,7 @@ Description: message composer library
  .
  This package is part of KDE PIM module.
 
-Package: libmessagecore4
+Package: libmessagecore5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -580,7 +479,7 @@ Description: message core library
  .
  This package is part the KDE PIM module.
 
-Package: libmessagelist4
+Package: libmessagelist5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -590,7 +489,7 @@ Description: message list library
  .
  This package is part of the KDE PIM module.
 
-Package: libmessageviewer4
+Package: libmessageviewer5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -600,21 +499,21 @@ Description: message viewer library
  .
  This package is part of the KDE PIM module.
 
-Package: libsendlater4
+Package: libsendlater5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: send later library
  This package is part of the KDE PIM module.
 
-Package: libfollowupreminder4
+Package: libfollowupreminder5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: follow up reminder library
  This package is part of the KDE PIM module.
 
-Package: libtemplateparser4
+Package: libtemplateparser5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -622,41 +521,6 @@ Description: KMail template parser library
  This library implements a parser for the mail templates which KMail uses to
  enable customization of initial structure for the new, reply or forwarded
  messages.
- .
- This package is part of the KDE PIM module.
-
-Package: libkdepimmobileui4
-Section: libs
-Architecture: any
-Depends: kdepim-mobileui-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: user interface library for KDE PIM mobile applications
- This package contains a base user interface library for KDE PIM mobile
- applications. It defines mobile UI design priciples in order to establish
- consistent look&feel among KDE PIM mobile applications.
- .
- This package is part of the KDE PIM module.
-
-Package: kdepim-mobileui-data
-Section: libs
-Architecture: all
-Depends: ${misc:Depends}
-Replaces: kmail-mobile (<< 4:4.13.90), libmessageviewer4 (<< 4:4.14.5)
-Breaks: kmail-mobile (<< 4:4.13.90), libmessageviewer4 (<< 4:4.14.5)
-Description: common data files for KDE PIM mobile applications
- This package contains data files which may be used by all KDE PIM mobile
- applications. It provides common UI components (mostly QML) and various
- icons and images used by these shared UI elements.
- .
- This package is part of the KDE PIM module.
-
-Package: kjots
-Architecture: any
-Depends: akonadi-server, ${misc:Depends}, ${shlibs:Depends}
-Section: utils
-Description: note-taking utility
- Kjots is a notebook utility that organizes notes using groups of pages.
  .
  This package is part of the KDE PIM module.
 
@@ -699,7 +563,7 @@ Description: management and debugging console for akonadi
  .
  This package is part of the KDE PIM module.
 
-Package: libnoteshared4
+Package: libnoteshared5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -742,7 +606,7 @@ Description: Theme Editors for KDE PIM applications
 Package: kdepim-dbg
 Priority: extra
 Section: debug
-Depends: kdepim  (= ${source:Version}) | kaddressbook (= ${binary:Version}) | kalarm (= ${binary:Version}) | kdepim-kresources (= ${binary:Version}) | kjots (= ${binary:Version}) | kleopatra (= ${binary:Version}) | kmail (= ${binary:Version}) | knode (= ${binary:Version}) | knotes (= ${binary:Version}) | konsolekalendar (= ${binary:Version}) | kontact (= ${binary:Version}) | korganizer (= ${binary:Version}) | ktimetracker (= ${binary:Version}) | blogilo (= ${binary:Version}) | kaddressbook-mobile (= ${binary:Version}) | kmail-mobile (= ${binary:Version}) | korganizer-mobile (= ${binary:Version}) | notes-mobile (= ${binary:Version}) | tasks-mobile (= ${binary:Version}),
+Depends: kdepim (= ${source:Version}) | kaddressbook (= ${binary:Version}) | kalarm (= ${binary:Version}) | kleopatra (= ${binary:Version}) | kmail (= ${binary:Version}) | knotes (= ${binary:Version}) | konsolekalendar (= ${binary:Version}) | kontact (= ${binary:Version}) | korganizer (= ${binary:Version}) | blogilo (= ${binary:Version}),
          kdepimlibs-dbg,
          ${misc:Depends}
 Architecture: any

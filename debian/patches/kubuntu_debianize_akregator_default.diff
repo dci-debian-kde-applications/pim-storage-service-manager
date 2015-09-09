@@ -1,35 +1,45 @@
+Description: Add Kubuntu XML feeds to Akregrator defaults
+ This possibly should be upstreamed by implementing a mechanism to enable
+ distros to easily do this without having to patch the source. Load a simple
+ json file maybe?
+Author: Harald Sitter <sitter@kde.org>
+Origin: vendor
+Forwarded: not
+Last-Update: 2015-08-14
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2015-02-23 16:12:12.558279852 +0100
-+++ kdepim/akregator/src/akregator_part.cpp	2015-02-23 16:18:15.791768443 +0100
-@@ -184,6 +184,30 @@
-         dtimes.setAttribute("xmlUrl","http://www.debian.org/News/news");
-         debianFolder.appendChild(dtimes);
+--- kdepim.orig/akregator/src/akregator_part.cpp
++++ kdepim/akregator/src/akregator_part.cpp
+@@ -173,6 +173,30 @@ static QDomDocument createDefaultFeedLis
+     spanishKde.setAttribute("xmlUrl", "http://planet.kde-espana.es/");
+     spanishFolder.appendChild(spanishKde);
  
-+        QDomElement kubuntuFolder = doc.createElement( "outline" );
-+        kubuntuFolder.setAttribute("text","Kubuntu");
-+        body.appendChild(kubuntuFolder);
++    QDomElement debianFolder = doc.createElement( "outline" );
++    debianFolder.setAttribute("text","Kubuntu");
++    body.appendChild(debianFolder);
 +
-+        QDomElement kuplanet = doc.createElement( "outline" );
-+        kuplanet.setAttribute("text",i18n("Planet Ubuntu"));
-+        kuplanet.setAttribute("xmlUrl","http://planet.ubuntu.com/rss20.xml");
-+        kubuntuFolder.appendChild(kuplanet);
++    QDomElement planet = doc.createElement( "outline" );
++    planet.setAttribute("text",i18n("Planet Ubuntu"));
++    planet.setAttribute("xmlUrl","http://planet.ubuntu.com/rss20.xml");
++    debianFolder.appendChild(planet);
 +
-+        QDomElement kufridge = doc.createElement( "outline" );
-+        kufridge.setAttribute("text",i18n("Ubuntu Fridge"));
-+        kufridge.setAttribute("xmlUrl","http://feeds.feedburner.com/ubuntu-fridge");
-+        kubuntuFolder.appendChild(kufridge);
++    QDomElement fridge = doc.createElement( "outline" );
++    fridge.setAttribute("text",i18n("Ubuntu Fridge"));
++    fridge.setAttribute("xmlUrl","http://feeds.feedburner.com/ubuntu-fridge");
++    debianFolder.appendChild(fridge);
 +
-+        QDomElement kutimes = doc.createElement( "outline" );
-+        kutimes.setAttribute("text",i18n("Kubuntu.org News"));
-+        kutimes.setAttribute("xmlUrl","http://www.kubuntu.org/news/feed");
-+        kubuntuFolder.appendChild(kutimes);
++    QDomElement dtimes = doc.createElement( "outline" );
++    dtimes.setAttribute("text",i18n("Kubuntu.org News"));
++    dtimes.setAttribute("xmlUrl","http://www.kubuntu.org/news/feed");
++    debianFolder.appendChild(dtimes);
 +
-+        QDomElement kuwire = doc.createElement( "outline" );
-+        kuwire.setAttribute("text",i18n("Kubuntu Wire"));
-+        kuwire.setAttribute("xmlUrl","http://wire.kubuntu.org/?feed=rss2");
-+        kubuntuFolder.appendChild(kuwire);
++    QDomElement wire = doc.createElement( "outline" );
++    wire.setAttribute("text",i18n("Kubuntu Wire"));
++    wire.setAttribute("xmlUrl","http://wire.kubuntu.org/?feed=rss2");
++    debianFolder.appendChild(wire);
 +
-         return doc;
-     }
+     return doc;
+ }
  }
