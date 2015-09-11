@@ -10,8 +10,6 @@ usr/share/appdata/kleopatra.appdata.xml
 usr/share/applications/kleopatra_import.desktop
 usr/share/applications/org.kde.kleopatra.desktop
 usr/share/icons/hicolor/*/apps/kleopatra.*
-usr/share/kconf_update/kleopatra-15.08-kickoff.sh
-usr/share/kconf_update/kleopatra.upd
 usr/share/kleopatra/
 usr/share/kservices5/kleopatra_config_appear.desktop
 usr/share/kservices5/kleopatra_config_cryptooperations.desktop

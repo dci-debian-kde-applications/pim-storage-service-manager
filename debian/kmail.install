@@ -39,14 +39,6 @@ usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.cache.bz2
 usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.docbook
 usr/share/icons/hicolor/*/apps/kmail.png
 usr/share/importwizard/pics/step1.png
-usr/share/kconf_update/importwizard-15.08-kickoff.sh
-usr/share/kconf_update/importwizard.upd
-usr/share/kconf_update/kmail-15.08-kickoff.sh
-usr/share/kconf_update/kmail.upd
-usr/share/kconf_update/pimsettingexporter-15.08-kickoff.sh
-usr/share/kconf_update/pimsettingexporter.upd
-usr/share/kconf_update/sieveeditor-15.08-kickoff.sh
-usr/share/kconf_update/sieveeditor.upd
 usr/share/kmail2/*
 usr/share/knotifications5/akonadi_archivemail_agent.notifyrc
 usr/share/knotifications5/akonadi_followupreminder_agent.notifyrc
