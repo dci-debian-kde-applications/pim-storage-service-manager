@@ -432,3 +432,21 @@ libcalendarsupport.so.5 libcalendarsupport5 #MINVER#
  (c++)"non-virtual thunk to CalendarSupport::IncidenceViewer::itemRemoved()@Base" 4:15.08.0
  (c++)"non-virtual thunk to CalendarSupport::IncidenceViewer::~IncidenceViewer()@Base" 4:15.08.0
  (c++)"non-virtual thunk to CalendarSupport::MessageWidget::~MessageWidget()@Base" 4:15.08.0
+libcalendarsupportcollectionpage.so.4.81.0 libcalendarsupport5 #MINVER#
+ _ZN15CalendarSupport21CollectionGeneralPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPage11qt_metacastEPKc@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPage16staticMetaObjectE@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPage4initERKN7Akonadi10CollectionE@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPage4loadERKN7Akonadi10CollectionE@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPage4saveERN7Akonadi10CollectionE@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPageC1EP7QWidget@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPageC2EP7QWidget@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPageD0Ev@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPageD1Ev@Base 4:15.08.0
+ _ZN15CalendarSupport21CollectionGeneralPageD2Ev@Base 4:15.08.0
+ _ZNK15CalendarSupport21CollectionGeneralPage10metaObjectEv@Base 4:15.08.0
+ _ZTIN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
+ _ZTSN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
+ _ZTVN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
+ _ZThn16_N15CalendarSupport21CollectionGeneralPageD0Ev@Base 4:15.08.0
+ _ZThn16_N15CalendarSupport21CollectionGeneralPageD1Ev@Base 4:15.08.0

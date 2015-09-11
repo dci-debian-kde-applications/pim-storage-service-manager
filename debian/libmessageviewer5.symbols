@@ -938,3 +938,5 @@ libmessageviewer.so.5 libmessageviewer5 #MINVER#
  (c++)"non-virtual thunk to MessageViewer::ScamDetectionWarningWidget::~ScamDetectionWarningWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MessageViewer::TodoEdit::~TodoEdit()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MessageViewer::Viewer::~Viewer()@Base" 4:15.08.0
+messageviewer_bodypartformatter_application_mstnef.so libmessageviewer5 #MINVER#
+ messageviewer_bodypartformatter_application_mstnef_create_bodypart_formatter_plugin@Base 4:15.08.0

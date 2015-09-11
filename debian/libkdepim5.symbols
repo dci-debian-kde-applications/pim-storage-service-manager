@@ -1584,3 +1584,12 @@ libkdepim.so.5 libkdepim5 #MINVER#
  (c++)"non-virtual thunk to KPIM::ProgressIndicatorLabel::~ProgressIndicatorLabel()@Base" 4:15.08.0
  (c++)"non-virtual thunk to KPIM::ProgressIndicatorWidget::~ProgressIndicatorWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to KPIM::RecentAddressDialog::~RecentAddressDialog()@Base" 4:15.08.0
+kdepimwidgets.so libkdepim5 #MINVER#
+ qt_plugin_instance@Base 4:15.08.0
+ qt_plugin_query_metadata@Base 4:15.08.0
+mailcommonwidgets.so libkdepim5 #MINVER#
+ qt_plugin_instance@Base 4:15.08.0
+ qt_plugin_query_metadata@Base 4:15.08.0
+pimcommonwidgets.so libkdepim5 #MINVER#
+ qt_plugin_instance@Base 4:15.08.0
+ qt_plugin_query_metadata@Base 4:15.08.0

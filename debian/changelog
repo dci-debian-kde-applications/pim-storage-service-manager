@@ -1,6 +1,7 @@
 kdepim (4:15.08.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 11:39:11 +0200
 
