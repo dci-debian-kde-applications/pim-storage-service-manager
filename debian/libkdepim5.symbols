@@ -284,7 +284,7 @@ libkaddressbookgrantlee.so.5 libkdepim5 #MINVER#
  _ZN20KAddressBookGrantlee29GrantleeContactGroupFormatterD0Ev@Base 4:15.08.0
  _ZN20KAddressBookGrantlee29GrantleeContactGroupFormatterD1Ev@Base 4:15.08.0
  _ZN20KAddressBookGrantlee29GrantleeContactGroupFormatterD2Ev@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
  _ZNK20KAddressBookGrantlee13GrantleePrint10metaObjectEv@Base 4:15.08.0
  _ZNK20KAddressBookGrantlee21GrantleeContactViewer10metaObjectEv@Base 4:15.08.0
  _ZNK20KAddressBookGrantlee24GrantleeContactFormatter18forceDisableQRCodeEv@Base 4:15.08.0
@@ -294,7 +294,7 @@ libkaddressbookgrantlee.so.5 libkdepim5 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN9KContacts9AddresseeEEEbv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 4:15.08.0
- (optional=templinst)_ZNK7Akonadi4Item7payloadIN9KContacts9AddresseeEEET_v@Base 4:15.08.0
+ (optional=templinst|arch=!amd64)_ZNK7Akonadi4Item7payloadIN9KContacts9AddresseeEEET_v@Base 4:15.08.0
  _ZTIN20KAddressBookGrantlee13GrantleePrintE@Base 4:15.08.0
  _ZTIN20KAddressBookGrantlee21GrantleeContactViewerE@Base 4:15.08.0
  _ZTIN20KAddressBookGrantlee24GrantleeContactFormatterE@Base 4:15.08.0

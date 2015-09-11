@@ -734,46 +734,6 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZN9PimCommon20AutoCorrectionWidgetD0Ev@Base 4:15.08.0
  _ZN9PimCommon20AutoCorrectionWidgetD1Ev@Base 4:15.08.0
  _ZN9PimCommon20AutoCorrectionWidgetD2Ev@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService10readConfigEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService10serviceUrlEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService11descriptionEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService11qt_metacastEPKc@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService11serviceNameEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService12refreshTokenEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService12removeConfigEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService13fileShareRootERK4QMapI7QString8QVariantE@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService14fileIdentifierERK4QMapI7QString8QVariantE@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService14fillListWidgetEPNS_24StorageServiceTreeWidgetERK8QVariantRK7QString@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService15itemInformationERK4QMapI7QString8QVariantE@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService15shutdownServiceEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService16staticMetaObjectE@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService19serviceCapabilitiesEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService21slotAuthorizationDoneERK7QStringS3_RK9QDateTimeS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService22storageServiceCopyFileERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService22storageServiceMoveFileERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService23slotAuthorizationFailedERK7QString@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService23storageServiceShareLinkERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServiceCopyFolderERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServiceMoveFolderERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServiceRenameFileERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServicedeleteFileERK7QString@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServicelistFolderERK7QString@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService24storageServiceuploadFileERK7QStringS3_S3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService25storageServiceaccountInfoEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService26storageServiceRenameFolderERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService26storageServicecreateFolderERK7QStringS3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService26storageServicedeleteFolderERK7QString@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService26storageServicedownloadFileERK7QStringS3_S3_@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService28storageServiceauthenticationEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService33storageServicecreateServiceFolderEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService4nameEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageService8iconNameEv@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageServiceC1EP7QObject@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageServiceC2EP7QObject@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageServiceD0Ev@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageServiceD1Ev@Base 4:15.08.0
- _ZN9PimCommon20GDriveStorageServiceD2Ev@Base 4:15.08.0
  _ZN9PimCommon20GravatarResolvUrlJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN9PimCommon20GravatarResolvUrlJob11qt_metacastEPKc@Base 4:15.08.0
  _ZN9PimCommon20GravatarResolvUrlJob11setUseCacheEb@Base 4:15.08.0
@@ -1830,13 +1790,6 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZNK9PimCommon19TextToSpeechActions5stateEv@Base 4:15.08.0
  _ZNK9PimCommon20AnnotationEditDialog10metaObjectEv@Base 4:15.08.0
  _ZNK9PimCommon20AutoCorrectionWidget10metaObjectEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService10metaObjectEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService12capabilitiesEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService16hasCancelSupportEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService16hasValidSettingsEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService18needToRefreshTokenEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService18storageServiceNameEv@Base 4:15.08.0
- _ZNK9PimCommon20GDriveStorageService4iconEv@Base 4:15.08.0
  _ZNK9PimCommon20GravatarResolvUrlJob10metaObjectEv@Base 4:15.08.0
  _ZNK9PimCommon20GravatarResolvUrlJob11hasGravatarEv@Base 4:15.08.0
  _ZNK9PimCommon20GravatarResolvUrlJob13useLibravatarEv@Base 4:15.08.0
@@ -2037,7 +1990,6 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZTIN9PimCommon19TextToSpeechActionsE@Base 4:15.08.0
  _ZTIN9PimCommon20AnnotationEditDialogE@Base 4:15.08.0
  _ZTIN9PimCommon20AutoCorrectionWidgetE@Base 4:15.08.0
- _ZTIN9PimCommon20GDriveStorageServiceE@Base 4:15.08.0
  _ZTIN9PimCommon20GravatarResolvUrlJobE@Base 4:15.08.0
  _ZTIN9PimCommon20PlainTextEditFindBarE@Base 4:15.08.0
  _ZTIN9PimCommon20RichTextEditorWidgetE@Base 4:15.08.0
@@ -2125,7 +2077,6 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZTSN9PimCommon19TextToSpeechActionsE@Base 4:15.08.0
  _ZTSN9PimCommon20AnnotationEditDialogE@Base 4:15.08.0
  _ZTSN9PimCommon20AutoCorrectionWidgetE@Base 4:15.08.0
- _ZTSN9PimCommon20GDriveStorageServiceE@Base 4:15.08.0
  _ZTSN9PimCommon20GravatarResolvUrlJobE@Base 4:15.08.0
  _ZTSN9PimCommon20PlainTextEditFindBarE@Base 4:15.08.0
  _ZTSN9PimCommon20RichTextEditorWidgetE@Base 4:15.08.0
@@ -2213,7 +2164,6 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZTVN9PimCommon19TextToSpeechActionsE@Base 4:15.08.0
  _ZTVN9PimCommon20AnnotationEditDialogE@Base 4:15.08.0
  _ZTVN9PimCommon20AutoCorrectionWidgetE@Base 4:15.08.0
- _ZTVN9PimCommon20GDriveStorageServiceE@Base 4:15.08.0
  _ZTVN9PimCommon20GravatarResolvUrlJobE@Base 4:15.08.0
  _ZTVN9PimCommon20PlainTextEditFindBarE@Base 4:15.08.0
  _ZTVN9PimCommon20RichTextEditorWidgetE@Base 4:15.08.0
