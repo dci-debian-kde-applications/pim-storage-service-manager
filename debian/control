@@ -296,8 +296,8 @@ Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: kdepim-doc
 Homepage: http://kontact.kde.org/korganizer/
-Breaks: kontact (<< 4:4.13.3-2)
-Replaces: kontact (<< 4:4.13.3-2)
+Breaks: kontact (<< 4:4.13.3-2), libkdepim4
+Replaces: kontact (<< 4:4.13.3-2), libkdepim4
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
@@ -596,8 +596,8 @@ Package: kdepim-themeeditors
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kmail (<< 4:4.14.3)
-Replaces: kmail (<< 4:4.14.3)
+Breaks: kmail (<< 4:4.14.3), kaddressbook (<< 4:15)
+Replaces: kmail (<< 4:4.14.3), kaddressbook (<< 4:15)
 Suggests: kaddressbook, kmail
 Description: Theme Editors for KDE PIM applications
  KDE PIM Theme Editors allow you to create and edit various KDE themes for
