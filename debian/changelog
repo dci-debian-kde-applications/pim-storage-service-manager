@@ -1,3 +1,9 @@
+kdepim (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 17:26:47 +0100
+
 kdepim (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Update testsuite.xsession for kf5
