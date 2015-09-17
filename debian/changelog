@@ -1,3 +1,9 @@
+kdepim (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 17:26:47 +0100
+
 kdepim (4:15.08.0-0ubuntu3) UNRELEASED; urgency=medium
 
   * Asterick cannot be used in not-installed. Fixing
