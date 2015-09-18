@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libnoteshared.so.5 libnoteshared5 #MINVER#
  _ZN10NoteShared10NoteEditorC1EP7QWidget@Base 4:15.08.0
  _ZN10NoteShared10NoteEditorC2EP7QWidget@Base 4:15.08.0
@@ -299,6 +299,12 @@ libnoteshared.so.5 libnoteshared5 #MINVER#
  _ZTVN10NoteShared23NoteNetworkConfigWidgetE@Base 4:15.08.0
  _ZTVN10NoteShared24SelectedNotefolderDialogE@Base 4:15.08.0
  _ZTVN10NoteShared24ShowFolderNotesAttributeE@Base 4:15.08.0
+ _ZZZN10NoteShared22NoteSharedGlobalConfig11setSenderIDERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10NoteShared22NoteSharedGlobalConfig13setKnownHostsERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10NoteShared22NoteSharedGlobalConfig15setReceiveNotesEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10NoteShared22NoteSharedGlobalConfig16setDefaultFolderExENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10NoteShared22NoteSharedGlobalConfig21setNoteHostDialogSizeERK5QSizeENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10NoteShared22NoteSharedGlobalConfig7setPortEjENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to NoteShared::NoteEditor::~NoteEditor()@Base" 4:15.08.0
  (c++)"non-virtual thunk to NoteShared::NoteHostDialog::~NoteHostDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to NoteShared::NoteListWidget::~NoteListWidget()@Base" 4:15.08.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libkleo.so.5 libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.08.0
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.08.0
@@ -807,8 +807,6 @@ libkleo.so.5 libkleo5 #MINVER#
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
- kleo_chiasmus_config_entries@Base 4:15.08.0
- kleo_chiasmus_config_entries_dim@Base 4:15.08.0
  (c++)"non-virtual thunk to KDHorizontalLine::~KDHorizontalLine()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DNAttributeOrderConfigWidget::~DNAttributeOrderConfigWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DirectoryServicesWidget::~DirectoryServicesWidget()@Base" 4:15.08.0

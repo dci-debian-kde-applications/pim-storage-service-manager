@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libtemplateparser.so.5 libtemplateparser5 #MINVER#
  _ZN14TemplateParser10CTemplatesC1ERK7QString@Base 4:15.08.0
  _ZN14TemplateParser10CTemplatesC2ERK7QString@Base 4:15.08.0
@@ -165,5 +165,21 @@ libtemplateparser.so.5 libtemplateparser5 #MINVER#
  _ZTVN14TemplateParser19CustomTemplatesMenuE@Base 4:15.08.0
  _ZTVN14TemplateParser22TemplatesConfigurationE@Base 4:15.08.0
  _ZTVN14TemplateParser9TemplatesE@Base 4:15.08.0
+ _ZZZN14TemplateParser10CTemplates10setContentERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser10CTemplates11setShortcutERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser10CTemplates5setCCERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser10CTemplates5setToERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser10CTemplates7setTypeEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings14setQuoteStringERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings16setTemplateReplyERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings18setCustomTemplatesERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings18setTemplateForwardERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings19setTemplateReplyAllERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser14GlobalSettings21setTemplateNewMessageERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser9Templates14setQuoteStringERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser9Templates16setTemplateReplyERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser9Templates18setTemplateForwardERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser9Templates19setTemplateReplyAllERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN14TemplateParser9Templates21setTemplateNewMessageERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to TemplateParser::CustomTemplates::~CustomTemplates()@Base" 4:15.08.0
  (c++)"non-virtual thunk to TemplateParser::TemplatesTextEdit::~TemplatesTextEdit()@Base" 4:15.08.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList12StorageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN11MessageList12StorageModel11qt_metacastEPKc@Base 4:15.08.0
@@ -417,6 +417,7 @@ libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList4Pane7Private19activatePreviousTabEv@Base 4:15.08.0
  _ZN11MessageList4Pane7Private19onCurrentTabChangedEv@Base 4:15.08.0
  _ZN11MessageList4Pane7Private20addActivateTabActionEi@Base 4:15.08.0
+ _ZN11MessageList4Pane7Private21slotTabCloseRequestedEi@Base 4:15.08.1
  _ZN11MessageList4Pane7Private23onTabContextMenuRequestERK6QPoint@Base 4:15.08.0
  _ZN11MessageList4Pane7Private27changeQuicksearchVisibilityEb@Base 4:15.08.0
  _ZN11MessageList4Pane7Private8closeTabEP7QWidget@Base 4:15.08.0

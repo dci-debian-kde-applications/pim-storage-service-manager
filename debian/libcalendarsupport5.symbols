@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libcalendarsupport.so.5 libcalendarsupport5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI9QDateTimeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
@@ -424,6 +424,8 @@ libcalendarsupport.so.5 libcalendarsupport5 #MINVER#
  _ZTVN15CalendarSupport8CellItemE@Base 4:15.08.0
  _ZTVN15CalendarSupport9KCalModelE@Base 4:15.08.0
  _ZTVN15CalendarSupport9KCalPrefsE@Base 4:15.08.0
+ _ZZZN15CalendarSupport13KCalPrefsBase11setUserNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN15CalendarSupport13KCalPrefsBase12setUserEmailERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  _ZZZNK15CalendarSupport12CalPrintYear9groupNameEvENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZNK15CalendarSupport15CalPrintJournal9groupNameEvENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZNK15CalendarSupport17CalPrintIncidence9groupNameEvENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
@@ -448,5 +450,4 @@ libcalendarsupportcollectionpage.so.4.81.0 libcalendarsupport5 #MINVER#
  _ZTIN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
  _ZTSN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
  _ZTVN15CalendarSupport21CollectionGeneralPageE@Base 4:15.08.0
- _ZThn16_N15CalendarSupport21CollectionGeneralPageD0Ev@Base 4:15.08.0
- _ZThn16_N15CalendarSupport21CollectionGeneralPageD1Ev@Base 4:15.08.0
+ (c++)"non-virtual thunk to CalendarSupport::CollectionGeneralPage::~CollectionGeneralPage()@Base" 4:15.08.0

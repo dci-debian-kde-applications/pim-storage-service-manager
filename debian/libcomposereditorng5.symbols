@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libcomposereditorng.so.5 libcomposereditorng5 #MINVER#
  _ZN16ComposerEditorNG12ComposerView10wheelEventEP11QWheelEvent@Base 4:15.08.0
  _ZN16ComposerEditorNG12ComposerView11initialHtmlEv@Base 4:15.08.0
@@ -87,6 +87,7 @@ libcomposereditorng.so.5 libcomposereditorng5 #MINVER#
  _ZTVN16ComposerEditorNG13DomTreeWidgetE@Base 4:15.08.0
  _ZTVN16ComposerEditorNG14ComposerEditorE@Base 4:15.08.0
  _ZTVN16ComposerEditorNG18GlobalSettingsBaseE@Base 4:15.08.0
+ _ZZZN16ComposerEditorNG18GlobalSettingsBase20setAutoSpellCheckingEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to ComposerEditorNG::ComposerEditor::~ComposerEditor()@Base" 4:15.08.0
  (c++)"non-virtual thunk to ComposerEditorNG::ComposerView::~ComposerView()@Base" 4:15.08.0
  (c++)"non-virtual thunk to ComposerEditorNG::DomTreeWidget::~DomTreeWidget()@Base" 4:15.08.0

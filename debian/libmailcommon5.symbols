@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64
 libmailcommon.so.5 libmailcommon5 #MINVER#
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.08.0
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.08.0
@@ -1229,6 +1229,10 @@ libmailcommon.so.5 libmailcommon5 #MINVER#
  _ZTVN10MailCommon9TagWidgetE@Base 4:15.08.0
  _ZZZN10MailCommon13FilterManager7PrivateC4EPS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN10MailCommon13FilterManager7PrivateC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
+ _ZZZN10MailCommon18MailCommonSettings11setIconSizeEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10MailCommon18MailCommonSettings21setEnableAccountOrderEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10MailCommon18MailCommonSettings29setFavoriteCollectionViewModeEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN10MailCommon18MailCommonSettings8setOrderERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to FilterActionMissingCollectionDialog::~FilterActionMissingCollectionDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MailCommon::AccountConfigOrderDialog::~AccountConfigOrderDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MailCommon::AddTagDialog::~AddTagDialog()@Base" 4:15.08.0
