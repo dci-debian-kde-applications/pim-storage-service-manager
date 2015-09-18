@@ -16,6 +16,8 @@ usr/share/applications/org.kde.akregator.desktop
 usr/share/config.kcfg/akregator.kcfg
 usr/share/icons/hicolor/*/apps/akregator.png
 usr/share/icons/hicolor/*/apps/akregator_empty.png
+usr/share/kconf_update/akregator-15.08-kickoff.sh
+usr/share/kconf_update/akregator.upd
 usr/share/knotifications5/akregator.notifyrc
 usr/share/kontact/ksettingsdialog/akregator.setdlg
 usr/share/kservices5/akregator_config_advanced.desktop

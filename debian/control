@@ -596,8 +596,8 @@ Package: kdepim-themeeditors
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kmail (<< 4:4.14.3), kaddressbook (<< 4:15)
-Replaces: kmail (<< 4:4.14.3), kaddressbook (<< 4:15)
+Breaks: kaddressbook (<< 4:15), kmail (<< 4:4.14.3)
+Replaces: kaddressbook (<< 4:15), kmail (<< 4:4.14.3)
 Suggests: kaddressbook, kmail
 Description: Theme Editors for KDE PIM applications
  KDE PIM Theme Editors allow you to create and edit various KDE themes for

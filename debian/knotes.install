@@ -15,6 +15,8 @@ usr/share/icons/hicolor/*/actions/knotes_close.png
 usr/share/icons/hicolor/*/actions/knotes_date.png
 usr/share/icons/hicolor/*/actions/knotes_delete.png
 usr/share/icons/hicolor/*/apps/knotes.png
+usr/share/kconf_update/knotes-15.08-kickoff.sh
+usr/share/kconf_update/knotes.upd
 usr/share/knotes/
 usr/share/knotifications5/akonadi_notes_agent.notifyrc
 usr/share/kontact/ksettingsdialog/knotes.setdlg

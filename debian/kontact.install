@@ -11,6 +11,8 @@ usr/share/applications/org.kde.kontact.desktop
 usr/share/config.kcfg/kontact.kcfg
 usr/share/icons/hicolor/*/apps/kontact-import-wizard.*
 usr/share/icons/hicolor/*/apps/kontact.*
+usr/share/kconf_update/kontact-15.08-kickoff.sh
+usr/share/kconf_update/kontact.upd
 usr/share/kontact/about/kontact.css
 usr/share/kontact/about/main.html
 usr/share/kontact/about/top-left-kontact.png

@@ -5,5 +5,7 @@
 usr/bin/storageservicemanager
 usr/share/applications/org.kde.storageservicemanager.desktop
 usr/share/icons/hicolor/*/apps/kdepim-dropbox.png
+usr/share/kconf_update/storageservicemanager-15.08-kickoff.sh
+usr/share/kconf_update/storageservicemanager.upd
 usr/share/knotifications5/storageservicemanager.notifyrc
 usr/share/kxmlgui5/storageservicemanager/storageservicemanagerui.rc
