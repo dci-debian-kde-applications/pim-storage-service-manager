@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 i386
 libkpgp.so.5 libkpgp5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
@@ -162,7 +162,7 @@ libkpgp.so.5 libkpgp5 #MINVER#
  _ZN4Kpgp6ModuleD0Ev@Base 4:15.08.0
  _ZN4Kpgp6ModuleD1Ev@Base 4:15.08.0
  _ZN4Kpgp6ModuleD2Ev@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.08.0
+#MISSING: 4:15.08.1# (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  _ZNK4Kpgp12KeyRequester10metaObjectEv@Base 4:15.08.0

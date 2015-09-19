@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libkleo.so.5 libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.08.0
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.08.0
@@ -666,8 +666,8 @@ libkleo.so.5 libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE7reserveEm@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:15.08.0
@@ -682,7 +682,7 @@ libkleo.so.5 libkleo5 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.08.0
+ (optional=templinst|arch=amd64)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 4:15.08.0
  _ZTI16KDHorizontalLine@Base 4:15.08.0
  _ZTI18QGpgMECryptoConfig@Base 4:15.08.0
@@ -807,8 +807,8 @@ libkleo.so.5 libkleo5 #MINVER#
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
- kleo_chiasmus_config_entries@Base 4:15.08.0
- kleo_chiasmus_config_entries_dim@Base 4:15.08.0
+#MISSING: 4:15.08.1# kleo_chiasmus_config_entries@Base 4:15.08.0
+#MISSING: 4:15.08.1# kleo_chiasmus_config_entries_dim@Base 4:15.08.0
  (c++)"non-virtual thunk to KDHorizontalLine::~KDHorizontalLine()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DNAttributeOrderConfigWidget::~DNAttributeOrderConfigWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DirectoryServicesWidget::~DirectoryServicesWidget()@Base" 4:15.08.0

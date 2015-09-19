@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libgrantleetheme.so.5 libkdepim5 #MINVER#
  _ZN13GrantleeTheme16GrantleeSettings4selfEv@Base 4:15.08.0
  _ZN13GrantleeTheme16GrantleeSettingsC1Ev@Base 4:15.08.0
@@ -56,6 +56,8 @@ libgrantleetheme.so.5 libkdepim5 #MINVER#
  _ZTSN13GrantleeTheme20GrantleeThemeManagerE@Base 4:15.08.0
  _ZTVN13GrantleeTheme16GrantleeSettingsE@Base 4:15.08.0
  _ZTVN13GrantleeTheme20GrantleeThemeManagerE@Base 4:15.08.0
+ _ZZZN13GrantleeTheme16GrantleeSettings24setGrantleeMailThemeNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13GrantleeTheme16GrantleeSettings31setGrantleeAddressBookThemeNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  _ZZZN13GrantleeTheme20GrantleeThemeManager7PrivateC4ENS0_11ApplicationERK7QStringP17KActionCollectionS5_PS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN13GrantleeTheme20GrantleeThemeManager7PrivateC4ENS0_11ApplicationERK7QStringP17KActionCollectionS5_PS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
 libgrantleethemeeditor.so.5 libkdepim5 #MINVER#
@@ -232,6 +234,9 @@ libgrantleethemeeditor.so.5 libkdepim5 #MINVER#
  _ZTVN19GrantleeThemeEditor15DesktopFilePageE@Base 4:15.08.0
  _ZTVN19GrantleeThemeEditor20ThemeEditorTabWidgetE@Base 4:15.08.0
  _ZTVN19GrantleeThemeEditor27GrantleeThemeEditorSettingsE@Base 4:15.08.0
+ _ZZZN19GrantleeThemeEditor27GrantleeThemeEditorSettings14setAuthorEmailERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN19GrantleeThemeEditor27GrantleeThemeEditorSettings7setPathERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN19GrantleeThemeEditor27GrantleeThemeEditorSettings9setAuthorERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to GrantleeThemeEditor::ConfigureWidget::~ConfigureWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to GrantleeThemeEditor::DesktopFilePage::~DesktopFilePage()@Base" 4:15.08.0
  (c++)"non-virtual thunk to GrantleeThemeEditor::EditorPage::~EditorPage()@Base" 4:15.08.0
@@ -975,7 +980,8 @@ libkdepim.so.5 libkdepim5 #MINVER#
  _ZN4KPIM23BlackListBalooEmailList11changeEventEP6QEvent@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList11qt_metacastEPKc@Base 4:15.08.0
- _ZN4KPIM23BlackListBalooEmailList14slotEmailFoundERK11QStringList@Base 4:15.08.0
+ _ZN4KPIM23BlackListBalooEmailList13setEmailFoundERK11QStringList@Base 4:15.08.1
+#MISSING: 4:15.08.1# _ZN4KPIM23BlackListBalooEmailList14slotEmailFoundERK11QStringList@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList16setExcludeDomainERK11QStringList@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList16staticMetaObjectE@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList17setEmailBlackListERK11QStringList@Base 4:15.08.0

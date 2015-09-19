@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer10NodeHelper11addTempFileERK7QString@Base 4:15.08.0
  _ZN13MessageViewer10NodeHelper11fixEncodingERK7QString@Base 4:15.08.0
@@ -922,6 +922,27 @@ libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZTVN13MessageViewer9EventEditE@Base 4:15.08.0
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:15.08.0
  _ZTVN5boost9exceptionE@Base 4:15.08.0
+ _ZZZN11MessageCore18GlobalSettingsBase28setFallbackCharacterEncodingERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN11MessageCore18GlobalSettingsBase28setOverrideCharacterEncodingERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13GrantleeTheme16GrantleeSettings24setGrantleeMailThemeNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase14setHeaderStyleERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase15setMimeTreeModeEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase15setUseFixedFontEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase15setZoomTextOnlyEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase16setHeadersToHideERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase17setMimePaneHeightEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase19setHeadersToDisplayERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase20setMessagePaneHeightEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase21setAttachmentStrategyERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase21setHeaderSetDisplayedERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase21setLastSelectedFolderExENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase23setScamDetectionEnabledEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase24setChiasmusDecryptionKeyERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase25setLastNoteSelectedFolderExENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase25setScamDetectionWhiteListERK11QStringListENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase26setLastEventSelectedFolderExENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase28setChiasmusDecryptionOptionsERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN13MessageViewer18GlobalSettingsBase29setCustomHeadersDefaultPolicyEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to MessageViewer::AdBlockBlockableItemsWidget::~AdBlockBlockableItemsWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MessageViewer::ConfigureWidget::~ConfigureWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to MessageViewer::CustomHeaderSettingWidget::~CustomHeaderSettingWidget()@Base" 4:15.08.0
