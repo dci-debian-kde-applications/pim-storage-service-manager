@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
 libpimcommon.so.5 libpimcommon5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
@@ -2274,6 +2274,23 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZZZN9PimCommon10AclManager7Private13setCollectionERKN7Akonadi10CollectionEENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN9PimCommon14RichTextEditor21RichTextEditorPrivateC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN9PimCommon15PlainTextEditor22PlainTextEditorPrivateC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
+ _ZZZN9PimCommon21PimCommonSettingsBase10setEnabledEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase13setLocaleNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase14setSuperScriptEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase15setSingleSpacesEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase16setAutoFormatUrlEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase16setAutoFractionsEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase20setAutoBoldUnderlineEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase21setCapitalizeWeekDaysEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase22setAdvancedAutocorrectEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase22setReplaceDoubleQuotesEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase22setReplaceSingleQuotesEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase23setFixTwoUppercaseCharsEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase30setAddNonBreakingSpaceInFrenchEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase31setUppercaseFirstCharOfSentenceEbENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase7setRateEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase8setPitchEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
+ _ZZZN9PimCommon21PimCommonSettingsBase9setVolumeEiENKUlvE_clEvE15qstring_literal@Base 4:15.08.1
  (c++)"non-virtual thunk to PimCommon::AclListView::~AclListView()@Base" 4:15.08.0
  (c++)"non-virtual thunk to PimCommon::AnnotationEditDialog::~AnnotationEditDialog()@Base" 4:15.08.0
  (c++)"non-virtual thunk to PimCommon::AutoCorrectionLanguage::~AutoCorrectionLanguage()@Base" 4:15.08.0
