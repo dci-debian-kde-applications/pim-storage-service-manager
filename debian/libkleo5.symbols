@@ -651,7 +651,7 @@ libkleo.so.5 libkleo5 #MINVER#
  _ZNK6QColor7isValidEv@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE7reserveEm@Base 4:15.08.0
+ (optional=templinst|subst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE7reserveE{size_t}@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED2Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:15.08.0
@@ -668,7 +668,7 @@ libkleo.so.5 libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE7reserveEm@Base 4:15.08.0
+ (optional=templinst|subst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE7reserveE{size_t}@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.08.0
@@ -807,8 +807,6 @@ libkleo.so.5 libkleo5 #MINVER#
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE1_clEvE15qstring_literal@Base 4:15.08.0
  _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.08.0
-#MISSING: 4:15.08.1# kleo_chiasmus_config_entries@Base 4:15.08.0
-#MISSING: 4:15.08.1# kleo_chiasmus_config_entries_dim@Base 4:15.08.0
  (c++)"non-virtual thunk to KDHorizontalLine::~KDHorizontalLine()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DNAttributeOrderConfigWidget::~DNAttributeOrderConfigWidget()@Base" 4:15.08.0
  (c++)"non-virtual thunk to Kleo::DirectoryServicesWidget::~DirectoryServicesWidget()@Base" 4:15.08.0
