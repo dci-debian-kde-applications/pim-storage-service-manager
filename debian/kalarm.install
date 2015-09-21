@@ -24,6 +24,7 @@ usr/share/kalarm/icons/oxygen/22x22/actions/new-audio-alarm.png
 usr/share/kalarm/icons/oxygen/22x22/actions/new-command-alarm.png
 usr/share/kconf_update/kalarm-1.2.1-general.pl
 usr/share/kconf_update/kalarm-1.9.5-defaults.pl
+usr/share/kconf_update/kalarm-15.08-kickoff.sh
 usr/share/kconf_update/kalarm-2.0.2-general.pl
 usr/share/kconf_update/kalarm-2.1.5-general.pl
 usr/share/kconf_update/kalarm-version.pl

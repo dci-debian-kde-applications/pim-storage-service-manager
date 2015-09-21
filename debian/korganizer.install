@@ -47,6 +47,8 @@ usr/share/icons/hicolor/64x64/apps/korganizer.png
 usr/share/icons/oxygen/16x16/actions/smallclock.png
 usr/share/icons/oxygen/16x16/actions/upindicator.png
 usr/share/icons/oxygen/22x22/actions/checkmark.png
+usr/share/kconf_update/korganizer-15.08-kickoff.sh
+usr/share/kconf_update/korganizer.upd
 usr/share/kontact/ksettingsdialog/korganizer.setdlg
 usr/share/kontact/ksettingsdialog/specialdates.setdlg
 usr/share/korgac/icons/hicolor/128x128/apps/korgac.png
