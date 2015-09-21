@@ -126,7 +126,7 @@ libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList4Core4Item11deepestItemEv@Base 4:15.08.0
  _ZN11MessageList4Core4Item11setReceiverERK7QString@Base 4:15.08.0
  _ZN11MessageList4Core4Item11setViewableEPNS0_5ModelEb@Base 4:15.08.0
- _ZN11MessageList4Core4Item12initialSetupElmRK7QStringS4_b@Base 4:15.08.0
+ (subst)_ZN11MessageList4Core4Item12initialSetupEl{size_t}RK7QStringS4_b@Base 4:15.08.0
  _ZN11MessageList4Core4Item13setIndexGuessEi@Base 4:15.08.0
  _ZN11MessageList4Core4Item13takeChildItemEPNS0_5ModelEPS1_@Base 4:15.08.0
  _ZN11MessageList4Core4Item14itemAboveChildEPS1_@Base 4:15.08.0
@@ -141,7 +141,7 @@ libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList4Core4Item22setInitialExpandStatusENS1_19InitialExpandStatusE@Base 4:15.08.0
  _ZN11MessageList4Core4Item4dumpERK7QString@Base 4:15.08.0
  _ZN11MessageList4Core4Item7setDateEl@Base 4:15.08.0
- _ZN11MessageList4Core4Item7setSizeEm@Base 4:15.08.0
+ (subst)_ZN11MessageList4Core4Item7setSizeE{size_t}@Base 4:15.08.0
  _ZN11MessageList4Core4Item9itemAboveEv@Base 4:15.08.0
  _ZN11MessageList4Core4Item9itemBelowEv@Base 4:15.08.0
  _ZN11MessageList4Core4Item9setItemIdEx@Base 4:15.08.0
