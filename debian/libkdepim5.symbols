@@ -981,7 +981,6 @@ libkdepim.so.5 libkdepim5 #MINVER#
  _ZN4KPIM23BlackListBalooEmailList11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList11qt_metacastEPKc@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList13setEmailFoundERK11QStringList@Base 4:15.08.1
-#MISSING: 4:15.08.1# _ZN4KPIM23BlackListBalooEmailList14slotEmailFoundERK11QStringList@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList16setExcludeDomainERK11QStringList@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList16staticMetaObjectE@Base 4:15.08.0
  _ZN4KPIM23BlackListBalooEmailList17setEmailBlackListERK11QStringList@Base 4:15.08.0
