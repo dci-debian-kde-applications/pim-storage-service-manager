@@ -3,6 +3,7 @@ kdepim (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Updated symbols files for i386 and amd64
   * Removed MISSING symbols
+  * Update install files
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 17:26:47 +0100
 
