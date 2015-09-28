@@ -1,4 +1,4 @@
-kdepim (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Updated symbols files for i386 and amd64
