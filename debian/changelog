@@ -1,3 +1,9 @@
+kdepim (4:15.08.1-0ubuntu2) wily; urgency=medium
+
+  * No change rebuild against newer kdepimlibs
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 29 Sep 2015 10:10:31 +0100
+
 kdepim (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release
