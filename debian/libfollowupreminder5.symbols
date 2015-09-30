@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 arm64 ppc64el
 libfollowupreminder.so.5 libfollowupreminder5 #MINVER#
- (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=arm64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=arm64)_ZN12KConfigGroup10writeEntryIxEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  _ZN16FollowUpReminder20FollowUpReminderInfo10readConfigERK12KConfigGroup@Base 4:15.08.0
  _ZN16FollowUpReminder20FollowUpReminderInfo10setSubjectERK7QString@Base 4:15.08.0
  _ZN16FollowUpReminder20FollowUpReminderInfo11writeConfigER12KConfigGroupi@Base 4:15.08.0
@@ -32,8 +32,8 @@ libfollowupreminder.so.5 libfollowupreminder5 #MINVER#
  _ZN29FollowUpReminderAgentSettingsD0Ev@Base 4:15.08.0
  _ZN29FollowUpReminderAgentSettingsD1Ev@Base 4:15.08.0
  _ZN29FollowUpReminderAgentSettingsD2Ev@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+#MISSING: 4:15.08.1# (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=arm64)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  _ZNK16FollowUpReminder20FollowUpReminderInfo16uniqueIdentifierEv@Base 4:15.08.0
  _ZNK16FollowUpReminder20FollowUpReminderInfo17answerWasReceivedEv@Base 4:15.08.0
  _ZNK16FollowUpReminder20FollowUpReminderInfo19answerMessageItemIdEv@Base 4:15.08.0

@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 ppc64el
 libksieveui.so.5 libksieveui5 #MINVER#
- _ZN11KIconEngineD0Ev@Base 4:15.08.0
- _ZN11KIconEngineD1Ev@Base 4:15.08.0
- _ZN11KIconEngineD2Ev@Base 4:15.08.0
+ (arch=!armhf)_ZN11KIconEngineD0Ev@Base 4:15.08.1
+ (arch=!armhf)_ZN11KIconEngineD1Ev@Base 4:15.08.1
+ (arch=!armhf)_ZN11KIconEngineD2Ev@Base 4:15.08.1
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  _ZN29SieveScriptParsingErrorDialog10readConfigEv@Base 4:15.08.0
  _ZN29SieveScriptParsingErrorDialog10slotSaveAsEv@Base 4:15.08.0
@@ -507,15 +507,15 @@ libksieveui.so.5 libksieveui5 #MINVER#
  _ZNK8KSieveUi33SieveScriptDebuggerFrontEndWidget6scriptEv@Base 4:15.08.0
  _ZNK8KSieveUi8Vacation10metaObjectEv@Base 4:15.08.0
  _ZNK8KSieveUi8Vacation7findURLER7QString@Base 4:15.08.0
- (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE4findERS2_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE4findERS2_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE22_M_emplace_hint_uniqueIIRKSt21piecewise_construct_tSt5tupleIIOS0_EESE_IIEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS0_EESE_IJEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Base 4:15.08.0
- (optional=templinst|arch=amd64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Base 4:15.08.1
+ (optional=templinst|arch=!ppc64el)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Base 4:15.08.0
+ (optional=templinst|arch=amd64 arm64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Base 4:15.08.1
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE16_M_insert_uniqueIRKjEESt4pairISt17_Rb_tree_iteratorIjEbEOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeIjjSt9_IdentityIjESt4lessIjESaIjEE8_M_eraseEPSt13_Rb_tree_nodeIjE@Base 4:15.08.0
- _ZTI11KIconEngine@Base 4:15.08.0
+ (arch=!armhf)_ZTI11KIconEngine@Base 4:15.08.1
  _ZTI29SieveScriptParsingErrorDialog@Base 4:15.08.0
  _ZTIN8KSieveUi11SieveEditorE@Base 4:15.08.0
  _ZTIN8KSieveUi13SieveTextEditE@Base 4:15.08.0
@@ -541,7 +541,7 @@ libksieveui.so.5 libksieveui5 #MINVER#
  _ZTIN8KSieveUi27SieveScriptDebuggerTextEditE@Base 4:15.08.0
  _ZTIN8KSieveUi33SieveScriptDebuggerFrontEndWidgetE@Base 4:15.08.0
  _ZTIN8KSieveUi8VacationE@Base 4:15.08.0
- _ZTS11KIconEngine@Base 4:15.08.0
+ (arch=!armhf)_ZTS11KIconEngine@Base 4:15.08.1
  _ZTS29SieveScriptParsingErrorDialog@Base 4:15.08.0
  _ZTSN8KSieveUi11SieveEditorE@Base 4:15.08.0
  _ZTSN8KSieveUi13SieveTextEditE@Base 4:15.08.0
@@ -567,7 +567,7 @@ libksieveui.so.5 libksieveui5 #MINVER#
  _ZTSN8KSieveUi27SieveScriptDebuggerTextEditE@Base 4:15.08.0
  _ZTSN8KSieveUi33SieveScriptDebuggerFrontEndWidgetE@Base 4:15.08.0
  _ZTSN8KSieveUi8VacationE@Base 4:15.08.0
- _ZTV11KIconEngine@Base 4:15.08.0
+ (arch=!armhf)_ZTV11KIconEngine@Base 4:15.08.1
  _ZTV29SieveScriptParsingErrorDialog@Base 4:15.08.0
  _ZTVN8KSieveUi11SieveEditorE@Base 4:15.08.0
  _ZTVN8KSieveUi13SieveTextEditE@Base 4:15.08.0

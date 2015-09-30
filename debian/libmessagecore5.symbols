@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1 ppc64el
 libmessagecore.so.5 libmessagecore5 #MINVER#
  _ZN11MessageCore10NodeHelper10firstChildEPKN5KMime7ContentE@Base 4:15.08.0
  _ZN11MessageCore10NodeHelper11nextSiblingEPKN5KMime7ContentE@Base 4:15.08.0
@@ -218,7 +218,7 @@ libmessagecore.so.5 libmessagecore5 #MINVER#
  _ZN11MessageCore4Util19isStandaloneMessageERKN7Akonadi4ItemE@Base 4:15.08.0
  _ZN11MessageCore4Util7messageERKN7Akonadi4ItemE@Base 4:15.08.0
  _ZN11MessageCore5qHashERKN5boost10shared_ptrINS_14AttachmentPartEEE@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+#MISSING: 4:15.08.1# (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  _ZNK11MessageCore11MailingList11archiveUrlsEv@Base 4:15.08.0
  _ZNK11MessageCore11MailingList11writeConfigER12KConfigGroup@Base 4:15.08.0
  _ZNK11MessageCore11MailingList13subscribeUrlsEv@Base 4:15.08.0
@@ -275,8 +275,8 @@ libmessagecore.so.5 libmessagecore5 #MINVER#
  _ZNK11MessageCore26AttachmentPropertiesDialog16isEncryptEnabledEv@Base 4:15.08.0
  _ZNK11MessageCore28AttachmentFromMimeContentJob10metaObjectEv@Base 4:15.08.0
  _ZNK11MessageCore28AttachmentFromMimeContentJob11mimeContentEv@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
- (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEbv@Base 4:15.08.0
+#MISSING: 4:15.08.1# (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+#MISSING: 4:15.08.1# (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEbv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplIN5boost10shared_ptrIN5KMime7MessageEEE14QSharedPointerIS5_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSB_PKi@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIPN5KMime7ContentESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.08.0
