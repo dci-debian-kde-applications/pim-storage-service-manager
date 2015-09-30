@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 ppc64el
 libpimcommon.so.5 libpimcommon5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
@@ -1667,11 +1667,11 @@ libpimcommon.so.5 libpimcommon5 #MINVER#
  _ZN9PimCommon9VCardUtil10adaptVcardER10QByteArray@Base 4:15.08.0
  _ZN9PimCommon9VCardUtilC1Ev@Base 4:15.08.0
  _ZN9PimCommon9VCardUtilC2Ev@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
+ (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!arm64 !ppc64el)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  _ZNK9PimCommon10AclManager10collectionEv@Base 4:15.08.0
  _ZNK9PimCommon10AclManager10editActionEv@Base 4:15.08.0
  _ZNK9PimCommon10AclManager10metaObjectEv@Base 4:15.08.0

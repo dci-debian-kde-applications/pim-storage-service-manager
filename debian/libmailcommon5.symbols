@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 i386 ppc64el
 libmailcommon.so.5 libmailcommon5 #MINVER#
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.08.0
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.08.0
@@ -846,9 +846,9 @@ libmailcommon.so.5 libmailcommon5 #MINVER#
  _ZN10MailCommon9TagWidgetD2Ev@Base 4:15.08.0
  _ZN10MailCommonlsER11QDataStreamRKNS_10MailFilterE@Base 4:15.08.0
  _ZN10MailCommonrsER11QDataStreamRNS_10MailFilterE@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryI5QSizeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryI5QSizeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  _ZN35FilterActionMissingCollectionDialog10readConfigEv@Base 4:15.08.0
  _ZN35FilterActionMissingCollectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN35FilterActionMissingCollectionDialog11qt_metacastEPKc@Base 4:15.08.0
@@ -1087,14 +1087,15 @@ libmailcommon.so.5 libmailcommon5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=amd64 i386)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4:15.08.0
  _ZNK35FilterActionMissingCollectionDialog10metaObjectEv@Base 4:15.08.0
  _ZNK35FilterActionMissingCollectionDialog18selectedCollectionEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplIN5boost10shared_ptrIN5KMime7MessageEEE14QSharedPointerIS5_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSB_PKi@Base 4:15.08.0
+ (optional=templinst|arch=ppc64el)_ZNK7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_v@Base 4:15.08.1
  _ZTI35FilterActionMissingCollectionDialog@Base 4:15.08.0
  _ZTIN10MailCommon10SearchRuleE@Base 4:15.08.0
  _ZTIN10MailCommon12AddTagDialogE@Base 4:15.08.0

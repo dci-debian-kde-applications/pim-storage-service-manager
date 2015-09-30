@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 armhf i386 ppc64el
 libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList12StorageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.08.0
  _ZN11MessageList12StorageModel11qt_metacastEPKc@Base 4:15.08.0
@@ -578,7 +578,8 @@ libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZN11MessageList6WidgetD0Ev@Base 4:15.08.0
  _ZN11MessageList6WidgetD1Ev@Base 4:15.08.0
  _ZN11MessageList6WidgetD2Ev@Base 4:15.08.0
- (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (arch=ppc64el)_ZN9QHashData9hasShrunkEv@Base 4:15.08.1
  _ZNK11MessageList12StorageModel10itemForRowEi@Base 4:15.08.0
  _ZNK11MessageList12StorageModel10metaObjectEv@Base 4:15.08.0
  _ZNK11MessageList12StorageModel11columnCountERK11QModelIndex@Base 4:15.08.0
@@ -765,8 +766,8 @@ libmessagelist.so.5 libmessagelist5 #MINVER#
  _ZNK11MessageList6Widget7Private10itemForRowEi@Base 4:15.08.0
  _ZNK11MessageList6Widget7Private13messageForRowEi@Base 4:15.08.0
  _ZNK11MessageList6Widget7Private16selectionAsItemsEv@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryIyEET_PKcRKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplIN5boost10shared_ptrIN5KMime7MessageEEE14QSharedPointerIS5_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSB_PKi@Base 4:15.08.0

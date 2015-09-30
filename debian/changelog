@@ -1,3 +1,9 @@
+kdepim (4:15.08.1-0ubuntu3) wily; urgency=medium
+
+  * Update symbols files.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 30 Sep 2015 15:13:27 +0200
+
 kdepim (4:15.08.1-0ubuntu2) wily; urgency=medium
 
   * No change rebuild against newer kdepimlibs
