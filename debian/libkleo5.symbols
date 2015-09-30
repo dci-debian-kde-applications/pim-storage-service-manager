@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 powerpc ppc64el
 libkleo.so.5 libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.08.0
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.08.0
@@ -654,20 +654,23 @@ libkleo.so.5 libkleo5 #MINVER#
  (optional=templinst|subst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE7reserveE{size_t}@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED2Ev@Base 4:15.08.0
+ (optional=templinst|arch=!amd64 !i386)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:15.08.1
+ (optional=templinst|arch=!amd64 !i386)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 4:15.08.1
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=powerpc ppc64el|subst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE7reserveE{size_t}@Base 4:15.08.1
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC1ERKS3_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC2ERKS3_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst|arch=amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=amd64 arm64 armhf powerpc ppc64el)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.08.0
+ (optional=templinst|arch=amd64 arm64 armhf powerpc ppc64el)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst|subst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE7reserveE{size_t}@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:15.08.0
@@ -675,14 +678,14 @@ libkleo.so.5 libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.08.0
  (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_PN4Kleo15KeyListViewItemEESt10_Select1stIS6_ESt4lessIS0_ESaIS6_EE16_M_insert_uniqueIS1_IS0_S5_EEES1_ISt17_Rb_tree_iteratorIS6_EbEOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_PN4Kleo15KeyListViewItemEESt10_Select1stIS6_ESt4lessIS0_ESaIS6_EE4findERS2_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_PN4Kleo15KeyListViewItemEESt10_Select1stIS6_ESt4lessIS0_ESaIS6_EE4findERS2_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_PN4Kleo15KeyListViewItemEESt10_Select1stIS6_ESt4lessIS0_ESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.08.0
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.08.0
- (optional=templinst|arch=amd64)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.08.0
+ (optional=templinst|arch=!ppc64el)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.08.0
+ (optional=templinst|arch=amd64 arm64 ppc64el)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 4:15.08.0
  _ZTI16KDHorizontalLine@Base 4:15.08.0
  _ZTI18QGpgMECryptoConfig@Base 4:15.08.0

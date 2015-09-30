@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 powerpc ppc64el
 libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer10NodeHelper11addTempFileERK7QString@Base 4:15.08.0
  _ZN13MessageViewer10NodeHelper11fixEncodingERK7QString@Base 4:15.08.0
@@ -690,15 +690,15 @@ libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer9EventEditD0Ev@Base 4:15.08.0
  _ZN13MessageViewer9EventEditD1Ev@Base 4:15.08.0
  _ZN13MessageViewer9EventEditD2Ev@Base 4:15.08.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:15.08.0
+ (optional=templinst|arch=amd64 i386)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:15.08.0
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS9_@Base 4:15.08.0
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKSA_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!arm64 !ppc64el)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst|arch=!arm64 !ppc64el)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  _ZNK13MessageViewer10NodeHelper13extraContentsEPN5KMime7ContentE@Base 4:15.08.0
  _ZNK13MessageViewer10NodeHelper13nodeProcessedEPN5KMime7ContentE@Base 4:15.08.0
  _ZNK13MessageViewer10NodeHelper14signatureStateEPN5KMime7ContentE@Base 4:15.08.0
