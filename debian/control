@@ -124,7 +124,7 @@ Description: KDE Personal Information Management library documentation
 Package: akregator
 Section: web
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
@@ -141,7 +141,7 @@ Description: RSS/Atom feed aggregator
 Package: accountwizard
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-runtime (<< 4:15.07.90~)
 Replaces: kdepim-runtime (<< 4:15.07.90~)
 Description: wizard for KDE PIM applications account setup
@@ -152,7 +152,7 @@ Description: wizard for KDE PIM applications account setup
 Package: kaddressbook
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kontact (<< 4:4.1.80), korganizer (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80), korganizer (<< 4:4.1.80)
 Description: address book and contact data manager
@@ -164,7 +164,7 @@ Description: address book and contact data manager
 
 Package: kalarm
 Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: jovie
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
@@ -182,7 +182,7 @@ Description: alarm message, command and email scheduler
 
 Package: storageservicemanager
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: KDE PIM storage servicce
  This package adds storage plugins for KDE PIM applications such as
  google-drive and dropbox.
@@ -196,6 +196,7 @@ Depends: dirmngr,
          gnupg-agent,
          gnupg2,
          gpgsm,
+         kdepim-runtime,
          pinentry-qt4 | pinentry-x11,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -207,7 +208,7 @@ Description: certificate Manager
 Package: kmail
 Section: mail
 Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: accountwizard, gnupg-agent, gnupg2, pinentry-qt4 | pinentry-x11
 Suggests: clamav,
           kaddressbook,
@@ -512,7 +513,7 @@ Description: KMail template parser library
 Package: blogilo
 Section: web
 Architecture: any
-Depends: libqt4-sql-sqlite, ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, libqt4-sql-sqlite, ${misc:Depends}, ${shlibs:Depends}
 Description: graphical blogging client
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
@@ -540,7 +541,7 @@ Description: graphical blogging client
 Package: akonadiconsole
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Breaks: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
 Replaces: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
 Description: management and debugging console for akonadi
@@ -564,7 +565,7 @@ Description: notes support library
 Package: ktnef
 Section: kde
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Description: Viewer for mail attachments using TNEF format
  The TNEF File Viewer allows one to handle easily mail attachments using
  the TNEF format. Those attachments are usually found in mails coming from

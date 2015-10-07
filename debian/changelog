@@ -1,3 +1,10 @@
+kdepim (4:15.08.1-0ubuntu4) wily; urgency=medium
+
+  * Make everything that isn't a lib depend on kdepim-runtime which provides
+    runtime assets necessary for correct operation of kdepim.
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 07 Oct 2015 16:29:40 +0200
+
 kdepim (4:15.08.1-0ubuntu3) wily; urgency=medium
 
   * Update symbols files.
