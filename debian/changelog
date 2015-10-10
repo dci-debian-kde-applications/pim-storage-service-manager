@@ -1,3 +1,9 @@
+kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 10 Oct 2015 02:40:23 -0700
+
 kdepim (4:15.08.1-0ubuntu4) wily; urgency=medium
 
   * Make everything that isn't a lib depend on kdepim-runtime which provides
