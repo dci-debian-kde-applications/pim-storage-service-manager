@@ -1,0 +1,7 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -291,3 +291,4 @@
+                 FATAL_ON_MISSING_REQUIRED_PACKAGES
+ )
+ 
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
