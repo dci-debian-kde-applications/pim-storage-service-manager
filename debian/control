@@ -208,7 +208,8 @@ Description: certificate Manager
 Package: kmail
 Section: mail
 Architecture: any
-Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends},
+         libmessageviewer5abi1
 Recommends: accountwizard, gnupg-agent, gnupg2, pinentry-qt4 | pinentry-x11
 Suggests: clamav,
           kaddressbook,
