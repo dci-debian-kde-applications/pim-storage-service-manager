@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:15.08.2 amd64
 libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer10NodeHelper11addTempFileERK7QString@Base 4:15.08.0
  _ZN13MessageViewer10NodeHelper11fixEncodingERK7QString@Base 4:15.08.0
@@ -548,7 +548,8 @@ libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer6Viewer12printPreviewEv@Base 4:15.08.0
  _ZN13MessageViewer6Viewer12saveAsActionEv@Base 4:15.08.0
  _ZN13MessageViewer6Viewer12slotJumpDownEv@Base 4:15.08.0
- _ZN13MessageViewer6Viewer12slotScrollUpEi@Base 4:15.08.0
+#MISSING: 4:15.08.2# _ZN13MessageViewer6Viewer12slotScrollUpEi@Base 4:15.08.0
+ _ZN13MessageViewer6Viewer12slotScrollUpEv@Base 4:15.08.2
  _ZN13MessageViewer6Viewer13copyURLActionEv@Base 4:15.08.0
  _ZN13MessageViewer6Viewer13deleteMessageERKN7Akonadi4ItemE@Base 4:15.08.0
  _ZN13MessageViewer6Viewer13deleteMessageEv@Base 4:15.08.0
@@ -561,7 +562,8 @@ libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer6Viewer14setMessageItemERKN7Akonadi4ItemENS0_10UpdateModeE@Base 4:15.08.0
  _ZN13MessageViewer6Viewer14setMessagePartEPN5KMime7ContentE@Base 4:15.08.0
  _ZN13MessageViewer6Viewer14setMessagePathERK7QString@Base 4:15.08.0
- _ZN13MessageViewer6Viewer14slotScrollDownEi@Base 4:15.08.0
+#MISSING: 4:15.08.2# _ZN13MessageViewer6Viewer14slotScrollDownEi@Base 4:15.08.0
+ _ZN13MessageViewer6Viewer14slotScrollDownEv@Base 4:15.08.2
  _ZN13MessageViewer6Viewer14slotScrollNextEv@Base 4:15.08.0
  _ZN13MessageViewer6Viewer15selectAllActionEv@Base 4:15.08.0
  _ZN13MessageViewer6Viewer15setUseFixedFontEb@Base 4:15.08.0

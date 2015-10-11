@@ -1,4 +1,5 @@
 #debianize_akregator_default.diff
+enable_debianmanager.diff
 kubuntu_debianize_akregator_default.diff
 spambayes.patch
 

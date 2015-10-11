@@ -1,6 +1,7 @@
 kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release. 
+  * ABI break. Enable debianmanager. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 10 Oct 2015 02:40:23 -0700
 
