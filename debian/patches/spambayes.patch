@@ -5,11 +5,9 @@ Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=602798
 Forwarded: no
 Reviewed-by: Maximiliano Curia <maxy@debian.org>
 Last-Update: 2013-09-17
-Index: kdepim/kmail/antispam-virus/kmail.antispamrc
-===================================================================
---- kdepim.orig/kmail/antispam-virus/kmail.antispamrc
-+++ kdepim/kmail/antispam-virus/kmail.antispamrc
-@@ -97,13 +97,13 @@ Ident=spambayes
+--- a/kmail/antispam-virus/kmail.antispamrc
++++ b/kmail/antispam-virus/kmail.antispamrc
+@@ -97,13 +97,13 @@
  Version=1
  Priority=20
  VisibleName=SpamBayes

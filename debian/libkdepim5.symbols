@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 amd64 arm64 armhf i386 powerpc ppc64el
+# SymbolsHelper-Confirmed: 4:15.08.2 amd64
 libgrantleetheme.so.5 libkdepim5 #MINVER#
  _ZN13GrantleeTheme16GrantleeSettings4selfEv@Base 4:15.08.0
  _ZN13GrantleeTheme16GrantleeSettingsC1Ev@Base 4:15.08.0

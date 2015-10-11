@@ -475,7 +475,8 @@ Description: message list library
  .
  This package is part of the KDE PIM module.
 
-Package: libmessageviewer5
+Package: libmessageviewer5abi1
+X-Debian-ABI: 1
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
