@@ -8,6 +8,7 @@ kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
   * Remove #MISSING symbols
   * Remove debianmanager. Despite API docs saying this is public,
     I am informed it is private. ABI bump not necessary. 
+  * Add the renamed messageviewer files. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 10 Oct 2015 02:40:23 -0700
 
