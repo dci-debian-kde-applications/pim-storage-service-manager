@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2 amd64
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151012.1742+15.10 amd64 i386
 libcalendarsupport.so.5 libcalendarsupport5 #MINVER#
  (optional=templinst|arch=!ppc64el)_ZN12KConfigGroup10writeEntryI9QDateTimeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0

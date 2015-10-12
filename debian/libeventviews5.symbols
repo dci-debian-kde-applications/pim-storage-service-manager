@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2 amd64
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151012.1742+15.10 amd64 i386
 libeventviews.so.5 libeventviews5 #MINVER#
  _ZN10EventViews10AgendaItem10expandLeftEi@Base 4:15.08.0
  _ZN10EventViews10AgendaItem10paintEventEP11QPaintEvent@Base 4:15.08.0
@@ -863,9 +863,9 @@ libeventviews.so.5 libeventviews5 #MINVER#
  _ZN10EventViews9MonthViewD0Ev@Base 4:15.08.0
  _ZN10EventViews9MonthViewD1Ev@Base 4:15.08.0
  _ZN10EventViews9MonthViewD2Ev@Base 4:15.08.0
- (optional=templinst|arch=amd64 arm64)_ZN12KConfigGroup10writeEntryI10QByteArrayEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryI10QByteArrayEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
- (optional=templinst|arch=amd64 arm64)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.08.0
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS9_@Base 4:15.08.0
  _ZNK10EventViews10AgendaItem10cellHeightEv@Base 4:15.08.0
  _ZNK10EventViews10AgendaItem10metaObjectEv@Base 4:15.08.0
@@ -1156,7 +1156,7 @@ libeventviews.so.5 libeventviews5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.08.2
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4:15.08.0
- (optional=templinst|arch=amd64 arm64)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore9IncidenceEEEEbv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.08.0
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN8KCalCore9IncidenceEEN5boost10shared_ptrIS4_EEEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSB_PKi@Base 4:15.08.0
