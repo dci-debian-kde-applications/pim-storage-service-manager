@@ -208,8 +208,7 @@ Description: certificate Manager
 Package: kmail
 Section: mail
 Architecture: any
-Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends},
-         libmessageviewer5abi1
+Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}         
 Recommends: accountwizard, gnupg-agent, gnupg2, pinentry-qt4 | pinentry-x11
 Suggests: clamav,
           kaddressbook,
@@ -476,7 +475,7 @@ Description: message list library
  .
  This package is part of the KDE PIM module.
 
-Package: libmessageviewer5abi1
+Package: libmessageviewer5
 X-Debian-ABI: 1
 Section: libs
 Architecture: any

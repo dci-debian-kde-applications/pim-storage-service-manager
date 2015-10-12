@@ -6,6 +6,8 @@ kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
   * Add libmessageviewer5abi1 to kmail depends. 
   * rename install and symbols files for abi1 
   * Remove #MISSING symbols
+  * Remove debianmanager. Despite API docs saying this is public,
+    I am informed it is private. ABI bump not necessary. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 10 Oct 2015 02:40:23 -0700
 
