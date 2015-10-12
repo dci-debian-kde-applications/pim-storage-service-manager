@@ -2,6 +2,8 @@ kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release. 
   * Reset branch to revert all ABI changes. 
+  * batchpatch symbols. Per sitter libmessagviewer
+    ABI break does not warrent soversion twiddling.  
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 10 Oct 2015 02:40:23 -0700
 
