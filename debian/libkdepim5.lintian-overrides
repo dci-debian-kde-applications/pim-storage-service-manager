@@ -1,0 +1,1 @@
+libkdepim5: postrm-should-call-ldconfig usr/lib/*/libkdepim.so.*
