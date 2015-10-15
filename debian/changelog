@@ -1,4 +1,4 @@
-kdepim (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release. 
   * Reset branch to revert all ABI changes. 
