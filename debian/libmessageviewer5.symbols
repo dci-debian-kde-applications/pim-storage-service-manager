@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2+git20151106.0012+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151112.0936+16.04 amd64 i386
 libmessageviewer.so.5 libmessageviewer5 #MINVER#
  _ZN13MessageViewer10NodeHelper11addTempFileERK7QString@Base 4:15.08.0
  _ZN13MessageViewer10NodeHelper11fixEncodingERK7QString@Base 4:15.08.0
