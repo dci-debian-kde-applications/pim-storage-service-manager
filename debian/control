@@ -247,11 +247,9 @@ Replaces: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
- KMail is a fully-featured email client that fits nicely into the KDE
- desktop. It has features such as support for IMAP, POP3, multiple accounts,
- mail filtering and sorting, PGP/GnuPG privacy, and inline attachments.
- .
- This package also contains Nepomuk EMail Feeder Akonadi Agent.
+ KMail supports multiple accounts, mail filtering and email encryption.
+ The program let you configure your workflow and it has good integration into
+ KDE (Plasma Desktop) but is sill useable with other Desktop envionments.
  .
  This package is part of the KDE PIM module.
 
