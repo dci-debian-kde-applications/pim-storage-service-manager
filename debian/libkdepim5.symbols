@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.2+git20151106.0012+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 4:15.08.2+git20151117.0252+16.04 amd64 i386
 libgrantleetheme.so.5 libkdepim5 #MINVER#
  _ZN13GrantleeTheme16GrantleeSettings4selfEv@Base 4:15.08.0
  _ZN13GrantleeTheme16GrantleeSettingsC1Ev@Base 4:15.08.0
