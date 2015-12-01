@@ -4,6 +4,12 @@ kdepim (4:15.08.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:39:29 +0100
 
+kdepim (4:15.08.2-1.1) UNRELEASED; urgency=medium
+
+  * Update description for kmail. (Closes: #623342)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 21 Nov 2015 18:50:40 +0100
+
 kdepim (4:15.08.2-1) experimental; urgency=medium
 
   * New upstream release (15.08.2).
