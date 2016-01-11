@@ -5,6 +5,7 @@ kdepim (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Add version requirement to kpimtextedit build dep. 
+  * Add version requirements for akonadi* 
 
  -- Clive Johnston <clivejo@aol.com>  Sun, 03 Jan 2016 00:22:46 +0000
 
