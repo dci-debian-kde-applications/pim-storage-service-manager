@@ -316,7 +316,7 @@ Description: calendar and personal organizer
  .
  This package is part of the KDE PIM module.
 
-Package: libcalendarsupport5
+Package: libkf5calendarsupport5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -327,14 +327,14 @@ Description: calendar support library
  .
  This package is part of the KDE PIM module.
 
-Package: libcomposereditorng5
+Package: libkf5composereditorng5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: compose editor library
  This package is part of the KDE PIM module.
 
-Package: libeventviews5
+Package: libkf5eventviews5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -344,7 +344,7 @@ Description: event viewing library
  .
  This package is part of the KDE PIM module.
 
-Package: libincidenceeditorsng5
+Package: libkf5incidenceeditorsng5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -355,7 +355,17 @@ Description: incidence editors library
  .
  This package is part of the KDE PIM module.
 
-Package: libpimcommon5
+Package: libkf5gravatar5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: gravatar library
+ This internal library is a brigde for using the gravatar service from KDE PIM
+ applications.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5pimcommon5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -363,7 +373,7 @@ Description: library for common bits of KDEPIM
  This internal library is for sharing some common bits between
  the applications in KDEPIM
 
-Package: libkdepim5
+Package: libkf5libkdepim5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -375,7 +385,7 @@ Description: KDE PIM library
  .
  This package is part of the KDE PIM module.
 
-Package: libkdepimdbusinterfaces5
+Package: libkf5kdepimdbusinterfaces5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -385,7 +395,7 @@ Description: KDE PIM D-Bus interfaces library
  .
  This package is part of the KDE PIM module.
 
-Package: libkdgantt2-1
+Package: libkf5kdgantt2-5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -396,7 +406,7 @@ Description: Gantt chart library
  .
  This package is part of the KDE PIM module.
 
-Package: libkleo5
+Package: libkf5libkleo5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -406,17 +416,7 @@ Description: certificate based crypto library
  .
  This package is part of the KDE PIM module.
 
-Package: libkpgp5
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Description: gpg based crypto library
- This package contains libkpgp4, a gnupg-library for KMail and other parts of
- kdepim using gpg-based crypto.
- .
- This package is part of the KDE PIM module.
-
-Package: libksieve5
+Package: libkf5ksieve5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -426,7 +426,7 @@ Description: Sieve, the mail filtering language, library
  .
  This package is part of the KDE PIM module.
 
-Package: libkmanagesieve5
+Package: libkf5kmanagesieve5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -438,7 +438,7 @@ Description: Sieve script remote management library
  .
  This package is part of the KDE PIM module.
 
-Package: libksieveui5
+Package: libkf5ksieveui5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -450,7 +450,7 @@ Description: Sieve, the mail filtering language, GUI library
  .
  This package is part of the KDE PIM module.
 
-Package: libmailcommon5
+Package: libkf5mailcommon5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -459,7 +459,7 @@ Description: email utility library
  .
  This package is part of KDE PIM module.
 
-Package: libmailimporter5
+Package: libkf5mailimporter5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -468,7 +468,7 @@ Description: mailimporter library
  .
  This package is part of KDE PIM module.
 
-Package: libmessagecomposer5
+Package: libkf5messagecomposer5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -478,7 +478,7 @@ Description: message composer library
  .
  This package is part of KDE PIM module.
 
-Package: libmessagecore5
+Package: libkf5messagecore5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -488,7 +488,7 @@ Description: message core library
  .
  This package is part the KDE PIM module.
 
-Package: libmessagelist5
+Package: libkf5messagelist5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -498,7 +498,7 @@ Description: message list library
  .
  This package is part of the KDE PIM module.
 
-Package: libmessageviewer5
+Package: libkf5messageviewer5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -508,21 +508,21 @@ Description: message viewer library
  .
  This package is part of the KDE PIM module.
 
-Package: libsendlater5
+Package: libkf5sendlater5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: send later library
  This package is part of the KDE PIM module.
 
-Package: libfollowupreminder5
+Package: libkf5followupreminder5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: follow up reminder library
  This package is part of the KDE PIM module.
 
-Package: libtemplateparser5
+Package: libkf5templateparser5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -572,7 +572,7 @@ Description: management and debugging console for akonadi
  .
  This package is part of the KDE PIM module.
 
-Package: libnoteshared5
+Package: libkf5noteshared5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}

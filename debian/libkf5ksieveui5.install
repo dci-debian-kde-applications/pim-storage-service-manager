@@ -1,0 +1,3 @@
+etc/xdg/ksieve_script.knsrc
+usr/lib/*/libKF5KSieveUi.so.5
+usr/lib/*/libKF5KSieveUi.so.5.*

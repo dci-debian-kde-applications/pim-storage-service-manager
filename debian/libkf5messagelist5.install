@@ -1,4 +1,5 @@
-usr/lib/*/libmessagelist.so.*
+usr/lib/*/libKF5MessageList.so.5
+usr/lib/*/libKF5MessageList.so.5.*
 usr/share/messagelist/pics/mail-deleted.png
 usr/share/messagelist/pics/mail-horizontal-space.png
 usr/share/messagelist/pics/mail-thread-ignored.png

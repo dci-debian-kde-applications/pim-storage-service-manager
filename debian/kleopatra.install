@@ -1,4 +1,3 @@
-usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
 usr/lib/*/libkleopatraclientcore.so.1
@@ -24,5 +23,3 @@ usr/share/kservices5/kleopatra_signencryptfiles.desktop
 usr/share/kservices5/kleopatra_signencryptfolders.desktop
 usr/share/kwatchgnupg/pics/kwatchgnupg.png
 usr/share/kwatchgnupg/pics/kwatchgnupg2.png
-usr/share/kxmlgui5/kleopatra/
-usr/share/kxmlgui5/kwatchgnupg/kwatchgnupgui.rc

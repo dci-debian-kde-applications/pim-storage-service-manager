@@ -1,8 +1,11 @@
 etc/xdg/messageviewer_header_themes.knsrc
-usr/lib/*/libmessageviewer.so.*
-usr/lib/*/libmessageviewer.so.*.*.*
+usr/lib/*/libKF5MessageViewer.so.5
+usr/lib/*/libKF5MessageViewer.so.5.*
+usr/lib/*/qt5/plugins/messageviewer/
 usr/lib/*/qt5/plugins/messageviewer_bodypartformatter_application_mstnef.so
+usr/share/kconf_update/messageviewer.upd
 usr/share/knotifications5/messageviewer.notifyrc
 usr/share/libmessageviewer/pics/*.png
+usr/share/messageviewer/about/default/
 usr/share/messageviewer/longurlServices.json
 usr/share/messageviewer/plugins/bodypartformatter/application_ms-tnef.desktop

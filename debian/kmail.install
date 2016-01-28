@@ -69,14 +69,7 @@ usr/share/kxmlgui5/kmail2/kmail_part.rc
 usr/share/kxmlgui5/kmail2/kmcomposerui.rc
 usr/share/kxmlgui5/kmail2/kmmainwin.rc
 usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
-usr/share/kxmlgui5/pimsettingexporter/pimsettingexporter.rc
-usr/share/kxmlgui5/sieveeditor/sieveeditorui.rc
 usr/share/messageviewer/plugins/bodypartformatter/text_calendar.desktop
 usr/share/messageviewer/plugins/bodypartformatter/text_vcard.desktop
 usr/share/messageviewer/plugins/bodypartformatter/text_xdiff.desktop
-usr/share/messageviewer/themes/example/header.desktop
-usr/share/messageviewer/themes/example/header.html
-usr/share/messageviewer/themes/example/header_row.html
-usr/share/messageviewer/themes/example_fancy/header.desktop
-usr/share/messageviewer/themes/example_fancy/header.html
 usr/share/sieve/scripts/copy/*

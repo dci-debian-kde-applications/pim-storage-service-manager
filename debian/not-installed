@@ -15,12 +15,10 @@
 ./usr/lib/*/libkleopatraclientcore.so
 ./usr/lib/*/libkleopatraclientgui.so
 ./usr/lib/*/libkleo.so
-./usr/lib/*/libkmanagesieve.so
 ./usr/lib/*/libkorganizer_core.so
 ./usr/lib/*/libkorganizer_interfaces.so
 ./usr/lib/*/libkpgp.so
 ./usr/lib/*/libksieve.so
-./usr/lib/*/libksieveui.so
 ./usr/lib/*/libmailcommon.so
 ./usr/lib/*/libmailimporter.so
 ./usr/lib/*/libmessagecomposer.so
@@ -32,6 +30,8 @@
 ./usr/lib/*/libsendlater.so
 ./usr/lib/*/libtemplateparser.so
 ./usr/lib/*/libpimsettingexporterprivate.so
+./usr/lib/*/libKF5KManageSieve.so
+./usr/lib/*/libKF5KSieveUi.so
 ./usr/share/dbus-1/interfaces/org.kde.addressbook.service.xml
 ./usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
 ./usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml

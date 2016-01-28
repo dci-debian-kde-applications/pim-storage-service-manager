@@ -1,6 +1,5 @@
 usr/bin/kontact
 usr/lib/*/libkontactprivate.so.*
-usr/lib/*/libkontactprivate.so.*.*.*
 usr/lib/*/qt5/plugins/kcm_kontact.so
 usr/lib/*/qt5/plugins/kcm_kontactsummary.so
 usr/lib/*/qt5/plugins/kontact_kaddressbookplugin.so
@@ -13,9 +12,6 @@ usr/share/icons/hicolor/*/apps/kontact-import-wizard.*
 usr/share/icons/hicolor/*/apps/kontact.*
 usr/share/kconf_update/kontact-15.08-kickoff.sh
 usr/share/kconf_update/kontact.upd
-usr/share/kontact/about/kontact.css
-usr/share/kontact/about/main.html
-usr/share/kontact/about/top-left-kontact.png
 usr/share/kontact/ksettingsdialog/summary.setdlg
 usr/share/kservices5/kcmkontactsummary.desktop
 usr/share/kservices5/kontact/summaryplugin.desktop
