@@ -8,26 +8,26 @@ Last-Update: 2012-04-17
 
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2014-07-31 18:43:46.736501838 +0200
-+++ kdepim/akregator/src/akregator_part.cpp	2014-07-31 18:43:46.736501838 +0200
-@@ -170,6 +170,20 @@
-         spanishKde.setAttribute("xmlUrl","http://planet.kde-espana.es/");
-         spanishFolder.appendChild(spanishKde);
+--- kdepim.orig/akregator/src/akregator_part.cpp	2016-01-28 12:27:05.646971247 +0100
++++ kdepim/akregator/src/akregator_part.cpp	2016-01-28 12:32:28.000000000 +0100
+@@ -175,6 +175,20 @@
+     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.es/"));
+     spanishFolder.appendChild(spanishKde);
  
-+        QDomElement debianFolder = doc.createElement( "outline" );
-+        debianFolder.setAttribute("text","Debian");
-+        body.appendChild(debianFolder);
++    QDomElement debianFolder = doc.createElement(QStringLiteral("outline"));
++    debianFolder.setAttribute(QStringLiteral("text"), QStringLiteral("Debian"));
++    body.appendChild(debianFolder);
 +
-+        QDomElement pland = doc.createElement( "outline" );
-+        pland.setAttribute("text",i18n("Planet Debian"));
-+        pland.setAttribute("xmlUrl","http://planet.debian.org/rss20.xml");
-+        debianFolder.appendChild(pland);
++    QDomElement pland = doc.createElement(QStringLiteral("outline"));
++    pland.setAttribute(QStringLiteral("text"), i18n("Planet Debian"));
++    pland.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.debian.org/rss20.xml"));
++    debianFolder.appendChild(pland);
 +
-+        QDomElement dtimes = doc.createElement( "outline" );
-+        dtimes.setAttribute("text",i18n("Debian News"));
-+        dtimes.setAttribute("xmlUrl","http://www.debian.org/News/news");
-+        debianFolder.appendChild(dtimes);
++    QDomElement dtimes = doc.createElement(QStringLiteral("outline"));
++    dtimes.setAttribute(QStringLiteral("text"), i18n("Debian News"));
++    dtimes.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://www.debian.org/News/news"));
++    debianFolder.appendChild(dtimes);
 +
-         return doc;
-     }
+     return doc;
+ }
  }

@@ -10,34 +10,34 @@ Last-Update: 2015-08-14
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2016-01-28 11:20:17.772835263 +0100
-+++ kdepim/akregator/src/akregator_part.cpp	2016-01-28 11:23:54.544083504 +0100
-@@ -175,6 +175,30 @@
-     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.es/"));
-     spanishFolder.appendChild(spanishKde);
+--- kdepim.orig/akregator/src/akregator_part.cpp	2016-01-28 12:33:08.020348052 +0100
++++ kdepim/akregator/src/akregator_part.cpp	2016-01-28 12:35:58.805455214 +0100
+@@ -189,6 +189,30 @@
+     dtimes.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://www.debian.org/News/news"));
+     debianFolder.appendChild(dtimes);
  
 +    QDomElement kubuntuFolder = doc.createElement(QStringLiteral("outline"));
-+    debianFolder.setAttribute("text","Kubuntu");
++    kubuntuFolder.setAttribute(QStringLiteral("text"), QStringLiteral("Kubuntu"));
 +    body.appendChild(kubuntuFolder);
 +
 +    QDomElement planet = doc.createElement(QStringLiteral("outline"));
-+    planet.setAttribute("text",i18n("Planet Ubuntu"));
-+    planet.setAttribute("xmlUrl","http://planet.ubuntu.com/rss20.xml");
++    planet.setAttribute(QStringLiteral("text"), i18n("Planet Ubuntu"));
++    planet.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.ubuntu.com/rss20.xml"));
 +    kubuntuFolder.appendChild(planet);
 +
 +    QDomElement fridge = doc.createElement(QStringLiteral("outline"));
-+    fridge.setAttribute("text",i18n("Ubuntu Fridge"));
-+    fridge.setAttribute("xmlUrl","http://feeds.feedburner.com/ubuntu-fridge");
++    fridge.setAttribute(QStringLiteral("text"), i18n("Ubuntu Fridge"));
++    fridge.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://feeds.feedburner.com/ubuntu-fridge"));
 +    kubuntuFolder.appendChild(fridge);
 +
-+    QDomElement dtimes = doc.createElement(QStringLiteral("outline"));
-+    dtimes.setAttribute("text",i18n("Kubuntu.org News"));
-+    dtimes.setAttribute("xmlUrl","http://www.kubuntu.org/news/feed");
-+    kubuntuFolder.appendChild(dtimes);
++    QDomElement ktimes = doc.createElement(QStringLiteral("outline"));
++    ktimes.setAttribute(QStringLiteral("text"), i18n("Kubuntu.org News"));
++    ktimes.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://www.kubuntu.org/news/feed"));
++    kubuntuFolder.appendChild(ktimes);
 +
 +    QDomElement wire = doc.createElement(QStringLiteral("outline"));
-+    wire.setAttribute("text",i18n("Kubuntu Wire"));
-+    wire.setAttribute("xmlUrl","http://wire.kubuntu.org/?feed=rss2");
++    wire.setAttribute(QStringLiteral("text"), i18n("Kubuntu Wire"));
++    wire.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://wire.kubuntu.org/?feed=rss2"));
 +    kubuntuFolder.appendChild(wire);
 +
      return doc;
