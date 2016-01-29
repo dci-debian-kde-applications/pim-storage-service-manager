@@ -1,8 +1,9 @@
-kdepim (4:15.12.0-1~) UNRELEASED; urgency=medium
+kdepim (4:15.12.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:13:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 29 Jan 2016 11:13:41 +0100
 
 kdepim (4:15.08.3-1) experimental; urgency=medium
 
