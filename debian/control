@@ -331,6 +331,8 @@ Package: libkf5composereditorng5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libcomposereditorng5
+Replaces: libcomposereditorng5
 Description: compose editor library
  This package is part of the KDE PIM module.
 
@@ -377,8 +379,8 @@ Package: libkf5libkdepim5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90)
-Replaces: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90)
+Breaks: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90), libkdepim5
+Replaces: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90), libkdepim5
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
@@ -410,6 +412,8 @@ Package: libkf5libkleo5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkleo5
+Depends: libkleo5
 Description: certificate based crypto library
  This package contains libkleo, a library for Kleopatra and other parts
  of KDE using certificate-based crypto.
@@ -442,6 +446,8 @@ Package: libkf5ksieveui5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libksieveui5
+Replaces: libksieveui5
 Description: Sieve, the mail filtering language, GUI library
  This library implements GUI dialogs and elements which enable users to easily
  create, edit and manage their mail filters on the mail servers which support
@@ -492,6 +498,8 @@ Package: libkf5messagelist5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libmessagelist5
+Replaces: libmessagelist5
 Description: message list library
  This package contains the message list library. It provides a widget for the
  e-mail message lists with extensive filtering, grouping and useful features.
@@ -502,6 +510,8 @@ Package: libkf5messageviewer5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libmessageviewer5
+Replaces: libmessageviewer5
 Description: message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
