@@ -621,14 +621,3 @@ Description: Theme Editors for KDE PIM applications
  KDE PIM software such as KMail and KAddressBook.
  .
  This package is part of the KDE PIM module.
-
-Package: kdepim-dbg
-Priority: extra
-Section: debug
-Depends: kdepim (= ${source:Version}) | kaddressbook (= ${binary:Version}) | kalarm (= ${binary:Version}) | kleopatra (= ${binary:Version}) | kmail (= ${binary:Version}) | knotes (= ${binary:Version}) | konsolekalendar (= ${binary:Version}) | kontact (= ${binary:Version}) | korganizer (= ${binary:Version}) | blogilo (= ${binary:Version}),
-         kdepimlibs-dbg,
-         ${misc:Depends}
-Architecture: any
-Description: debugging symbols for kdepim
- This package contains the debugging symbols associated with kdepim. They will
- automatically be used by gdb for debugging kdepim-related issues.

@@ -15,7 +15,7 @@ override_dh_makeshlibs:
 	$(overridden_command) -V
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kdepim-dbg
+	$(overridden_command) --ddeb-migration='kdepim-dbg (<= 4:15.12.1-1~~)'
 
 override_dh_shlibdeps:
 	$(overridden_command)
