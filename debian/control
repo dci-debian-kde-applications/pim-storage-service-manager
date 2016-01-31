@@ -413,7 +413,7 @@ Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkleo5
-Depends: libkleo5
+Replaces: libkleo5
 Description: certificate based crypto library
  This package contains libkleo, a library for Kleopatra and other parts
  of KDE using certificate-based crypto.
