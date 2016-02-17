@@ -8,10 +8,10 @@ Last-Update: 2012-04-17
 
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2016-01-28 12:27:05.646971247 +0100
-+++ kdepim/akregator/src/akregator_part.cpp	2016-01-28 12:32:28.000000000 +0100
-@@ -175,6 +175,20 @@
-     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.es/"));
+--- kdepim.orig/akregator/src/akregator_part.cpp	2016-02-17 10:55:35.799844420 +0100
++++ kdepim/akregator/src/akregator_part.cpp	2016-02-17 10:55:35.795844582 +0100
+@@ -176,6 +176,20 @@
+     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.org/atom.xml"));
      spanishFolder.appendChild(spanishKde);
  
 +    QDomElement debianFolder = doc.createElement(QStringLiteral("outline"));

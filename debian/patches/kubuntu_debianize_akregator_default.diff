@@ -10,9 +10,9 @@ Last-Update: 2015-08-14
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2016-01-28 12:33:08.020348052 +0100
-+++ kdepim/akregator/src/akregator_part.cpp	2016-01-28 12:35:58.805455214 +0100
-@@ -189,6 +189,30 @@
+--- kdepim.orig/akregator/src/akregator_part.cpp	2016-02-17 10:55:46.287420876 +0100
++++ kdepim/akregator/src/akregator_part.cpp	2016-02-17 10:55:46.283421038 +0100
+@@ -190,6 +190,30 @@
      dtimes.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://www.debian.org/News/news"));
      debianFolder.appendChild(dtimes);
  
