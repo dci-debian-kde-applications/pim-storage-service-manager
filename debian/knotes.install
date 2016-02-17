@@ -29,6 +29,4 @@ usr/share/kservices5/knote_config_misc.desktop
 usr/share/kservices5/knote_config_network.desktop
 usr/share/kservices5/knote_config_print.desktop
 usr/share/kservices5/kontact/knotesplugin.desktop
-usr/share/kxmlgui5/knotes/knotes_part.rc
-usr/share/kxmlgui5/knotes/knotesappui.rc
-usr/share/kxmlgui5/knotes/knotesui.rc
+usr/share/kxmlgui5/knotes/

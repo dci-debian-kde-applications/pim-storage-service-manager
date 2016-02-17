@@ -1,12 +1,5 @@
 usr/bin/akonadiconsole
 usr/share/applications/org.kde.akonadiconsole.desktop
-usr/share/icons/hicolor/128x128/apps/akonadiconsole.png
-usr/share/icons/hicolor/16x16/apps/akonadiconsole.png
-usr/share/icons/hicolor/22x22/apps/akonadiconsole.png
-usr/share/icons/hicolor/256x256/apps/akonadiconsole.png
-usr/share/icons/hicolor/32x32/apps/akonadiconsole.png
-usr/share/icons/hicolor/48x48/apps/akonadiconsole.png
-usr/share/icons/hicolor/64x64/apps/akonadiconsole.png
+usr/share/icons/hicolor/*/apps/akonadiconsole.png
 usr/share/kconf_update/akonadiconsole-15.08-kickoff.sh
 usr/share/kconf_update/akonadiconsole.upd
-usr/share/kxmlgui5/akonadiconsole/akonadiconsoleui.rc

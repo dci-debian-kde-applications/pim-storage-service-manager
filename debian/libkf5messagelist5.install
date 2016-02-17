@@ -1,0 +1,7 @@
+usr/lib/*/libKF5MessageList.so.5
+usr/lib/*/libKF5MessageList.so.5.*
+usr/share/messagelist/pics/mail-deleted.png
+usr/share/messagelist/pics/mail-horizontal-space.png
+usr/share/messagelist/pics/mail-thread-ignored.png
+usr/share/messagelist/pics/mail-thread-watch.png
+usr/share/messagelist/pics/mail-vertical-separator-line.png

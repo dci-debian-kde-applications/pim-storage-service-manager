@@ -4,6 +4,3 @@ usr/bin/headerthemeeditor
 usr/share/applications/org.kde.contactprintthemeeditor.desktop
 usr/share/applications/org.kde.contactthemeeditor.desktop
 usr/share/applications/org.kde.headerthemeeditor.desktop
-usr/share/kxmlgui5/contactprintthemeeditor/contactprintthemeeditorui.rc
-usr/share/kxmlgui5/contactthemeeditor/contactthemeeditorui.rc
-usr/share/kxmlgui5/headerthemeeditor/headerthemeeditorui.rc
