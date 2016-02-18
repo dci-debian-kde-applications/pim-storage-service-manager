@@ -24,7 +24,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5akonadicontact-dev (>= 5.1~),
                libkf5akonadimime-dev (>= 5.1~),
                libkf5akonadinotes-dev (>= 4.78.0~),
-               libkf5akonadisearch-dev (>= 5.0.42~),
+               libkf5akonadisearch-dev (>= 15.12.1~),
                libkf5akonadiserver-dev (>= 5.1.51~),
                libkf5alarmcalendar-dev (>= 4.78.0~),
                libkf5archive-dev (>= 5.16.0~),
@@ -407,9 +407,9 @@ Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Gantt chart library
- This library implements Gantt chart drawing functionality. It allows to easily
- embed the Gantt charts into the application as long as it is capable of
- drawing QWidget or QGraphicsView objects.
+ This library implements Gantt chart drawing functionality. It allows 
+ one to  easily embed the Gantt charts into the application as long as 
+ it is capable of drawing QWidget or QGraphicsView objects.
  .
  This package is part of the KDE PIM module.
 
