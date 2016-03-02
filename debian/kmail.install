@@ -1,3 +1,5 @@
+etc/xdg/kmail.antispamrc
+etc/xdg/kmail.antivirusrc
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
