@@ -1,9 +1,13 @@
 kdepim (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: Remaining changes:
     Kept all breaks and replaces. 
   * Add missing files. Fix spelling error in control. 
   * Trigger rebuild, no changes. 
+
+  [ Clive Johnston ]
+  * Removing etc/xdg catchall in kmail.install
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Feb 2016 07:19:06 -0800
 
