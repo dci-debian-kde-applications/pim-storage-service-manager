@@ -10,6 +10,9 @@ kdepim (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
   * Removing etc/xdg catchall in kmail.install
   * Adding two missing files to kmail.install 
 
+  [ Scarlett Clark ]
+  * Bump build dependencies version for pim*. 
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Feb 2016 07:19:06 -0800
 
 kdepim (4:15.12.1-1) experimental; urgency=medium
