@@ -1,3 +1,9 @@
+kdepim (4:15.12.1-1ubuntu2) xenial; urgency=medium
+
+  * Fix epochs on build deps. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 15:40:37 -0800
+
 kdepim (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
