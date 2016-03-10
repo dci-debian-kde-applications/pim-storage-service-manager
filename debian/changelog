@@ -7,6 +7,7 @@ kdepim (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
   * I don't know what the ignore file is suppose to do, but it is not
     ingnoring. We are failing at the debian patch we do not want. Removing
     from series file. 
+  * Add dh_fixperms for two executable desktop files. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:16:17 -0800
 

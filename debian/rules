@@ -24,3 +24,7 @@ override_dh_shlibdeps:
 	    echo "Tightening dependency on kdepim-runtime to (>= $(KDEPIM_RUNTIME_VERSION)"; \
 	    sed -i '/^shlibs:[^=]\+=/{ s/\(^shlibs:[^=]\+=[[:space:]]*\|,[[:space:]]*\)\(kdepim-runtime\)\([[:space:]]*([[:space:]]*[><=]\+[^)]\+)\)\?/\1\2 (>= $(KDEPIM_RUNTIME_VERSION))/g }' debian/*.substvars; \
 	fi
+
+override_dh_fixperms:
+	$(overridden_command) -Xetc/xdg/autostart/kalarm.autostart.desktop
+	$(overridden_command) -Xetc/xdg/autostart/org.kde.korgac.desktop
