@@ -4,6 +4,9 @@ kdepim (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
   * Attempt to fix fuzz in kubuntu_debianize_akregator_feed 
   * Another attempt at de-fuzzing patch. 
   * Stop trying to fix and recreated kubuntu_debianize_akregator_default.diff 
+  * I don't know what the ignore file is suppose to do, but it is not
+    ingnoring. We are failing at the debian patch we do not want. Removing
+    from series file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:16:17 -0800
 
