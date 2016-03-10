@@ -1,3 +1,9 @@
+kdepim (4:15.12.1-1ubuntu3) xenial; urgency=medium
+
+  * Add missing epoch for kcontacts build deps. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 19:03:37 -0800
+
 kdepim (4:15.12.1-1ubuntu2) xenial; urgency=medium
 
   * Fix epochs on build deps. 
