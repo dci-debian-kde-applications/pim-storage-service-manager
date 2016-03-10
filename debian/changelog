@@ -2,6 +2,7 @@ kdepim (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
   * Attempt to fix fuzz in kubuntu_debianize_akregator_feed 
+  * Another attempt at de-fuzzing patch. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:16:17 -0800
 
