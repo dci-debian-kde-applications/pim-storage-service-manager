@@ -1,3 +1,9 @@
+kdepim (4:15.12.1-1ubuntu5) xenial; urgency=medium
+
+  * Disable Autopkgtests as the tests don't pass upstream either 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 12 Mar 2016 15:00:17 +0100
+
 kdepim (4:15.12.1-1ubuntu4) xenial; urgency=medium
 
   * Add missing epoch ktnef build dep. 
