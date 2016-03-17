@@ -1,4 +1,4 @@
-kdepim (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kdepim (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
   * Attempt to fix fuzz in kubuntu_debianize_akregator_feed 
@@ -8,8 +8,9 @@ kdepim (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
     ingnoring. We are failing at the debian patch we do not want. Removing
     from series file. 
   * Add dh_fixperms for two executable desktop files. 
+  * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:16:17 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 19:28:43 -0700
 
 kdepim (4:15.12.1-1ubuntu6) xenial; urgency=medium
 
