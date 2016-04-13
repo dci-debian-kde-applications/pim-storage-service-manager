@@ -238,7 +238,11 @@ Description: certificate Manager
 Package: kmail
 Section: mail
 Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}, akonadi-server, kdepim-runtime
+Depends: akonadi-server,
+         kdepim-runtime,
+         ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
 Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
