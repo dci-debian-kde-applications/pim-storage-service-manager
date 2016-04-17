@@ -1,10 +1,11 @@
-kdepim (4:15.12.2-1~) UNRELEASED; urgency=medium
+kdepim (4:15.12.3-1~1.gbp404311) UNRELEASED; urgency=medium
 
-  * Add missing dependency on akonadi-server.
-  * Add missing dependency on kdepim-runtime for kmail.
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @404311c457dbd148fa5e1d5c301dcf3cf6902473 **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:50:06 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:09:34 +0200
 
 kdepim (4:15.12.1-1) experimental; urgency=medium
 

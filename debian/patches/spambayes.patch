@@ -1,14 +1,16 @@
-Description: change in spambayes executable name
- Debian specific, script files in bin should not include a extension.
-Author: Alexandre Fayolle <afayolle@debian.org>
-Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=602798
-Forwarded: no
-Reviewed-by: Maximiliano Curia <maxy@debian.org>
-Last-Update: 2013-09-17
-Index: kdepim/kmail/antispam-virus/kmail.antispamrc
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:09:09 +0200
+Subject: spambayes
+
 ===================================================================
---- kdepim.orig/kmail/antispam-virus/kmail.antispamrc
-+++ kdepim/kmail/antispam-virus/kmail.antispamrc
+---
+ kmail/antispam-virus/kmail.antispamrc | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/kmail/antispam-virus/kmail.antispamrc b/kmail/antispam-virus/kmail.antispamrc
+index 0671f3a..ad7b994 100644
+--- a/kmail/antispam-virus/kmail.antispamrc
++++ b/kmail/antispam-virus/kmail.antispamrc
 @@ -97,13 +97,13 @@ Ident=spambayes
  Version=1
  Priority=20

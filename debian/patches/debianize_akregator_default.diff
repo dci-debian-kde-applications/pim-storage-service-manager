@@ -1,16 +1,16 @@
-Author: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Author: Pino Toscano <pino@debian.org>
-Description: add a few Debian feeds to akregator
- Include Planet Debian and Debian News as default in akregator
-Forwarded: not-needed
-Origin: vendor
-Last-Update: 2012-04-17
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:09:08 +0200
+Subject: debianize_akregator_default
 
-Index: kdepim/akregator/src/akregator_part.cpp
-===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2016-02-17 10:55:35.799844420 +0100
-+++ kdepim/akregator/src/akregator_part.cpp	2016-02-17 10:55:35.795844582 +0100
-@@ -176,6 +176,20 @@
+---
+ akregator/src/akregator_part.cpp | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+diff --git a/akregator/src/akregator_part.cpp b/akregator/src/akregator_part.cpp
+index bf6a913..0a66bb8 100644
+--- a/akregator/src/akregator_part.cpp
++++ b/akregator/src/akregator_part.cpp
+@@ -176,6 +176,20 @@ static QDomDocument createDefaultFeedList()
      spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.org/atom.xml"));
      spanishFolder.appendChild(spanishKde);
  
