@@ -383,8 +383,14 @@ Package: libkf5libkdepim5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90), libkdepim5
-Replaces: kaddressbook (<< 4:4.13.90), libkdepim4 (<< 4:15.07.90), libkdepim5
+Breaks: kaddressbook (<< 4:4.13.90),
+        libkdepim4 (<< 4:15.07.90),
+        libkdepim5,
+        oxygen5-icon-theme (<< 5.21~)
+Replaces: kaddressbook (<< 4:4.13.90),
+          libkdepim4 (<< 4:15.07.90),
+          libkdepim5,
+          oxygen5-icon-theme (<< 5.21~)
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
