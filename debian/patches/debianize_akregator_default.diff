@@ -3,17 +3,18 @@ Date: Wed, 13 Apr 2016 12:09:08 +0200
 Subject: debianize_akregator_default
 
 ---
- akregator/src/akregator_part.cpp | 14 ++++++++++++++
- 1 file changed, 14 insertions(+)
+ akregator/src/akregator_part.cpp | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
 
 diff --git a/akregator/src/akregator_part.cpp b/akregator/src/akregator_part.cpp
-index bf6a913..0a66bb8 100644
+index ef09ad6..6d65ece 100644
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
-@@ -176,6 +176,20 @@ static QDomDocument createDefaultFeedList()
-     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.kde-espana.org/atom.xml"));
-     spanishFolder.appendChild(spanishKde);
+@@ -187,6 +187,21 @@ static QDomDocument createDefaultFeedList()
+     frenchKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("https://fr.planetkde.org/rss20.xml"));
+     frenchFolder.appendChild(frenchKde);
  
++    // Debian feed(s)
 +    QDomElement debianFolder = doc.createElement(QStringLiteral("outline"));
 +    debianFolder.setAttribute(QStringLiteral("text"), QStringLiteral("Debian"));
 +    body.appendChild(debianFolder);
