@@ -3,8 +3,6 @@ kdepim (4:16.04.0-1~2.gbp6d3fb6) UNRELEASED; urgency=medium
   ** SNAPSHOT build @6d3fb683947512972f1d69303f0885038408819c **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @404311c457dbd148fa5e1d5c301dcf3cf6902473 **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update build-deps and deps with the info from cmake
