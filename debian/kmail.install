@@ -1,5 +1,4 @@
-etc/xdg/kmail.antispamrc
-etc/xdg/kmail.antivirusrc
+etc/xdg/kdepim.categories
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
@@ -12,15 +11,12 @@ usr/bin/pimsettingexporterconsole
 usr/bin/sieveeditor
 usr/lib/*/libkmailprivate.so.*
 usr/lib/*/libpimsettingexporterprivate.so.*
-usr/lib/*/qt5/plugins/grantlee/5.*/grantlee_messageheaderfilters.so
 usr/lib/*/qt5/plugins/kcm_kmail.so
 usr/lib/*/qt5/plugins/kcm_kmailsummary.so
 usr/lib/*/qt5/plugins/kcm_kpimidentities.so
 usr/lib/*/qt5/plugins/kmailpart.so
 usr/lib/*/qt5/plugins/kontact_kmailplugin.so
 usr/lib/*/qt5/plugins/messageviewer_bodypartformatter_text_calendar.so
-usr/lib/*/qt5/plugins/messageviewer_bodypartformatter_text_vcard.so
-usr/lib/*/qt5/plugins/messageviewer_bodypartformatter_text_xdiff.so
 usr/share/akonadi/agents/archivemailagent.desktop
 usr/share/akonadi/agents/followupreminder.desktop
 usr/share/akonadi/agents/mailfilteragent.desktop
@@ -32,9 +28,7 @@ usr/share/applications/org.kde.kmail.desktop
 usr/share/applications/org.kde.mboximporter.desktop
 usr/share/applications/org.kde.pimsettingexporter.desktop
 usr/share/applications/org.kde.sieveeditor.desktop
-usr/share/config.kcfg/customtemplates_kfg.kcfg
 usr/share/config.kcfg/kmail.kcfg
-usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
 usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.cache.bz2
 usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.docbook
 usr/share/icons/hicolor/*/apps/kmail.png
@@ -69,7 +63,5 @@ usr/share/kxmlgui5/kmail2/kmail_part.rc
 usr/share/kxmlgui5/kmail2/kmcomposerui.rc
 usr/share/kxmlgui5/kmail2/kmmainwin.rc
 usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
+usr/share/messageviewer/about/default/introduction_kmail.html
 usr/share/messageviewer/plugins/bodypartformatter/text_calendar.desktop
-usr/share/messageviewer/plugins/bodypartformatter/text_vcard.desktop
-usr/share/messageviewer/plugins/bodypartformatter/text_xdiff.desktop
-usr/share/sieve/scripts/copy/*

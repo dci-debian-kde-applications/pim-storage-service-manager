@@ -3,11 +3,13 @@ usr/bin/akonadi_notes_agent
 usr/bin/knotes
 usr/lib/*/libknotesprivate.so.*
 usr/lib/*/libknotesprivate.so.*.*
+usr/lib/*/libnotesharedprivate.so.*
+usr/lib/*/libnotesharedprivate.so.*.*
 usr/lib/*/qt5/plugins/kcm_knote.so
 usr/lib/*/qt5/plugins/kcm_knotessummary.so
 usr/lib/*/qt5/plugins/kontact_knotesplugin.so
 usr/share/akonadi/agents/notesagent.desktop
-usr/share/appdata/knotes.appdata.xml
+usr/share/appdata/org.kde.knotes.appdata.xml
 usr/share/applications/org.kde.knotes.desktop
 usr/share/config.kcfg/knotesglobalconfig.kcfg
 usr/share/icons/hicolor/*/actions/knotes_alarm.png

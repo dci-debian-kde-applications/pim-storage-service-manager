@@ -125,7 +125,7 @@ Depends: accountwizard (>= ${source:Version}),
          kaddressbook (>= ${source:Version}),
          kalarm (>= ${source:Version}),
          kdepim-runtime,
-         kleopatra (>= ${source:Version}),
+         kleopatra,
          kmail (>= ${source:Version}),
          knotes (>= ${source:Version}),
          konsolekalendar (>= ${source:Version}),
@@ -257,7 +257,7 @@ Recommends: accountwizard,
             kdepim-doc,
             kdepim-themeditors,
             ktnef,
-            pinentry-qt4 | pinentry-x11
+            pinentry-qt | pinentry-x11
 Suggests: clamav,
           kaddressbook,
           kleopatra,
@@ -331,7 +331,7 @@ Description: calendar and personal organizer
 Package: blogilo
 Section: web
 Architecture: any
-Depends: libqt4-sql-sqlite, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: graphical blogging client
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
@@ -364,17 +364,6 @@ Description: management and debugging console for akonadi
  Akonadi Console is a useful utility that can be used to explore or manage
  Akonadi. Since this utility exposes Akonadi internals, it is very useful for
  debugging but may also prove handy in other cases.
- .
- This package is part of the KDE PIM module.
-
-Package: libkf5noteshared5
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: notes support library
- This library defines notes related model objects for KDE PIM module
- applications and provides a common interface for accessing and managing
- notes provided by Akonadi resources.
  .
  This package is part of the KDE PIM module.
 

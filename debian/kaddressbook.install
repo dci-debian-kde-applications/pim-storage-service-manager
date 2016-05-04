@@ -1,10 +1,8 @@
 etc/xdg/kaddressbook_themes.knsrc
 usr/bin/kaddressbook
-usr/lib/*/akonadi/contact/editorpageplugins/cryptopageplugin.so
 usr/lib/*/libkaddressbookprivate.so.*
 usr/lib/*/qt5/plugins/kaddressbookpart.so
-usr/lib/*/qt5/plugins/kcm_ldap.so
-usr/share/appdata/kaddressbook.appdata.xml
+usr/share/appdata/org.kde.kaddressbook.appdata.xml
 usr/share/applications/kaddressbook-importer.desktop
 usr/share/applications/org.kde.kaddressbook.desktop
 usr/share/icons/hicolor/*/apps/kaddressbook.png
@@ -13,6 +11,5 @@ usr/share/kconf_update/kaddressbook-15.08-kickoff.sh
 usr/share/kconf_update/kaddressbook.upd
 usr/share/kontact/ksettingsdialog/kaddressbook.setdlg
 usr/share/kservices5/kaddressbookpart.desktop
-usr/share/kservices5/kcmldap.desktop
 usr/share/kservices5/kontact/kaddressbookplugin.desktop
 usr/share/kxmlgui5/kaddressbook/kaddressbookui.rc

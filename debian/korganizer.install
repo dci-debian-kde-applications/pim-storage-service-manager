@@ -2,7 +2,6 @@ etc/xdg/autostart/org.kde.korgac.desktop
 etc/xdg/korganizer.knsrc
 usr/bin/calendarjanitor
 usr/bin/ical2vcal
-usr/bin/kincidenceeditor
 usr/bin/korgac
 usr/bin/korganizer
 usr/lib/*/libkorganizer_core.so.*
@@ -16,12 +15,8 @@ usr/lib/*/qt5/plugins/kontact_journalplugin.so
 usr/lib/*/qt5/plugins/kontact_korganizerplugin.so
 usr/lib/*/qt5/plugins/kontact_specialdatesplugin.so
 usr/lib/*/qt5/plugins/kontact_todoplugin.so
-usr/lib/*/qt5/plugins/korg_datenums.so
-usr/lib/*/qt5/plugins/korg_hebrew.so
-usr/lib/*/qt5/plugins/korg_picoftheday.so
-usr/lib/*/qt5/plugins/korg_thisdayinhistory.so
 usr/lib/*/qt5/plugins/korganizerpart.so
-usr/share/appdata/korganizer.appdata.xml
+usr/share/appdata/org.kde.korganizer.appdata.xml
 usr/share/applications/korganizer-import.desktop
 usr/share/applications/org.kde.korganizer.desktop
 usr/share/config.kcfg/korganizer.kcfg
@@ -45,7 +40,6 @@ usr/share/kservices5/kontact/journalplugin.desktop
 usr/share/kservices5/kontact/korganizerplugin.desktop
 usr/share/kservices5/kontact/specialdatesplugin.desktop
 usr/share/kservices5/kontact/todoplugin.desktop
-usr/share/kservices5/korganizer/
 usr/share/kservices5/korganizer_configcolorsandfonts.desktop
 usr/share/kservices5/korganizer_configdesignerfields.desktop
 usr/share/kservices5/korganizer_configfreebusy.desktop
@@ -56,7 +50,5 @@ usr/share/kservices5/korganizer_configtime.desktop
 usr/share/kservices5/korganizer_configviews.desktop
 usr/share/kservices5/korganizer_part.desktop
 usr/share/kservices5/webcal.protocol
-usr/share/kservicetypes5/calendardecoration.desktop
-usr/share/kservicetypes5/calendarplugin.desktop
 usr/share/kservicetypes5/dbuscalendar.desktop
 usr/share/kxmlgui5/korganizer/

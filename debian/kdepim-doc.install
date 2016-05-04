@@ -7,7 +7,6 @@ usr/share/doc/HTML/*/contactthemeeditor/
 usr/share/doc/HTML/*/headerthemeeditor/
 usr/share/doc/HTML/*/importwizard/
 usr/share/doc/HTML/*/kalarm/
-usr/share/doc/HTML/*/kleopatra/
 usr/share/doc/HTML/*/kmail/
 usr/share/doc/HTML/*/knotes/
 usr/share/doc/HTML/*/konsolecalendar/
@@ -15,6 +14,5 @@ usr/share/doc/HTML/*/kontact-admin/
 usr/share/doc/HTML/*/kontact/
 usr/share/doc/HTML/*/korganizer/
 usr/share/doc/HTML/*/ktnef/
-usr/share/doc/HTML/*/kwatchgnupg/
 usr/share/doc/HTML/*/pimsettingexporter/
 usr/share/doc/HTML/*/sieveeditor/

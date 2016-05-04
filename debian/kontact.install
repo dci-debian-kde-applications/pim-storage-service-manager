@@ -4,7 +4,7 @@ usr/lib/*/qt5/plugins/kcm_kontact.so
 usr/lib/*/qt5/plugins/kcm_kontactsummary.so
 usr/lib/*/qt5/plugins/kontact_kaddressbookplugin.so
 usr/lib/*/qt5/plugins/kontact_summaryplugin.so
-usr/share/appdata/Kontact.appdata.xml
+usr/share/appdata/org.kde.kontact.appdata.xml
 usr/share/applications/kontact-admin.desktop
 usr/share/applications/org.kde.kontact.desktop
 usr/share/config.kcfg/kontact.kcfg
@@ -18,3 +18,5 @@ usr/share/kservices5/kontact/summaryplugin.desktop
 usr/share/kservices5/kontactconfig.desktop
 usr/share/kxmlgui5/kontact/
 usr/share/kxmlgui5/kontactsummary/
+usr/share/messageviewer/about/default/introduction_kontact.html
+usr/share/messageviewer/about/default/loading_kontact.html

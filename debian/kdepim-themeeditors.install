@@ -1,6 +1,8 @@
 usr/bin/contactprintthemeeditor
 usr/bin/contactthemeeditor
 usr/bin/headerthemeeditor
+usr/lib/*/libgrantleethemeeditor.so.5
+usr/lib/*/libgrantleethemeeditor.so.5.*
 usr/share/applications/org.kde.contactprintthemeeditor.desktop
 usr/share/applications/org.kde.contactthemeeditor.desktop
 usr/share/applications/org.kde.headerthemeeditor.desktop
