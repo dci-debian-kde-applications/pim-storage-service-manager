@@ -1,12 +1,13 @@
-kdepim (4:16.04.0-1~1.gbp70bf88) UNRELEASED; urgency=medium
+kdepim (4:16.04.0-1~2.gbp6d3fb6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @70bf8886b01a6aa61305eb8f0aa30c821f295835 **
+  ** SNAPSHOT build @6d3fb683947512972f1d69303f0885038408819c **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @404311c457dbd148fa5e1d5c301dcf3cf6902473 **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +22,7 @@ kdepim (4:16.04.0-1~1.gbp70bf88) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Add missing break/replaces (oxygen5-icon-themes)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 07:49:36 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 04 May 2016 20:38:14 +0200
 
 kdepim (4:15.12.1-1) experimental; urgency=medium
 
