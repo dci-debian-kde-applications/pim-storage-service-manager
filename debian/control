@@ -263,8 +263,14 @@ Suggests: clamav,
           kleopatra,
           procmail,
           spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114
-Breaks: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
-Replaces: libkdepim4 (<< 4:4.13.90), libmessageviewer4 (<< 4:4.13.90)
+Breaks: libkdepim4 (<< 4:4.13.90),
+        libkf5libkdepim5 (<= 4:16.04),
+        libkf5messageviewer5 (<= 4:16.04),
+        libmessageviewer4 (<< 4:4.13.90)
+Replaces: libkdepim4 (<< 4:4.13.90),
+          libkf5libkdepim5 (<= 4:16.04),
+          libkf5messageviewer5 (<= 4:16.04),
+          libmessageviewer4 (<< 4:4.13.90)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
@@ -301,6 +307,8 @@ Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
 Recommends: accountwizard, akregator, kaddressbook, kmail, knotes, korganizer
 Suggests: gnokii
+Breaks: libkf5messageviewer5 (<= 4:16.04)
+Replaces: libkf5messageviewer5 (<= 4:16.04)
 Homepage: http://kontact.kde.org/
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
@@ -387,8 +395,12 @@ Package: kdepim-themeeditors
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:15), kmail (<< 4:4.14.3)
-Replaces: kaddressbook (<< 4:15), kmail (<< 4:4.14.3)
+Breaks: kaddressbook (<< 4:15),
+        kmail (<< 4:4.14.3),
+        libkf5libkdepim5 (<= 4:16.04)
+Replaces: kaddressbook (<< 4:15),
+          kmail (<< 4:4.14.3),
+          libkf5libkdepim5 (<= 4:16.04)
 Suggests: kaddressbook, kmail
 Description: Theme Editors for KDE PIM applications
  KDE PIM Theme Editors allow you to create and edit various KDE themes for
