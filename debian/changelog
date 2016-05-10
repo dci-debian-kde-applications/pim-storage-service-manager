@@ -1,10 +1,11 @@
-kdepim (4:16.04.0-1~4.gbp10ed91) UNRELEASED; urgency=medium
+kdepim (4:16.04.1-1~1.gbpbd65a3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @10ed91ac80ce5dba5d76ad8507fdcbaaccf052a3 **
+  ** SNAPSHOT build @bd65a3288a49d1a1d56b0c0ae92a572baa39b7a1 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
@@ -25,7 +26,7 @@ kdepim (4:16.04.0-1~4.gbp10ed91) UNRELEASED; urgency=medium
   * Update test dependenccies
   * Add missing Breaks/Replaces
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 06 May 2016 20:49:28 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 01:50:23 +0200
 
 kdepim (4:15.12.1-1) experimental; urgency=medium
 
