@@ -1,19 +1,13 @@
-kdepim (4:16.04.1-1~1.gbpbd65a3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @bd65a3288a49d1a1d56b0c0ae92a572baa39b7a1 **
+kdepim (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
-  * Pre-release 4:15.12.1-2~
   * Add missing dependency on akonadi-server.
   * Add missing dependency on kdepim-runtime for kmail.
-  * New upstream release (15.12.2).
   * Refresh patches
   * Update build dependencies to follow the package version instead of the libraries soversions.
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -26,7 +20,7 @@ kdepim (4:16.04.1-1~1.gbpbd65a3) UNRELEASED; urgency=medium
   * Update test dependenccies
   * Add missing Breaks/Replaces
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 01:50:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:37:32 +0200
 
 kdepim (4:15.12.1-1) experimental; urgency=medium
 
