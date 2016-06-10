@@ -246,7 +246,7 @@ Description: KDE PIM storage service
 Package: kmail
 Section: mail
 Architecture: any
-Depends: akonadi-server,
+Depends: akonadi-server (>= 4:16.04),
          kdepim-runtime,
          ${misc:Depends},
          ${perl:Depends},
