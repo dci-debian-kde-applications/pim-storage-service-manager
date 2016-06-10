@@ -1,3 +1,14 @@
+kdepim (4:16.04.1-2~1.gbpa09c4c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a09c4c2ee3477124eb49477f908bd75000fe7484 **
+
+  * Add kdepim-addons as a recommends.
+    Thanks to Martin Steigerwald for reporting (Closes: 826746)
+  * Bump akonadi-server version dependency.
+    Thanks to Diederik de Haas for reporting. (Closes: 826865)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 10 Jun 2016 19:49:31 +0200
+
 kdepim (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
