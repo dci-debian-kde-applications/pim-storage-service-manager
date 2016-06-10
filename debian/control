@@ -132,7 +132,7 @@ Depends: accountwizard (>= ${source:Version}),
          kontact (>= ${source:Version}),
          korganizer (>= ${source:Version}),
          ${misc:Depends}
-Recommends: kdepim-doc
+Recommends: kdepim-doc, kdepim-addons
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -257,6 +257,7 @@ Recommends: accountwizard,
             kdepim-doc,
             kdepim-themeditors,
             ktnef,
+            kdepim-addons,
             pinentry-qt | pinentry-x11
 Suggests: clamav,
           kaddressbook,
