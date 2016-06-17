@@ -1,5 +1,8 @@
-kdepim (4:16.04.2-1~1.gbp426173) UNRELEASED; urgency=medium
+kdepim (4:16.04.2-1~2.gbp1f4e0c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @1f4e0c0e74b31257cc958959187fa9ba4dfc8e6e **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @426173d4d29a6a096d098f2868d7df3451cc75da **
 
   * Add kdepim-addons as a recommends.
@@ -8,7 +11,10 @@ kdepim (4:16.04.2-1~1.gbp426173) UNRELEASED; urgency=medium
     Thanks to Diederik de Haas for reporting. (Closes: 826865)
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:50:07 +0200
+  [ Jeremy Bicha ]
+  * Drop obsolete build-dependency on link-grammar (Closes: 825715)
+
+ -- Jeremy Bicha <jbicha@linux.com>  Fri, 17 Jun 2016 08:49:26 +0200
 
 kdepim (4:16.04.1-1) experimental; urgency=medium
 
