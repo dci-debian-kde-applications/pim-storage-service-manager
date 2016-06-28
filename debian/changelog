@@ -1,8 +1,10 @@
-kdepim4 (4:4.14.10-3~) UNRELEASED; urgency=medium
+kdepim4 (4:4.14.10-3) experimental; urgency=medium
 
   * Rename source package to keep only knode and ktimetracker.
+  * Migrate to the automatic dbgsym packages
+  * Drop build depends indep
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 10:32:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 15:37:43 +0200
 
 kdepim (4:4.14.10-2) unstable; urgency=medium
 
