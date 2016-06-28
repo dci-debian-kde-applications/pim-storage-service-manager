@@ -3,6 +3,7 @@ kdepim4 (4:4.14.10-3) experimental; urgency=medium
   * Rename source package to keep only knode and ktimetracker.
   * Migrate to the automatic dbgsym packages
   * Drop build depends indep
+  * Drop link-grammar build dependency
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 15:37:43 +0200
 
