@@ -4,6 +4,7 @@ kdepim4 (4:4.14.10-3) experimental; urgency=medium
   * Migrate to the automatic dbgsym packages
   * Drop build depends indep
   * Drop link-grammar build dependency
+  * Remove images installed by korganizer
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 15:37:43 +0200
 
