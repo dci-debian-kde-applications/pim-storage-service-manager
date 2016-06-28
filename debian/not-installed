@@ -591,3 +591,8 @@ usr/share/applications/kde4/tasks-mobile.desktop
 usr/share/icons/hicolor/*/apps/tasks-mobile-harmattan.png
 usr/share/icons/hicolor/*/apps/tasks-mobile.png
 usr/share/kde4/apps/tasks-mobile/
+
+# Installed by korganizer
+usr/share/icons/oxygen/*/actions/checkmark.png
+usr/share/icons/oxygen/*/actions/smallclock.png
+usr/share/icons/oxygen/*/actions/upindicator.png
