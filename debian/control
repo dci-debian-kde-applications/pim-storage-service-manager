@@ -322,8 +322,8 @@ Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: kdepim-doc
 Homepage: http://kontact.kde.org/korganizer/
-Breaks: kontact (<< 4:4.13.3-2), libkdepim4
-Replaces: kontact (<< 4:4.13.3-2), libkdepim4
+Breaks: kontact (<< 4:4.13.3-2), libkdepim4 (<< 4:4.14.10-3)
+Replaces: kontact (<< 4:4.13.3-2), libkdepim4 (<< 4:4.14.10-3)
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
