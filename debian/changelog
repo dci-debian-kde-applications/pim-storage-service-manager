@@ -1,15 +1,10 @@
-kdepim (4:16.04.2-1~5.gbp0b3f77) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @0b3f77de6a0dc3ac3ce82bdec04730975a6f1467 **
+kdepim (4:16.04.2-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @426173d4d29a6a096d098f2868d7df3451cc75da **
-
   * Add kdepim-addons as a recommends.
     Thanks to Martin Steigerwald for reporting (Closes: 826746)
   * Bump akonadi-server version dependency.
     Thanks to Diederik de Haas for reporting. (Closes: 826865)
-  * UNRELEASED
   * Drop obsolete qtquick1 build dependency
   * Drop breaks against libkdepim4 to allow co installabity
   * Bump mailcommon build dependency
@@ -17,7 +12,7 @@ kdepim (4:16.04.2-1~5.gbp0b3f77) UNRELEASED; urgency=medium
   [ Jeremy Bicha ]
   * Drop obsolete build-dependency on link-grammar (Closes: 825715)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 02 Jul 2016 15:18:57 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 02 Jul 2016 22:50:01 +0200
 
 kdepim (4:16.04.1-1) experimental; urgency=medium
 
