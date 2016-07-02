@@ -1,6 +1,6 @@
-kdepim (4:16.04.2-1~4.gbp242462) UNRELEASED; urgency=medium
+kdepim (4:16.04.2-1~5.gbp0b3f77) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @24246203a43a6d1387e73f78e5f1c9624253ea0f **
+  ** SNAPSHOT build @0b3f77de6a0dc3ac3ce82bdec04730975a6f1467 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @426173d4d29a6a096d098f2868d7df3451cc75da **
@@ -12,11 +12,12 @@ kdepim (4:16.04.2-1~4.gbp242462) UNRELEASED; urgency=medium
   * UNRELEASED
   * Drop obsolete qtquick1 build dependency
   * Drop breaks against libkdepim4 to allow co installabity
+  * Bump mailcommon build dependency
 
   [ Jeremy Bicha ]
   * Drop obsolete build-dependency on link-grammar (Closes: 825715)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 30 Jun 2016 14:32:33 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 02 Jul 2016 15:18:57 +0200
 
 kdepim (4:16.04.1-1) experimental; urgency=medium
 
