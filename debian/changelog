@@ -1,3 +1,11 @@
+kdepim4 (4:4.14.10-4~1.gbp26ebf1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @26ebf1d621ce1926a3d57a7bee7dfd73f9391d44 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jul 2016 16:10:11 +0200
+
 kdepim4 (4:4.14.10-3) experimental; urgency=medium
 
   * Rename source package to keep only knode and ktimetracker.
