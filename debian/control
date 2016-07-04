@@ -253,7 +253,7 @@ Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
             kdepim-doc,
-            kdepim-themeditors,
+            kdepim-themeeditors,
             ktnef,
             kdepim-addons,
             pinentry-qt | pinentry-x11
