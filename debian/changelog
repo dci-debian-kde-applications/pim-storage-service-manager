@@ -1,8 +1,8 @@
-kdepim4 (4:4.14.10-5~) UNRELEASED; urgency=medium
+kdepim4 (4:4.14.10-5) unstable; urgency=low
 
-  * 
+  * Release to unstable.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jul 2016 15:38:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jul 2016 15:43:00 +0200
 
 kdepim4 (4:4.14.10-4) unstable; urgency=low
 
