@@ -1,3 +1,11 @@
+kdepim (4:16.04.3-1~1.gbp46ec17) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @46ec17bbef36f5840cd921e6866530730d1edc67 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:50:18 +0200
+
 kdepim (4:16.04.2-2) unstable; urgency=low
 
   * Release to unstable.
