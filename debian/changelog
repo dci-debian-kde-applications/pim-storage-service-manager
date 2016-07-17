@@ -1,10 +1,13 @@
-kdepim (4:16.04.3-1~1.gbp46ec17) UNRELEASED; urgency=medium
+kdepim (4:16.04.3-1~2.gbpc5af79) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @46ec17bbef36f5840cd921e6866530730d1edc67 **
+  ** SNAPSHOT build @c5af798b63f301b67e15372e3b2b27151a5bb29c **
 
   * UNRELEASED
+  * Add missing runtime dependencies.
+    Thanks to Francois Marier for reporting and investigating the issue
+    (Closes: 831535)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:50:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Jul 2016 16:49:29 +0200
 
 kdepim (4:16.04.2-2) unstable; urgency=low
 
