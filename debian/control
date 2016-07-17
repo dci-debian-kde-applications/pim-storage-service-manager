@@ -180,7 +180,7 @@ Description: KDE Personal Information Management library documentation
 Package: akregator
 Section: web
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, kinit, kio
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator
  Akregator is a news feed reader. It enables you to follow
