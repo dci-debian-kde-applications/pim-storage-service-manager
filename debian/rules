@@ -11,7 +11,29 @@ override_dh_auto_test:
 	:
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=true \
+	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=false \
+	    -DBUILD_console=false \
+	    -DBUILD_akonadiconsole=false \
+	    -DBUILD_akregator=false \
+	    -DBUILD_blogilo=false \
+	    -DBUILD_grantleeeditor=false \
+	    -DBUILD_importwizard=false \
+	    -DBUILD_kaddressbook=false \
+	    -DBUILD_kalarm=false \
+	    -DBUILD_kjots=false \
+	    -DBUILD_kleopatra=false \
+	    -DBUILD_kmail=false \
+	    -DBUILD_kmailcvt=false \
+	    -DBUILD_knotes=false \
+	    -DBUILD_kontact=false \
+	    -DBUILD_korgac=false \
+	    -DBUILD_korganizer=false \
+	    -DBUILD_ksendemail=false \
+	    -DBUILD_ktnef=false \
+	    -DBUILD_mboximporter=false \
+	    -DBUILD_pimsettingexporter=false \
+	    -DBUILD_sieveeditor=false \
+	    -DBUILD_storageservicemanager=false \
 	    -DKDE4_BUILD_TESTS=false
 
 override_dh_install:

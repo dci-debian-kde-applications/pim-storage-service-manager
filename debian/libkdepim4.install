@@ -5,8 +5,6 @@ usr/lib/libakonadi_next.so.4
 usr/lib/libakonadi_next.so.4.*
 usr/lib/libgrantleetheme.so.4
 usr/lib/libgrantleetheme.so.4.*
-usr/lib/libgrantleethemeeditor.so.4
-usr/lib/libgrantleethemeeditor.so.4.*
 usr/lib/libkaddressbookgrantlee.so.4
 usr/lib/libkaddressbookgrantlee.so.4.*
 usr/lib/libkcal_resourceremote.so.4

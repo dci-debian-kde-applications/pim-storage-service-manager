@@ -3,6 +3,14 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Remove the handling of kalarm icons, as kalarm is no more built by this
     source.
+  * Disable the build of most of the unused applications and libraries:
+    - disable the build of mobile stuff (-DKDEPIM_BUILD_MOBILE=false to cmake)
+    - pass -DBUILD_<foo>=false to cmake to disable console, akonadiconsole,
+      akregator, blogilo, grantleeeditor, importwizard, kaddressbook, kalarm,
+      kjots, kleopatra, kmail, kmailcvt, knotes, kontact, korgac, korganizer,
+      ksendemail, ktnef, mboximporter, pimsettingexporter, sieveeditor, and
+      storageservicemanager
+  * Update install files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 07:16:06 +0200
 
