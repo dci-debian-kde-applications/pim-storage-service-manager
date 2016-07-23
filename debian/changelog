@@ -23,6 +23,7 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
     - debianize_akregator_default.diff: drop, no more needed
     - kubuntu_debianize_akregator_default.diff: drop, no more needed
     - kubuntu_install_headers.diff: drop, no more needed
+    - disable_has_focus_tests_failed_in_xvfb.patch: drop, tests are not run
     - disable_test_verify: drop, stale file
     - spambayes.patch: drop, stale file
   * Install the knode and ktimetracker documentations in the application
