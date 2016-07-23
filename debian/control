@@ -151,24 +151,6 @@ Description: gpg based crypto library
  .
  This package is part of the KDE PIM module.
 
-Package: libmailcommon4
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: email utility library
- This package contains common utility functions for dealing with email.
- .
- This package is part of KDE PIM module.
-
-Package: libmailimporter4
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: mailimporter library
- This package contains a library for importing mails into KDE applicatiosn
- .
- This package is part of KDE PIM module.
-
 Package: libmessagecomposer4
 Section: libs
 Architecture: any

@@ -10,6 +10,10 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
       kjots, kleopatra, kmail, kmailcvt, knotes, kontact, korgac, korganizer,
       ksendemail, ktnef, mboximporter, pimsettingexporter, sieveeditor, and
       storageservicemanager
+  * Do not install the Qt Designer plugins and their icons, as there is no
+    development stuff.
+  * Do not install unused libraries.
+    - remove unused packages: libmailcommon4, libmailimporter4
   * Update install files.
   * Remove unused build dependencies: libqt4-opengl-dev, libsearchclient-dev,
     libsoprano-dev, and sharutils.
