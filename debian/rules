@@ -16,10 +16,6 @@ override_dh_auto_configure:
 
 override_dh_install:
 	$(overridden_command)
-	cd debian/kalarm-icons/; uudecode ox8-emblems-disabled.png.uu
-	cd debian/kalarm-icons/; uudecode ox8-emblems-partdisabled.png.uu
-	install -p -D -m644 debian/kalarm-icons/ox8-emblems-disabled.png debian/kalarm/usr/share/kde4/apps/kalarm/icons/oxygen/8x8/emblems/disabled.png
-	install -p -D -m644 debian/kalarm-icons/ox8-emblems-partdisabled.png debian/kalarm/usr/share/kde4/apps/kalarm/icons/oxygen/8x8/emblems/partdisabled.
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
@@ -27,10 +23,6 @@ override_dh_makeshlibs:
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kdepim-dbg (<= 4:15.12.1-1~~)'
-
-override_dh_clean:
-	$(overridden_command)
-	rm -f debian/kalarm-icons/*png
 
 override_dh_shlibdeps:
 	$(overridden_command)

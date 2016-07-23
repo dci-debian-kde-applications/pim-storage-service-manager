@@ -1,5 +1,8 @@
 kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the handling of kalarm icons, as kalarm is no more built by this
+    source.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 07:16:06 +0200
 
