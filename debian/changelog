@@ -11,6 +11,8 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
       ksendemail, ktnef, mboximporter, pimsettingexporter, sieveeditor, and
       storageservicemanager
   * Update install files.
+  * Remove unused build dependencies: libqt4-opengl-dev, libsearchclient-dev,
+    libsoprano-dev, and sharutils.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 07:16:06 +0200
 
