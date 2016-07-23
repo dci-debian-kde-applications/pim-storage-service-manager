@@ -1,1 +1,2 @@
-libkdepimdbusinterfaces4: library-not-linked-against-libc usr/lib/libkdepimdbusinterfaces.so.4.11.0
+# private library
+libkdepimdbusinterfaces4: no-symbols-control-file

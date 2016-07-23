@@ -1,1 +1,3 @@
 knode: package-name-doesnt-match-sonames libknodecommon4
+# private library
+knode: no-symbols-control-file

@@ -1,0 +1,4 @@
+# old code, not going to be fixed
+libpimcommon4: spelling-error-in-binary
+# private library
+libpimcommon4: no-symbols-control-file
