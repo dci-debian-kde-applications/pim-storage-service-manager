@@ -1,5 +1,2 @@
-debianize_akregator_default.diff
-kubuntu_debianize_akregator_default.diff
-kubuntu_install_headers.diff
 disable_has_focus_tests_failed_in_xvfb.patch
 workaround_boost_moc_ftbfs
