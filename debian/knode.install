@@ -4,6 +4,7 @@ usr/lib/kde4/knodepart.so
 usr/lib/libknodecommon.so.4
 usr/lib/libknodecommon.so.4.*
 usr/share/applications/kde4/KNode.desktop
+usr/share/doc/kde/HTML/en/knode/
 usr/share/icons/hicolor/*/apps/knode.*
 usr/share/kde4/apps/kconf_update/knode.upd
 usr/share/kde4/apps/knode/

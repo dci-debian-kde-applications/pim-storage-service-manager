@@ -44,8 +44,8 @@ Package: knode
 Section: news
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkpgp4 (<< 4:4.10.2)
-Replaces: libkpgp4 (<< 4:4.10.2)
+Breaks: libkpgp4 (<< 4:4.10.2), kdepim-doc (<< 4:4.14.10-7~)
+Replaces: libkpgp4 (<< 4:4.10.2), kdepim-doc (<< 4:4.14.10-7~)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
 Description: graphical news reader
@@ -60,6 +60,8 @@ Package: ktimetracker
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepim-doc (<< 4:4.14.10-7~)
+Replaces: kdepim-doc (<< 4:4.14.10-7~)
 Description: time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track
  of the amount of time they spend on various tasks.

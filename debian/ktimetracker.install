@@ -3,6 +3,7 @@ usr/bin/ktimetracker
 usr/lib/kde4/kcm_ktimetracker.so
 usr/lib/kde4/ktimetrackerpart.so
 usr/share/applications/kde4/ktimetracker.desktop
+usr/share/doc/kde/HTML/en/ktimetracker/
 usr/share/icons/hicolor/*/apps/ktimetracker.png
 usr/share/kde4/apps/ktimetracker/
 usr/share/kde4/services/ktimetracker_config_behavior.desktop
