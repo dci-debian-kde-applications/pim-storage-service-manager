@@ -121,9 +121,9 @@ Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Gantt chart library
- This library implements Gantt chart drawing functionality. It allows to easily
- embed the Gantt charts into the application as long as it is capable of
- drawing QWidget or QGraphicsView objects.
+ This library implements Gantt chart drawing functionality. It allows one to
+ easily embed the Gantt charts into the application as long as it is capable
+ of drawing QWidget or QGraphicsView objects.
  .
  This package is part of the KDE PIM module.
 

@@ -28,6 +28,7 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
   * Install the knode and ktimetracker documentations in the application
     packages; add proper breaks/replaces against old kdepim-doc versions.
   * Update not-installed file.
+  * Fix typo in description of libkdgantt2-0.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 07:16:06 +0200
 
