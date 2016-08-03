@@ -62,12 +62,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5kdgantt2-dev (>= 5.2.0~),
                libkf5khtml-dev (>= 5.16.0~),
                libkf5kontactinterface-dev (>= 15.12~),
-               libkf5ksieve-dev,
-               libkf5ksieve-dev (>= 5.2.0~),
+               libkf5ksieve-dev (>= 5.2.1~),
                libkf5ldap-dev (>= 15.12~),
                libkf5libkdepim-dev (>= 5.2.0~),
                libkf5libkleo-dev (>= 5.2.0~),
-               libkf5mailcommon-dev (>= 4:5.2.0~),
+               libkf5mailcommon-dev (>= 4:16.04.2~),
                libkf5mailimporter-dev (>= 5.2.0~),
                libkf5mailtransport-dev (>= 15.12~),
                libkf5mbox-dev (>= 15.12~),
@@ -95,7 +94,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5windowsystem-dev (>= 5.16.0~),
                libkf5xmlgui-dev (>= 5.16.0~),
                libkf5xmlrpcclient-dev (>= 5.2.0~),
-               liblink-grammar4-dev,
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
                libqt5opengl5-dev (>= 5.5.0~),
@@ -133,7 +131,7 @@ Depends: accountwizard (>= ${source:Version}),
          kontact (>= ${source:Version}),
          korganizer (>= ${source:Version}),
          ${misc:Depends}
-Recommends: kdepim-doc
+Recommends: kdepim-addons, kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -183,7 +181,7 @@ Description: KDE Personal Information Management library documentation
 Package: akregator
 Section: web
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator
  Akregator is a news feed reader. It enables you to follow
@@ -247,7 +245,7 @@ Description: KDE PIM storage service
 Package: kmail
 Section: mail
 Architecture: any
-Depends: akonadi-server,
+Depends: akonadi-server (>= 4:16.04),
          kdepim-runtime,
          ${misc:Depends},
          ${perl:Depends},
@@ -255,8 +253,9 @@ Depends: akonadi-server,
 Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
+            kdepim-addons,
             kdepim-doc,
-            kdepim-themeditors,
+            kdepim-themeeditors,
             ktnef,
             pinentry-qt | pinentry-x11
 Suggests: clamav,
@@ -324,8 +323,8 @@ Architecture: any
 Depends: kdepim-runtime, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: kdepim-doc
 Homepage: http://kontact.kde.org/korganizer/
-Breaks: kontact (<< 4:4.13.3-2), libkdepim4
-Replaces: kontact (<< 4:4.13.3-2), libkdepim4
+Breaks: kontact (<< 4:4.13.3-2), libkdepim4 (<< 4:4.14.10-3)
+Replaces: kontact (<< 4:4.13.3-2), libkdepim4 (<< 4:4.14.10-3)
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
