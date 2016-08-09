@@ -1,6 +1,6 @@
-kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
+kdepim4 (4:4.14.10-7) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Remove the handling of kalarm icons, as kalarm is no more built by this
     source.
   * Disable the build of most of the unused applications and libraries:
@@ -37,7 +37,7 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8, no changes required.
   * Add a simple description for libsendlater4. (Closes: #731301)
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 07:16:06 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 09 Aug 2016 19:48:43 +0200
 
 kdepim4 (4:4.14.10-6) unstable; urgency=medium
 
