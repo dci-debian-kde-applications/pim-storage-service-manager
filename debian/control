@@ -184,7 +184,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: send later library
  This package contains the send later library which helps implementing the
  "Send Later" function.
-
+ .
  This package is part of the KDE PIM module.
 
 Package: libtemplateparser4
