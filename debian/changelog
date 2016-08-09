@@ -15,6 +15,8 @@ kdepim4 (4:4.14.10-7) UNRELEASED; urgency=medium
   * Do not install unused libraries.
     - remove unused packages: libmailcommon4, libmailimporter4
   * Update install files.
+  * The above install cleanups should fix the circular dependencies because of
+    libkdepim4. (Closes: #729363)
   * Remove unused build dependencies: akonadi-server, libkactivities-dev,
     libprison-dev, libqt4-opengl-dev, libsearchclient-dev, libsoprano-dev,
     libxml2-dev, and sharutils.
