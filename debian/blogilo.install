@@ -1,5 +1,4 @@
 usr/bin/blogilo
-usr/share/appdata/org.kde.blogilo.appdata.xml
 usr/share/applications/org.kde.blogilo.desktop
 usr/share/config.kcfg/blogilo.kcfg
 usr/share/icons/hicolor/*/actions/format-text-blockquote.png
@@ -10,3 +9,4 @@ usr/share/icons/hicolor/*/actions/upload-media.png
 usr/share/icons/hicolor/*/apps/blogilo.png
 usr/share/kconf_update/blogilo-15.08-kickoff.sh
 usr/share/kconf_update/blogilo.upd
+usr/share/metainfo/org.kde.blogilo.appdata.xml

@@ -3,7 +3,6 @@ etc/xdg/autostart/kalarm.autostart.desktop
 usr/bin/kalarm
 usr/bin/kalarmautostart
 usr/lib/*/libexec/kalarm_helper
-usr/share/appdata/org.kde.kalarm.appdata.xml
 usr/share/applications/org.kde.kalarm.desktop
 usr/share/config.kcfg/kalarmconfig.kcfg
 usr/share/dbus-1/system-services/org.kde.kalarmrtcwake.service
@@ -17,4 +16,5 @@ usr/share/kconf_update/kalarm-2.1.5-general.pl
 usr/share/kconf_update/kalarm-version.pl
 usr/share/kconf_update/kalarm.upd
 usr/share/kxmlgui5/kalarm/
+usr/share/metainfo/org.kde.kalarm.appdata.xml
 usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy

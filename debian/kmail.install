@@ -21,7 +21,6 @@ usr/share/akonadi/agents/archivemailagent.desktop
 usr/share/akonadi/agents/followupreminder.desktop
 usr/share/akonadi/agents/mailfilteragent.desktop
 usr/share/akonadi/agents/sendlateragent.desktop
-usr/share/appdata/org.kde.kmail.appdata.xml
 usr/share/applications/kmail_view.desktop
 usr/share/applications/org.kde.importwizard.desktop
 usr/share/applications/org.kde.kmail.desktop
@@ -65,3 +64,4 @@ usr/share/kxmlgui5/kmail2/kmmainwin.rc
 usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
 usr/share/messageviewer/about/default/introduction_kmail.html
 usr/share/messageviewer/plugins/bodypartformatter/text_calendar.desktop
+usr/share/metainfo/org.kde.kmail.appdata.xml

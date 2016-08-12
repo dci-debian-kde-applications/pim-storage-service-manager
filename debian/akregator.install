@@ -12,7 +12,6 @@ usr/lib/*/qt5/plugins/akregator_mk4storage_plugin.so
 usr/lib/*/qt5/plugins/akregatorpart.so
 usr/lib/*/qt5/plugins/kontact_akregatorplugin.so
 usr/share/akregator/
-usr/share/appdata/org.kde.akregator.appdata.xml
 usr/share/applications/org.kde.akregator.desktop
 usr/share/config.kcfg/akregator.kcfg
 usr/share/icons/hicolor/*/apps/akregator.png
@@ -34,3 +33,4 @@ usr/share/kservices5/kontact/akregatorplugin.desktop
 usr/share/kservicetypes5/akregator_plugin.desktop
 usr/share/kxmlgui5/akregator/
 usr/share/messageviewer/about/default/introduction_akregator.html
+usr/share/metainfo/org.kde.akregator.appdata.xml

@@ -16,7 +16,6 @@ usr/lib/*/qt5/plugins/kontact_korganizerplugin.so
 usr/lib/*/qt5/plugins/kontact_specialdatesplugin.so
 usr/lib/*/qt5/plugins/kontact_todoplugin.so
 usr/lib/*/qt5/plugins/korganizerpart.so
-usr/share/appdata/org.kde.korganizer.appdata.xml
 usr/share/applications/korganizer-import.desktop
 usr/share/applications/org.kde.korganizer.desktop
 usr/share/config.kcfg/korganizer.kcfg
@@ -52,3 +51,4 @@ usr/share/kservices5/korganizer_part.desktop
 usr/share/kservices5/webcal.protocol
 usr/share/kservicetypes5/dbuscalendar.desktop
 usr/share/kxmlgui5/korganizer/
+usr/share/metainfo/org.kde.korganizer.appdata.xml
