@@ -1,4 +1,3 @@
-etc/xdg/kdepim.categories
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
@@ -16,7 +15,6 @@ usr/lib/*/qt5/plugins/kcm_kmailsummary.so
 usr/lib/*/qt5/plugins/kcm_kpimidentities.so
 usr/lib/*/qt5/plugins/kmailpart.so
 usr/lib/*/qt5/plugins/kontact_kmailplugin.so
-usr/lib/*/qt5/plugins/messageviewer_bodypartformatter_text_calendar.so
 usr/share/akonadi/agents/archivemailagent.desktop
 usr/share/akonadi/agents/followupreminder.desktop
 usr/share/akonadi/agents/mailfilteragent.desktop
@@ -63,5 +61,4 @@ usr/share/kxmlgui5/kmail2/kmcomposerui.rc
 usr/share/kxmlgui5/kmail2/kmmainwin.rc
 usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
 usr/share/messageviewer/about/default/introduction_kmail.html
-usr/share/messageviewer/plugins/bodypartformatter/text_calendar.desktop
 usr/share/metainfo/org.kde.kmail.appdata.xml

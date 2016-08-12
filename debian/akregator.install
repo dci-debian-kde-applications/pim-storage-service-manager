@@ -2,7 +2,6 @@ usr/bin/akregator
 usr/bin/akregatorstorageexporter
 usr/lib/*/libakregatorinterfaces.so.*
 usr/lib/*/libakregatorprivate.so.*
-usr/lib/*/qt5/plugins/akregator_config_adblock.so
 usr/lib/*/qt5/plugins/akregator_config_advanced.so
 usr/lib/*/qt5/plugins/akregator_config_appearance.so
 usr/lib/*/qt5/plugins/akregator_config_archive.so
@@ -20,7 +19,6 @@ usr/share/kconf_update/akregator-15.08-kickoff.sh
 usr/share/kconf_update/akregator.upd
 usr/share/knotifications5/akregator.notifyrc
 usr/share/kontact/ksettingsdialog/akregator.setdlg
-usr/share/kservices5/akregator_config_adblock.desktop
 usr/share/kservices5/akregator_config_advanced.desktop
 usr/share/kservices5/akregator_config_appearance.desktop
 usr/share/kservices5/akregator_config_archive.desktop
