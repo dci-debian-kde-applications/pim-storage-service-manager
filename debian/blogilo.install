@@ -1,4 +1,7 @@
+etc/xdg/blogilo.categories
 usr/bin/blogilo
+usr/lib/x86_64-linux-gnu/libcomposereditorwebengineprivate.so.5
+usr/lib/x86_64-linux-gnu/libcomposereditorwebengineprivate.so.5.3.0
 usr/share/applications/org.kde.blogilo.desktop
 usr/share/config.kcfg/blogilo.kcfg
 usr/share/icons/hicolor/*/actions/format-text-blockquote.png
