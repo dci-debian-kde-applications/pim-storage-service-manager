@@ -1,5 +1,4 @@
 etc/xdg/akonadiconsole.categories
-etc/xdg/console.categories
 usr/bin/akonadiconsole
 usr/share/applications/org.kde.akonadiconsole.desktop
 usr/share/icons/hicolor/*/apps/akonadiconsole.png
