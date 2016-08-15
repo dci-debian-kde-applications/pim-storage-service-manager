@@ -1,3 +1,4 @@
+etc/xdg/knotes.categories
 etc/xdg/knotes_printing_theme.knsrc
 usr/bin/akonadi_notes_agent
 usr/bin/knotes
@@ -11,6 +12,7 @@ usr/lib/*/qt5/plugins/kontact_knotesplugin.so
 usr/share/akonadi/agents/notesagent.desktop
 usr/share/applications/org.kde.knotes.desktop
 usr/share/config.kcfg/knotesglobalconfig.kcfg
+usr/share/config.kcfg/notesagentsettings.kcfg
 usr/share/icons/hicolor/*/actions/knotes_alarm.png
 usr/share/icons/hicolor/*/actions/knotes_close.png
 usr/share/icons/hicolor/*/actions/knotes_date.png

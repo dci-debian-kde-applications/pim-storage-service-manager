@@ -1,3 +1,4 @@
+etc/xdg/kaddressbook.categories
 etc/xdg/kaddressbook_themes.knsrc
 usr/bin/kaddressbook
 usr/lib/*/libkaddressbookprivate.so.*

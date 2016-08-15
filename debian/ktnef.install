@@ -1,3 +1,4 @@
+etc/xdg/ktnef.categories
 usr/bin/ktnef
 usr/share/applications/org.kde.ktnef.desktop
 usr/share/icons/*/*/actions/ktnef_extract_all_to.png

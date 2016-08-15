@@ -1,3 +1,4 @@
+etc/xdg/kontact.categories
 usr/bin/kontact
 usr/lib/*/libkontactprivate.so.*
 usr/lib/*/qt5/plugins/kcm_kontact.so

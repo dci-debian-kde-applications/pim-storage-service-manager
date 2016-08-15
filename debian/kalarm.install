@@ -1,5 +1,6 @@
 etc/dbus-1/system.d/org.kde.kalarmrtcwake.conf
 etc/xdg/autostart/kalarm.autostart.desktop
+etc/xdg/kalarm.categories
 usr/bin/kalarm
 usr/bin/kalarmautostart
 usr/lib/*/libexec/kalarm_helper

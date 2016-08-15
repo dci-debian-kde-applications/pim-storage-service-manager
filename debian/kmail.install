@@ -1,3 +1,7 @@
+etc/xdg/importwizard.categories
+etc/xdg/kmail.categories
+etc/xdg/pimsettingexporter.categories
+etc/xdg/sieveeditor.categories
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
@@ -25,7 +29,10 @@ usr/share/applications/org.kde.kmail.desktop
 usr/share/applications/org.kde.mboximporter.desktop
 usr/share/applications/org.kde.pimsettingexporter.desktop
 usr/share/applications/org.kde.sieveeditor.desktop
+usr/share/config.kcfg/archivemailagentsettings.kcfg
 usr/share/config.kcfg/kmail.kcfg
+usr/share/config.kcfg/pimsettingexporterglobalconfig.kcfg
+usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.cache.bz2
 usr/share/doc/HTML/en/akonadi_followupreminder_agent/index.docbook
 usr/share/icons/hicolor/*/apps/kmail.png

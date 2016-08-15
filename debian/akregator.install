@@ -1,3 +1,4 @@
+etc/xdg/akregator.categories
 usr/bin/akregator
 usr/bin/akregatorstorageexporter
 usr/lib/*/libakregatorinterfaces.so.*
@@ -10,6 +11,7 @@ usr/lib/*/qt5/plugins/akregator_config_general.so
 usr/lib/*/qt5/plugins/akregator_mk4storage_plugin.so
 usr/lib/*/qt5/plugins/akregatorpart.so
 usr/lib/*/qt5/plugins/kontact_akregatorplugin.so
+usr/lib/x86_64-linux-gnu/qt5/plugins/akregator_config_webengineurlinterceptor.so
 usr/share/akregator/
 usr/share/applications/org.kde.akregator.desktop
 usr/share/config.kcfg/akregator.kcfg
@@ -24,6 +26,7 @@ usr/share/kservices5/akregator_config_appearance.desktop
 usr/share/kservices5/akregator_config_archive.desktop
 usr/share/kservices5/akregator_config_browser.desktop
 usr/share/kservices5/akregator_config_general.desktop
+usr/share/kservices5/akregator_config_webengineurlinterceptor.desktop
 usr/share/kservices5/akregator_mk4storage_plugin.desktop
 usr/share/kservices5/akregator_part.desktop
 usr/share/kservices5/feed.protocol

@@ -1,4 +1,5 @@
 etc/xdg/autostart/org.kde.korgac.desktop
+etc/xdg/korganizer.categories
 etc/xdg/korganizer.knsrc
 usr/bin/calendarjanitor
 usr/bin/ical2vcal
