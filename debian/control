@@ -250,6 +250,7 @@ Section: mail
 Architecture: any
 Depends: akonadi-server (>= 4:16.04),
          kdepim-runtime,
+         libkf5grantleetheme-plugins,
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
