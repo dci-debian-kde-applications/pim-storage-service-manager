@@ -1,3 +1,12 @@
+kdepim (4:16.08.0-1~1.gbp2c29f3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2c29f3e9b197147bc94eb16d52b4d0ae5c20340e **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:50:24 +0200
+
 kdepim (4:16.04.3-1) unstable; urgency=medium
 
   * Add missing runtime dependencies.
