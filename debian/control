@@ -210,7 +210,10 @@ Description: wizard for KDE PIM applications account setup
 Package: kaddressbook
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5akonadisearch-bin,
+         libkf5akonadisearch-plugins,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably.
  It can load and save your contacts to many different locations, including
@@ -250,6 +253,8 @@ Section: mail
 Architecture: any
 Depends: akonadi-server (>= 4:16.04),
          kdepim-runtime,
+         libkf5akonadisearch-bin,
+         libkf5akonadisearch-plugins,
          libkf5grantleetheme-plugins,
          ${misc:Depends},
          ${perl:Depends},
@@ -286,7 +291,11 @@ Description: full featured graphical email client
 
 Package: knotes
 Architecture: any
-Depends: kdepim-runtime, ${misc:Depends}, ${shlibs:Depends}
+Depends: kdepim-runtime,
+         libkf5akonadisearch-bin,
+         libkf5akonadisearch-plugins,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: knode (<< 4:4.14.5)
 Replaces: knode (<< 4:4.14.5)
 Description: sticky notes application
