@@ -130,7 +130,7 @@ Depends: accountwizard (>= ${source:Version}),
          kontact (>= ${source:Version}),
          korganizer (>= ${source:Version}),
          ${misc:Depends}
-Recommends: kdepim-doc, kdepim-addons
+Recommends: kdepim-addons, kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -180,7 +180,7 @@ Description: KDE Personal Information Management library documentation
 Package: akregator
 Section: web
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, kinit, kio
+Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator
  Akregator is a news feed reader. It enables you to follow
@@ -252,10 +252,10 @@ Depends: akonadi-server (>= 4:16.04),
 Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
+            kdepim-addons,
             kdepim-doc,
             kdepim-themeeditors,
             ktnef,
-            kdepim-addons,
             pinentry-qt | pinentry-x11
 Suggests: clamav,
           kaddressbook,
