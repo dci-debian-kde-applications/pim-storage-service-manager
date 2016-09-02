@@ -3,7 +3,7 @@ etc/xdg/autostart/kalarm.autostart.desktop
 usr/bin/kalarm
 usr/bin/kalarmautostart
 usr/lib/*/libexec/kalarm_helper
-usr/share/appdata/org.kde.kalarm.appdata.xml
+usr/share/metainfo/org.kde.kalarm.appdata.xml
 usr/share/applications/org.kde.kalarm.desktop
 usr/share/config.kcfg/kalarmconfig.kcfg
 usr/share/dbus-1/system-services/org.kde.kalarmrtcwake.service

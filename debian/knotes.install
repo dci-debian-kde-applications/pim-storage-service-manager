@@ -9,7 +9,7 @@ usr/lib/*/qt5/plugins/kcm_knote.so
 usr/lib/*/qt5/plugins/kcm_knotessummary.so
 usr/lib/*/qt5/plugins/kontact_knotesplugin.so
 usr/share/akonadi/agents/notesagent.desktop
-usr/share/appdata/org.kde.knotes.appdata.xml
+usr/share/metainfo/org.kde.knotes.appdata.xml
 usr/share/applications/org.kde.knotes.desktop
 usr/share/config.kcfg/knotesglobalconfig.kcfg
 usr/share/icons/hicolor/*/actions/knotes_alarm.png

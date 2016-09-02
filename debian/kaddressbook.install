@@ -2,7 +2,7 @@ etc/xdg/kaddressbook_themes.knsrc
 usr/bin/kaddressbook
 usr/lib/*/libkaddressbookprivate.so.*
 usr/lib/*/qt5/plugins/kaddressbookpart.so
-usr/share/appdata/org.kde.kaddressbook.appdata.xml
+usr/share/metainfo/org.kde.kaddressbook.appdata.xml
 usr/share/applications/kaddressbook-importer.desktop
 usr/share/applications/org.kde.kaddressbook.desktop
 usr/share/icons/hicolor/*/apps/kaddressbook.png

@@ -1,5 +1,5 @@
 usr/bin/blogilo
-usr/share/appdata/org.kde.blogilo.appdata.xml
+usr/share/metainfo/org.kde.blogilo.appdata.xml
 usr/share/applications/org.kde.blogilo.desktop
 usr/share/config.kcfg/blogilo.kcfg
 usr/share/icons/hicolor/*/actions/format-text-blockquote.png

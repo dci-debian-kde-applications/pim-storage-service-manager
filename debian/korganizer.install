@@ -16,7 +16,7 @@ usr/lib/*/qt5/plugins/kontact_korganizerplugin.so
 usr/lib/*/qt5/plugins/kontact_specialdatesplugin.so
 usr/lib/*/qt5/plugins/kontact_todoplugin.so
 usr/lib/*/qt5/plugins/korganizerpart.so
-usr/share/appdata/org.kde.korganizer.appdata.xml
+usr/share/metainfo/org.kde.korganizer.appdata.xml
 usr/share/applications/korganizer-import.desktop
 usr/share/applications/org.kde.korganizer.desktop
 usr/share/config.kcfg/korganizer.kcfg
