@@ -1,6 +1,6 @@
-kdepim (4:16.08.0-1~1.gbp2c29f3) UNRELEASED; urgency=medium
+kdepim (4:16.08.0-1~2.gbpc82cee) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2c29f3e9b197147bc94eb16d52b4d0ae5c20340e **
+  ** SNAPSHOT build @c82ceeebb61ea42b768d26ee48a981f589f74635 **
 
   [ Maximiliano Curia ]
   * Add libkf5akonadisearch-plugins dependency to kmail.
@@ -9,12 +9,20 @@ kdepim (4:16.08.0-1~1.gbp2c29f3) UNRELEASED; urgency=medium
     Thanks to Ismael Bejarano for the backtrace and Sandro Knauß for the patch
     (Closes: 836011)
   * Update install files
+  * Add libkf5akonadisearch-plugins dependency to kmail.
+    Thanks to Maria for reporting (Closes: 830563)
+  * Add new patch: akregator_crash_on_exit.patch.
+    Thanks to Ismael Bejarano for the backtrace and Sandro Knauß for the patch
+    (Closes: 836011)
+  * Update install files
+  * Update changelog for 4:16.04.3-2~1.gbp1d9499 release
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:50:24 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 05 Sep 2016 10:26:47 +0200
 
 kdepim (4:16.04.3-1) unstable; urgency=medium
 
