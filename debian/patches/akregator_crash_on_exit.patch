@@ -1,6 +1,16 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Fri, 9 Sep 2016 14:14:39 +0200
+Subject: akregator_crash_on_exit
+
+---
+ akregator/src/subscription/subscriptionlistmodel.cpp | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/akregator/src/subscription/subscriptionlistmodel.cpp b/akregator/src/subscription/subscriptionlistmodel.cpp
+index b18de7c..d5760bf 100644
 --- a/akregator/src/subscription/subscriptionlistmodel.cpp
 +++ b/akregator/src/subscription/subscriptionlistmodel.cpp
-@@ -245,6 +245,9 @@
+@@ -245,6 +245,9 @@ QModelIndex Akregator::SubscriptionListModel::index(int row, int column, const Q
      }
  
      const Akregator::TreeNode *const parentNode = nodeForIndex(parent, m_feedList.data());
