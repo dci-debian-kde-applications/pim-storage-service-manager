@@ -7,10 +7,10 @@ Subject: debianize_akregator_default
  1 file changed, 15 insertions(+)
 
 diff --git a/akregator/src/akregator_part.cpp b/akregator/src/akregator_part.cpp
-index 1841d2c..89509a6 100644
+index 21057be..e29d3ca 100644
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
-@@ -183,6 +183,21 @@ static QDomDocument createDefaultFeedList()
+@@ -178,6 +178,21 @@ static QDomDocument createDefaultFeedList()
      frenchKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("https://fr.planetkde.org/rss20.xml"));
      frenchFolder.appendChild(frenchKde);
  
