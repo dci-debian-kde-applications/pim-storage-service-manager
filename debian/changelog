@@ -1,6 +1,6 @@
-kdepim (4:16.08.1-1~1.gbp32c837) UNRELEASED; urgency=medium
+kdepim (4:16.08.1-1~2.gbpb36d9f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @32c83728a633b18ed7e4f78f6d4f17f18837f80d **
+  ** SNAPSHOT build @b36d9f5ab35ffde3ed81e8616b1f61966d87f80b **
 
   [ Maximiliano Curia ]
   * Add libkf5akonadisearch-plugins dependency to kmail.
@@ -22,8 +22,9 @@ kdepim (4:16.08.1-1~1.gbp32c837) UNRELEASED; urgency=medium
   * Refresh patches
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:14:43 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:32:28 +0200
 
 kdepim (4:16.04.3-1) unstable; urgency=medium
 
