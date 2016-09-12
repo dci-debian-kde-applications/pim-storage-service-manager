@@ -1,8 +1,0 @@
-etc/xdg/accountwizard.categories
-etc/xdg/accountwizard.knsrc
-usr/bin/accountwizard
-usr/bin/ispdb
-usr/lib/*/qt5/plugins/accountwizard_plugin.so
-usr/share/akonadi/accountwizard/
-usr/share/applications/org.kde.accountwizard.desktop
-usr/share/mime/packages/accountwizard-mime.xml

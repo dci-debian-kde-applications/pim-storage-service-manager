@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/applications/([\d.]+)/src/kdepim-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/pim-storage-service-manager-([\d.]+).tar.xz

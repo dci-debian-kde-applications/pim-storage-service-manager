@@ -1,4 +1,0 @@
-korganizer: package-name-doesnt-match-sonames libkorganizer-core5 libkorganizer-interfaces5 libkorganizerprivate5
-# https://bugs.kde.org/show_bug.cgi?id=351750 dvratil said he'll have a look
-korganizer: script-without-interpreter usr/bin/ical2vcal
-korganizer: postrm-should-call-ldconfig usr/lib/*/libkorganizerprivate.so.*

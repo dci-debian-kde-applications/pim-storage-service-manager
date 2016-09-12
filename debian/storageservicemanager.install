@@ -1,7 +1,0 @@
-etc/xdg/storageservicemanager.categories
-usr/bin/storageservicemanager
-usr/share/applications/org.kde.storageservicemanager.desktop
-usr/share/config.kcfg/storageservicemanagerglobalconfig.kcfg
-usr/share/kconf_update/storageservicemanager-15.08-kickoff.sh
-usr/share/kconf_update/storageservicemanager.upd
-usr/share/knotifications5/storageservicemanager.notifyrc
